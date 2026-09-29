@@ -1,0 +1,115 @@
+{
+  "services": [
+    {
+      "id": "computer-diagnostics",
+      "name": "Computer Diagnostics",
+      "category": "Diagnostics & Electrical",
+      "image": "/services/truck-computer-diagnostics-car-service-service-repair-trucks-large-garage-car.jpg",
+      "description": "Dealer-grade OEM computer scanning, ECM reprogramming, and live sensor telemetry for Cummins, Detroit, and PACCAR powertrains.",
+      "tag": "OEM Diagnostics",
+      "badge": "99.8% Accuracy",
+      "features": ["ECM / ECU Tuning", "Emissions & DPF Faults", "Live Sensor Scans"]
+    },
+    {
+      "id": "brakes-air-systems",
+      "name": "Brakes & Air Systems",
+      "category": "Safety & Pneumatics",
+      "image": "/services/young-worker-checks-wheel-truck-malfunction-service-work.jpg",
+      "description": "Heavy-duty air brake pneumatic overhauls, ABS sensor diagnostics, air dryer replacements, and certified DOT brake safety checks.",
+      "tag": "Braking Systems",
+      "badge": "DOT Certified",
+      "features": ["Air Compressor & Dryers", "S-Cam & Drum Kits", "ABS Modulation"]
+    },
+    {
+      "id": "tire-services",
+      "name": "Tire Services & Wheel Mounting",
+      "category": "Wheels & Tires",
+      "image": "/services/indian-mechanic-unscrews-wheel-truck-pneumatic-wrench.jpg",
+      "description": "Commercial tire mounting, computerized wheel balancing, torque inspections, and rapid 24/7 highway blowout replacement.",
+      "tag": "Commercial Tires",
+      "badge": "24/7 Highway Rescue",
+      "features": ["Steer & Drive Tires", "Pneumatic Torque Check", "Roadside Tire Service"]
+    },
+    {
+      "id": "suspension-steering",
+      "name": "Suspension & Steering",
+      "category": "Chassis & Handling",
+      "image": "/services/suspension-and-steering.jpg",
+      "description": "Complete kingpin rebuilds, leaf spring replacements, torque rods, air bags, and laser front-end truck steering alignments.",
+      "tag": "Rig Stability",
+      "badge": "Laser Alignment",
+      "features": ["Air Spring / Bags", "Kingpins & Bushings", "Steering Gearboxes"]
+    },
+    {
+      "id": "transmission-clutch",
+      "name": "Transmission & Clutch",
+      "category": "Powertrain & Drivetrain",
+      "image": "/services/replacing-clutch-disc-car-gearbox-service-station.jpg",
+      "description": "Eaton Fuller manual & automated manual transmission repairs, dual-disc clutch adjustments, and differential rebuilds.",
+      "tag": "Heavy Drivetrain",
+      "badge": "Eaton Certified",
+      "features": ["Manual & AMT Transmissions", "Heavy-Duty Clutch Kits", "Driveline & U-Joints"]
+    },
+    {
+      "id": "electrical-alternators",
+      "name": "Electrical & Alternators",
+      "category": "Diagnostics & Electrical",
+      "image": "/services/professional-car-mechanic-working-auto-repair-service.jpg",
+      "description": "High-output alternator overhauls, starter motors, battery bank load tests, and wiring harness short circuit diagnosis.",
+      "tag": "Auto Electrical",
+      "badge": "Zero Downtime",
+      "features": ["Starters & Alternators", "Harness Troubleshooting", "Battery Load Triage"]
+    },
+    {
+      "id": "truck-rv-wash",
+      "name": "Truck & RV Wash Station",
+      "category": "Fleet Care & Wash",
+      "image": "/services/washing-vehicle-young-truck-driver-casual-clothes.jpg",
+      "description": "Eco-friendly high-pressure hot water truck, semi trailer, and RV washouts with complete chassis undercarriage degreasing.",
+      "tag": "Eco Rig Wash",
+      "badge": "Drive-Through Bay",
+      "features": ["Reefer Trailer Washout", "Engine & Chassis Wash", "Citrus Aluminum Polish"]
+    },
+    {
+      "id": "truck-trailer-repair",
+      "name": "Truck & Trailer Repair",
+      "category": "Full Rig Maintenance",
+      "image": "/services/man-with-tools-truck-worker-uniform-faulty-truck.jpg",
+      "description": "Comprehensive bumper-to-bumper commercial tractor and semi-trailer maintenance, welding, landing gear, and door repairs.",
+      "tag": "Bumper-to-Bumper",
+      "badge": "10-Bay Capacity",
+      "features": ["Trailer Structural Welding", "Landing Gear & Doors", "Preventative Maintenance"]
+    },
+   
+    {
+      "id": "ac-climate-control",
+      "name": "A/C & Climate Control",
+      "category": "Cabin Comfort",
+      "image": "/services/medium-shot-man-checking-car.jpg",
+      "description": "Commercial cab A/C compressor overhauls, condenser leak testing, R134a/R1234yf recharges, and heater core replacements.",
+      "tag": "Cab Comfort",
+      "badge": "All-Weather Ready",
+      "features": ["Compressor & Condenser", "Leak Triage & Recharge", "Blower Motor & Cores"]
+    },
+    {
+      "id": "reefer-apu-repair",
+      "name": "Reefer & APU Repair",
+      "category": "Temperature Control",
+      "image": "/services/mechanic-repairing-truck-service.jpg",
+      "description": "Thermo King & Carrier refrigeration unit troubleshooting, auxiliary power unit (APU) diesel servicing, and temp monitoring.",
+      "tag": "Refrigeration",
+      "badge": "Cold Chain Protected",
+      "features": ["Thermo King & Carrier", "APU Diesel Generator", "Cold Chain Compliance"]
+    },
+    {
+      "id": "smog-safety-inspection",
+      "name": "Smog Check & DOT Inspection",
+      "category": "Compliance & Safety",
+      "image": "/services/car-repairman-wearing-white-uniform-standing-holding-wrench-that-is-essential-tool-mechanic.jpg",
+      "description": "Certified California heavy-duty diesel smog check, Clean Truck Check compliance testing, and annual 90-day BIT/DOT inspections.",
+      "tag": "State Compliance",
+      "badge": "California Clean Truck",
+      "features": ["Clean Truck Check OBD", "90-Day BIT Inspections", "Annual DOT Safety Signoff"]
+    }
+  ]
+}

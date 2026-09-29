@@ -1,0 +1,52 @@
+[
+  {
+    "id": "review-1",
+    "name": "Ravinder Sidhu",
+    "role": "Commercial Fleet Owner",
+    "rating": 5,
+    "review": "Nice people, great experience, and they do work very fast and at a good price. I had a bad sound in my truck and other shops quoted almost $3,000 to $4,000, but someone recommended Imperial Truck to me. They did the job very well at a great price. Highly recommended!",
+    "avatar": "/reviews/ravinder.png",
+    "badge": "Verified Fleet Customer",
+    "highlight": "Saved $2,000+ on Heavy Repair"
+  },
+  {
+    "id": "review-2",
+    "name": "Amritpal Singh (Amrit Dhillon)",
+    "role": "Independent Owner-Operator",
+    "rating": 5,
+    "review": "This place is my favorite place now. They are better than other service shops. Mr. Singh is always the best person to deal with for any service work, always welcoming with a great sense of humor. Fast, hard-working team. Imperial is always my first choice!",
+    "avatar": "/reviews/amritpal.png",
+    "badge": "Frequent Commercial Driver",
+    "highlight": "First Choice For Every Service"
+  },
+  {
+    "id": "review-3",
+    "name": "Alexandr Zagorceanu",
+    "role": "Semi-Truck Driver",
+    "rating": 5,
+    "review": "Best service in Manteca, CA! Fast, reliable, and easy. Had an issue with TC lights on my semi-truck that they diagnosed, fixed in 20 minutes, and road tested. Thanks for bringing me back to the road so quickly. 5 stars!",
+    "avatar": "/reviews/alexander.png",
+    "badge": "Verified Roadside Intake",
+    "highlight": "Fixed & Road Tested in 20 Mins"
+  },
+  {
+    "id": "review-4",
+    "name": "Patti n Pups",
+    "role": "High-Top Van & RV Owner",
+    "rating": 5,
+    "review": "My high-top van is too big for regular carwashes. So happy to find these guys! Reasonable price for my huge van and I didn't even have to get out. 3 years later, I am just as satisfied with their work. The crew is fantastic!",
+    "avatar": "/reviews/patti.png",
+    "badge": "3-Year Loyal Customer",
+    "highlight": "Best High-Top & RV Wash Bay"
+  },
+  {
+    "id": "review-5",
+    "name": "Ike Mor",
+    "role": "Commercial Rig Driver",
+    "rating": 5,
+    "review": "Super friendly staff, prompt service, fair price, and even a pot of warm chai while we waited. Gave us valuable road advice and we left with a big smile. Outstanding customer care!",
+    "avatar": "/reviews/ike.png",
+    "badge": "Verified 5-Star Review",
+    "highlight": "Prompt Service & Friendly Hospitality"
+  }
+]
