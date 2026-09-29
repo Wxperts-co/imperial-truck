@@ -61,7 +61,7 @@ export const TestimonialSection = () => {
 
 
                         <h2 className="font-racing text-2xl sm:text-4xl lg:text-5xl uppercase tracking-wider text-white leading-[1.08]">
-                            Trusted By Commercial <span className="text-red-500">Drivers &amp; Fleets</span>
+                            Trusted By Commercial <span className="text-red-500">Drivers &amp; Truck</span>
                         </h2>
 
                         <p className="text-slate-400 text-xs sm:text-sm mt-1.5 leading-relaxed font-normal">

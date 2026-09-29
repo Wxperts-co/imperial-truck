@@ -47,7 +47,7 @@ export const CTA = () => {
                             <h2 className="font-racing text-[19px] sm:text-3xl lg:text-4xl text-slate-900 uppercase tracking-wider leading-[1.1]">
                                 NEED RAPID ROADSIDE ASSISTANCE OR{' '}
                                 <span className="text-red-600">
-                                    FLEET SERVICE?
+                                    TRUCK SERVICE?
                                 </span>
                             </h2>
 
