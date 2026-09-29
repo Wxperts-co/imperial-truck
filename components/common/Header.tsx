@@ -468,10 +468,10 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                     </div>
 
                     {/* 3D Vertical Metallic Beveled Divider */}
-                    <div className="h-5 w-[2px] bg-gradient-to-b from-neutral-300 via-neutral-400 to-neutral-200 shadow-[1px_0_0_rgba(255,255,255,0.9)] mx-1" />
+                    {/* <div className="h-5 w-[2px] bg-gradient-to-b from-neutral-300 via-neutral-400 to-neutral-200 shadow-[1px_0_0_rgba(255,255,255,0.9)] mx-1" /> */}
 
                     {/* Social / Direct Action Icons */}
-                    <div className="flex items-center gap-1.5 pr-1">
+                    {/* <div className="flex items-center gap-1.5 pr-1">
                         <a
                             href="https://facebook.com"
                             target="_blank"
@@ -517,7 +517,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                 className="w-5 h-5 object-contain"
                             />
                         </a>
-                    </div>
+                    </div> */}
                 </nav>
             </div>
 

@@ -91,7 +91,7 @@ export const Footer = () => {
             </a>
 
             {/* Social Icons with Original Images & No Background */}
-            <div className="flex items-center gap-3 mt-0.5">
+            {/* <div className="flex items-center gap-3 mt-0.5">
               {[
                 {
                   name: 'Facebook',
@@ -126,7 +126,7 @@ export const Footer = () => {
                   />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* ========================================== */}
