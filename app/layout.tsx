@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Imperial Truck & Trailer Repair and Wash | Manteca, CA",
+  title: "Imperial Truck & Trailer Repair and Wash | 2142 W Yosemite Ave, Manteca, CA 95337",
   description: "Commercial Diesel Repair, Heavy Duty Truck & Trailer Wash, Computer Diagnostics, and 24/7 Mobile Recovery at 2142 W Yosemite Ave, Manteca, CA 95337. Call +1 (209) 239-8111.",
   icons: {
     icon: "/logo/logo.png",

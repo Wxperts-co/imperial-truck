@@ -85,14 +85,13 @@ export const CTA = () => {
                             <div className="absolute -bottom-2 w-4/5 h-8 bg-slate-900/15 rounded-full blur-xl pointer-events-none" />
                             <div className="absolute inset-0 bg-red-600/5 rounded-full blur-2xl pointer-events-none" />
 
-                            {/* Floating Semi Truck Image with 3D Float Effect */}
+                            {/* Semi Truck Image with To and Fro Movement */}
                             <motion.div
                                 animate={{
-                                    y: [0, -6, 0],
-                                    rotateZ: [0, 0.4, 0],
+                                    x: [-10, 10, -10],
                                 }}
                                 transition={{
-                                    duration: 4.5,
+                                    duration: 3.5,
                                     repeat: Infinity,
                                     ease: 'easeInOut',
                                 }}

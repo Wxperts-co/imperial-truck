@@ -21,7 +21,7 @@ export const Footer = () => {
 
   const businessHours = [
     { day: 'Mon - Fri', hours: '8:00 AM - 6:00 PM', status: 'Regular Hours' },
-    { day: 'Saturday', hours: '8:00 AM - 2:00 PM', status: 'Weekend Hours' },
+    { day: 'Saturday', hours: '8:00 AM - 5:00 PM', status: 'Weekend Hours' },
     { day: 'Sunday', hours: 'Closed', status: '24/7 Mobile Only' },
   ];
 
