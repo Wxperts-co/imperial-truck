@@ -20,7 +20,7 @@ export const HeroSection = () => {
                     priority
                     quality={100}
                     sizes="100vw"
-                    className="block sm:hidden object-cover object-center transform scale-[1.01] brightness-[1.15] contrast-[1.12] saturate-[1.28] filter transition-transform duration-700 ease-out"
+                    className="block sm:hidden object-cover object-center"
                 />
 
                 {/* Desktop Background Banner Image */}
@@ -31,18 +31,16 @@ export const HeroSection = () => {
                     priority
                     quality={100}
                     sizes="100vw"
-                    className="hidden sm:block object-cover object-center transform scale-[1.01] brightness-[1.15] contrast-[1.12] saturate-[1.28] filter transition-transform duration-700 ease-out"
+                    className="hidden sm:block object-cover object-center"
                 />
 
-                {/* Crystal-Clear Targeted Scrim for Text Readability without Dimming the Facility Banner */}
-                <div className="absolute inset-0 bg-gradient-to-r from-[#080d1a]/70 via-[#080d1a]/30 via-35% to-transparent pointer-events-none" />
-                <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-[#0b1120]/80 to-transparent pointer-events-none" />
-                <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/20 to-transparent pointer-events-none" />
+                {/* Minimal subtle bottom transition blend only */}
+                <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-[#0b1120]/70 to-transparent pointer-events-none" />
 
                 {/* ======================================================== */}
                 {/* 0. TOP UTILITY BAR: ADDRESS & PHONE NUMBER (RIGHT-ALIGNED) */}
                 {/* ======================================================== */}
-                <div className="hidden sm:block relative z-30 w-full bg-[#070b14]/85 backdrop-blur-md px-4 sm:px-6 md:px-10 py-1.5 text-[11px] sm:text-sm font-medium text-slate-300">
+                <div className="hidden sm:block relative z-30 w-full bg-[#0b1120] px-4 sm:px-6 md:px-10 py-1.5 text-[11px] sm:text-sm font-medium text-slate-300">
                     <div className="max-w-7xl mx-auto flex items-center justify-end gap-3.5 sm:gap-6">
                         {/* Location Address */}
                         <a
@@ -158,7 +156,7 @@ export const HeroSection = () => {
                 {/* ======================================================== */}
                 {/* CENTER-LEFT HERO CONTENT: PERFECTLY ALIGNED & SMOOTH     */}
                 {/* ======================================================== */}
-                <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-12 my-auto py-6 sm:py-10  flex flex-col items-start justify-center">
+                <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-12 my-auto py-6 sm:py-10 flex flex-col items-start justify-center">
                     <div className="max-w-4xl flex flex-col items-start space-y-4 sm:space-y-5">
 
                         {/* 1. Glowing 3D Industrial Roadside Tag */}
@@ -175,30 +173,30 @@ export const HeroSection = () => {
                             <span>24/7 HEAVY DUTY ROADSIDE RESCUE &amp; SHOP REPAIR</span>
                         </motion.div>
 
-                        {/* 2. Ultra-Sharp Shiny Chrome & Ruby Racing Headline */}
+                        {/* 2. Ultra-Sharp Shiny Chrome & Ruby Racing Headline with Clear Letter Shadows */}
                         <motion.h1
                             initial={{ opacity: 0, y: 25 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                            className="font-racing text-3xl sm:text-4xl md:text-5xl lg:text-[58px] uppercase tracking-wider leading-[1.08] "
+                            className="font-racing text-3xl sm:text-4xl md:text-5xl lg:text-[58px] uppercase tracking-wider leading-[1.08] filter drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]"
                         >
-                            {/* Shiny Brilliant White / Chrome Text with Sharp Definition */}
+                            {/* Shiny Brilliant White / Chrome Text with Clear Black Letter Shadows */}
                             <span
-                                className="block text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-100 to-slate-300"
+                                className="block text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-100 to-slate-200"
                                 style={{
-                                    filter: 'drop-shadow(0 2px 3px rgba(0,0,0,1)) drop-shadow(0 6px 16px rgba(0,0,0,0.95)) drop-shadow(0 0 1px rgba(0,0,0,1))',
-                                    WebkitTextStroke: '0.5px rgba(255,255,255,0.4)',
+                                    filter: 'drop-shadow(0 0 3px #000) drop-shadow(0 2px 6px rgba(0,0,0,0.95)) drop-shadow(0 6px 16px rgba(0,0,0,0.9))',
+                                    WebkitTextStroke: '0.6px rgba(255,255,255,0.6)',
                                 }}
                             >
                                 HEAVY DUTY TRUCK &amp; TRAILER
                             </span>
 
-                            {/* Shiny High-Intensity Ruby / Crimson Gloss Text */}
+                            {/* Shiny High-Intensity Ruby / Crimson Gloss Text with Clear Black Letter Shadows */}
                             <span
                                 className="block text-transparent bg-clip-text bg-gradient-to-b from-red-400 via-red-500 to-red-600 mt-1"
                                 style={{
-                                    filter: 'drop-shadow(0 2px 3px rgba(0,0,0,1)) drop-shadow(0 6px 18px rgba(0,0,0,0.95)) drop-shadow(0 0 25px rgba(239,68,68,0.7))',
-                                    WebkitTextStroke: '0.5px rgba(254,202,202,0.3)',
+                                    filter: 'drop-shadow(0 0 3px #000) drop-shadow(0 2px 6px rgba(0,0,0,0.95)) drop-shadow(0 6px 16px rgba(0,0,0,0.9)) drop-shadow(0 0 25px rgba(239,68,68,0.6))',
+                                    WebkitTextStroke: '0.6px rgba(254,202,202,0.4)',
                                 }}
                             >
                                 REPAIR SPECIALISTS
