@@ -1,38 +1,89 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Header } from '@/components/common/Header';
 
+const desktopBanners = [
+    { src: '/banner/banner3.png', alt: 'Imperial Truck Banner 1' },
+    { src: '/banner/second-banner.webp', alt: 'Imperial Truck Banner 2' },
+];
+
+const mobileBanners = [
+    { src: '/banner/mobile-banner.webp', alt: 'Imperial Truck Mobile Banner 1' },
+    { src: '/banner/mobile-banner2.png', alt: 'Imperial Truck Mobile Banner 2' },
+];
+
 export const HeroSection = () => {
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentSlide((prev) => (prev + 1) % 2);
+        }, 5000);
+        return () => clearInterval(timer);
+    }, []);
+
     return (
         <section className="relative w-full h-screen min-h-[640px] bg-[#0b1120] overflow-hidden font-sans">
             {/* Full Visible Screen Canvas Container */}
             <div className="relative w-full h-full overflow-hidden bg-neutral-900 flex flex-col justify-between">
 
-                {/* Mobile Banner Image */}
-                <Image
-                    src="/banner/mobile-banner.png"
-                    alt="Imperial Truck Mobile Banner"
-                    fill
-                    priority
-                    quality={100}
-                    sizes="100vw"
-                    className="block sm:hidden object-cover object-center"
-                />
+                {/* Mobile Background Banner Slider */}
+                <div className="block sm:hidden absolute inset-0 w-full h-full overflow-hidden">
+                    <AnimatePresence initial={false}>
+                        <motion.div
+                            key={mobileBanners[currentSlide % mobileBanners.length].src}
+                            initial={{ opacity: 0, scale: 1.04 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{
+                                opacity: { duration: 1.2, ease: [0.4, 0, 0.2, 1] },
+                                scale: { duration: 5, ease: 'easeOut' },
+                            }}
+                            className="absolute inset-0 w-full h-full"
+                        >
+                            <Image
+                                src={mobileBanners[currentSlide % mobileBanners.length].src}
+                                alt={mobileBanners[currentSlide % mobileBanners.length].alt}
+                                fill
+                                priority
+                                quality={100}
+                                sizes="100vw"
+                                className="object-cover object-center"
+                            />
+                        </motion.div>
+                    </AnimatePresence>
+                </div>
 
-                {/* Desktop Background Banner Image */}
-                <Image
-                    src="/banner/banner3.png"
-                    alt="Imperial Truck Banner"
-                    fill
-                    priority
-                    quality={100}
-                    sizes="100vw"
-                    className="hidden sm:block object-cover object-center"
-                />
+                {/* Desktop Background Banner Slider */}
+                <div className="hidden sm:block absolute inset-0 w-full h-full overflow-hidden">
+                    <AnimatePresence initial={false}>
+                        <motion.div
+                            key={desktopBanners[currentSlide].src}
+                            initial={{ opacity: 0, scale: 1.06 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{
+                                opacity: { duration: 1.4, ease: [0.4, 0, 0.2, 1] },
+                                scale: { duration: 5.5, ease: 'easeOut' },
+                            }}
+                            className="absolute inset-0 w-full h-full"
+                        >
+                            <Image
+                                src={desktopBanners[currentSlide].src}
+                                alt={desktopBanners[currentSlide].alt}
+                                fill
+                                priority
+                                quality={100}
+                                sizes="100vw"
+                                className="object-cover object-center"
+                            />
+                        </motion.div>
+                    </AnimatePresence>
+                </div>
 
                 {/* Minimal subtle bottom transition blend only */}
                 <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-[#0b1120]/70 to-transparent pointer-events-none" />
@@ -156,8 +207,8 @@ export const HeroSection = () => {
                 {/* ======================================================== */}
                 {/* CENTER-LEFT HERO CONTENT: PERFECTLY ALIGNED & SMOOTH     */}
                 {/* ======================================================== */}
-                <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-12 my-auto py-6 sm:py-10 flex flex-col items-start justify-center">
-                    <div className="max-w-4xl flex flex-col items-start space-y-4 sm:space-y-5">
+                <div className="relative z-10 w-full max-w-7xl mx-auto my-auto -translate-y-36 sm:translate-y-0 py-6 sm:py-10 flex flex-col items-center justify-center">
+                    <div className="max-w-4xl flex flex-col items-center space-y-4 sm:space-y-5">
 
                         {/* 1. Glowing 3D Industrial Roadside Tag */}
                         <motion.div
@@ -178,7 +229,7 @@ export const HeroSection = () => {
                             initial={{ opacity: 0, y: 25 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                            className="font-racing text-3xl sm:text-4xl md:text-5xl lg:text-[58px] uppercase tracking-wider leading-[1.08] filter drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]"
+                            className="font-racing text-2xl sm:text-4xl md:text-5xl lg:text-[58px] uppercase tracking-wider leading-[1.08] filter drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:pb-55"
                         >
                             {/* Shiny Brilliant White / Chrome Text with Clear Black Letter Shadows */}
                             <span
@@ -208,7 +259,7 @@ export const HeroSection = () => {
                             initial={{ opacity: 0, y: 15 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
-                            className="flex flex-wrap items-center gap-3.5 pt-2"
+                            className="hidden md:flex flex-row items-center justify-center gap-3.5 pt-2"
                         >
                             <a
                                 href="tel:+12092398111"
