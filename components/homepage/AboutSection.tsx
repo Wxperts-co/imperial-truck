@@ -84,12 +84,12 @@ export const AboutSection = () => {
                 <span>Manteca Headquarters &amp; Facility</span>
               </div>
 
-              <h3 className="text-lg sm:text-xl md:text-2xl font-black text-slate-900 tracking-tight leading-snug mb-2">
-                Full-Service Commercial Fleet Headquarters
+              <h3 className="text-lg sm:text-xl md:text-[21px] font-black text-slate-900 tracking-tight leading-snug mb-2">
+                Full-Service Commercial Truck & Trailer Repair Headquarters
               </h3>
 
               <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mb-3 font-normal">
-                <strong className="text-slate-900 font-semibold">Imperial Truck &amp; Trailer Repair and Wash</strong> is Northern California’s trusted partner for <a href="#services" className="text-red-600 hover:text-red-700 font-semibold underline underline-offset-2 decoration-red-300 hover:decoration-red-600 transition-colors">commercial fleet maintenance</a> and heavy rig care. Located conveniently on <span className="text-red-600 font-bold">E French Camp Rd in Manteca, California</span>, our dedicated facility is engineered to minimize downtime for independent owner-operators and enterprise freight carriers.
+                <strong className="text-slate-900 font-semibold">Imperial Truck &amp; Trailer Repair and Wash</strong> is Northern California’s trusted partner for <a href="#services" className="text-red-600 hover:text-red-700 font-semibold underline underline-offset-2 decoration-red-300 hover:decoration-red-600 transition-colors">commercial truck & trailer maintenance</a> and heavy rig care. Located conveniently on <span className="text-red-600 font-bold">W Yosemite Ave in Manteca, California</span>, our dedicated facility is engineered to minimize downtime for independent owner-operators and enterprise freight carriers.
               </p>
 
               {/* Quick Feature Pills */}
@@ -119,7 +119,7 @@ export const AboutSection = () => {
               <div className="group relative rounded-2xl overflow-hidden bg-white border border-slate-200 shadow-[0_8px_24px_rgba(15,23,42,0.06)] hover:shadow-[0_16px_36px_rgba(220,38,38,0.12)] hover:border-red-400 transition-all duration-300">
                 <div className="relative w-full h-48 sm:h-56 lg:h-60 overflow-hidden bg-slate-100">
                   <Image
-                    src="/gallery/4.webp"
+                    src="/gallery/2.webp"
                     alt="Imperial Truck & Trailer Repair Manteca Facility"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -143,7 +143,7 @@ export const AboutSection = () => {
               <div className="group relative rounded-2xl overflow-hidden bg-white border border-slate-200 shadow-[0_8px_24px_rgba(15,23,42,0.06)] hover:shadow-[0_16px_36px_rgba(245,158,11,0.12)] hover:border-amber-400 transition-all duration-300">
                 <div className="relative w-full h-48 sm:h-60 lg:h-70 overflow-hidden bg-slate-100">
                   <Image
-                    src="/services/spacious-warehouse-modern-industrial-factory-producing-huge-machines.jpg"
+                    src="/gallery/11.png"
                     alt="Heavy-Duty Commercial Truck Parts Inventory Warehouse"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -163,7 +163,7 @@ export const AboutSection = () => {
                 <span>Heavy-Duty Truck Parts &amp; Inventory</span>
               </div>
 
-              <h3 className="text-lg sm:text-xl md:text-2xl font-black text-slate-900 tracking-tight leading-snug mb-2">
+              <h3 className="text-lg sm:text-xl md:text-[22px] font-black text-slate-900 tracking-tight leading-snug mb-2">
                 Extensive In-Stock OEM &amp; Aftermarket Commercial Parts
               </h3>
 

@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Imperial Truck & Trailer Repair and Wash | Manteca, CA",
-  description: "Commercial Diesel Repair, Heavy Duty Truck & Trailer Wash, Computer Diagnostics, and 24/7 Mobile Recovery at 17643 E French Camp Rd, Manteca, CA 95336. Call +1 (209) 239-8111.",
+  description: "Commercial Diesel Repair, Heavy Duty Truck & Trailer Wash, Computer Diagnostics, and 24/7 Mobile Recovery at 2142 W Yosemite Ave, Manteca, CA 95337. Call +1 (209) 239-8111.",
   icons: {
     icon: "/logo/logo.png",
     shortcut: "/logo/logo.png",

@@ -713,8 +713,8 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                         />
                                     </div>
                                     <div className="flex flex-col text-left text-neutral-300">
-                                        <span className="font-bold text-white text-xs">17643 E French Camp Rd</span>
-                                        <span className="text-[11px] text-neutral-400">Manteca, CA 95336</span>
+                                        <span className="font-bold text-white text-xs">2142 W Yosemite Ave</span>
+                                        <span className="text-[11px] text-neutral-400">Manteca, CA 95337</span>
                                         <span className="text-red-400 font-bold text-[10px] mt-0.5">Get Directions →</span>
                                     </div>
                                 </a>

@@ -215,9 +215,9 @@ export const Footer = () => {
               </div>
               <div className="flex flex-col text-[13.5px] sm:text-[15px]">
                 <span className="font-bold text-white">
-                  17643 E French Camp Rd
+                  2142 W Yosemite Ave
                 </span>
-                <span className="text-neutral-200">Manteca, CA 95336</span>
+                <span className="text-neutral-200">Manteca, CA 95337</span>
                 <span className="text-[12px] sm:text-[13px] text-red-400 font-bold mt-0.5 group-hover:underline">
                   Get Directions →
                 </span>
