@@ -681,7 +681,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                     href="tel:+12092398111"
                                     className="flex items-center gap-2.5 p-2.5 rounded-xl bg-red-600/15 border border-red-500/30 text-white hover:bg-red-600/25 transition-colors"
                                 >
-                                    <div className="p-1.5 rounded-lg bg-red-600 text-white shrink-0 flex items-center justify-center">
+                                    <div className=" rounded-lg bg-red-600 text-white shrink-0 flex items-center justify-center">
                                         <Image
                                             src="/logo/telephone.png"
                                             alt="Telephone"
@@ -703,7 +703,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                     rel="noopener noreferrer"
                                     className="flex items-start gap-2.5 p-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-red-500/40 transition-colors text-xs"
                                 >
-                                    <div className="p-1.5 rounded-lg bg-red-600/20 text-red-400 shrink-0 mt-0.5 flex items-center justify-center">
+                                    <div className=" rounded-lg bg-red-600/20 text-red-400 shrink-0 mt-0.5 flex items-center justify-center">
                                         <Image
                                             src="/logo/map.png"
                                             alt="Map Location"
@@ -720,7 +720,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                 </a>
 
                                 {/* Social Links */}
-                                <div className="flex items-center justify-between pt-2 border-t border-white/10 text-neutral-300">
+                                {/* <div className="flex items-center justify-between pt-2 border-t border-white/10 text-neutral-300">
                                     <a
                                         href="https://facebook.com"
                                         target="_blank"
@@ -769,7 +769,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                         />
                                         <span>YouTube</span>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </motion.div>
                     </>
