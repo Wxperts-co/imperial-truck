@@ -1,58 +1,47 @@
-name: Deploy to cPanel
+name: Deploy to cPanel via Secure FTP
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+  workflow_dispatch:
 
 jobs:
-  deploy:
-    name: Deploy to cPanel Server
+  web-deploy:
+    name: Build & Deploy via Secure FTP
     runs-on: ubuntu-latest
 
     steps:
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
         with:
-          host: ${{ secrets.CPANEL_HOST }}
-          port: ${{ secrets.CPANEL_PORT || 22 }}
+          fetch-depth: 2
+
+      - name: ⚙️ Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Install Dependencies
+        run: npm install
+
+      - name: 🔨 Build Next.js Application
+        run: npm run build
+
+      - name: 🚀 Sync Files to cPanel via Secure FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USER }}
-          key: ${{ secrets.CPANEL_SSH_KEY || '' }}
-          password: ${{ secrets.CPANEL_PASSWORD || '' }}
-          passphrase: ${{ secrets.CPANEL_SSH_PASSPHRASE || '' }}
-          timeout: 60s
-          script_stop: true
-          script: |
-            # 1. Navigate to project directory
-            TARGET_DIR="${{ secrets.CPANEL_PROJECT_PATH || 'public_html' }}"
-            if [ -d "$HOME/$TARGET_DIR" ]; then
-              cd "$HOME/$TARGET_DIR"
-            elif [ -d "$TARGET_DIR" ]; then
-              cd "$TARGET_DIR"
-            else
-              echo "Error: Directory not found. Please verify CPANEL_PROJECT_PATH in GitHub Secrets."
-              exit 1
-            fi
-
-            echo "🚀 Working in directory: $(pwd)"
-
-            # 2. Pull latest changes from repository
-            echo "📥 Pulling latest code from origin/main..."
-            git fetch origin main
-            git reset --hard origin/main
-
-            # 3. Install dependencies
-            echo "📦 Installing npm dependencies..."
-            npm install
-
-            # 4. Build Next.js application
-            echo "⚙️ Building Next.js application..."
-            npm run build
-
-            # 5. Restart Node.js application (cPanel Phusion Passenger)
-            echo "🔄 Restarting Node.js application..."
-            mkdir -p tmp
-            touch tmp/restart.txt
-
-            echo "✅ Deployment completed successfully!"
+          password: ${{ secrets.CPANEL_PASSWORD }}
+          server-dir: ${{ secrets.CPANEL_PROJECT_PATH || 'public_html/' }}
+          protocol: ftps
+          security: loose
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**
+            .env.local
+            .env*.local
