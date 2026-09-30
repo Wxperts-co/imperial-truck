@@ -18,8 +18,10 @@ jobs:
           host: ${{ secrets.CPANEL_HOST }}
           port: ${{ secrets.CPANEL_PORT || 22 }}
           username: ${{ secrets.CPANEL_USER }}
-          key: ${{ secrets.CPANEL_SSH_KEY }}
+          key: ${{ secrets.CPANEL_SSH_KEY || '' }}
+          password: ${{ secrets.CPANEL_PASSWORD || '' }}
           passphrase: ${{ secrets.CPANEL_SSH_PASSPHRASE || '' }}
+          timeout: 60s
           script_stop: true
           script: |
             # 1. Navigate to project directory
