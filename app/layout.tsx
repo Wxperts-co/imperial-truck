@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     images: ["/logo/logo.png"],
   },
   icons: {
-    icon: "/logo/logo.png",
-    shortcut: "/logo/logo.png",
-    apple: "/logo/logo.png",
+    icon: "/logo/favicon.png",
+    shortcut: "/logo/favicon.png",
+    apple: "/logo/favicon.png",
   },
 };
 
@@ -44,9 +44,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased">
       <head>
-        <link rel="icon" href="/logo/logo.png" type="image/png" sizes="any" />
-        <link rel="shortcut icon" href="/logo/logo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo/logo.png" />
+        <link rel="icon" href="/logo/favicon.png" type="image/png" sizes="any" />
+        <link rel="shortcut icon" href="/logo/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link

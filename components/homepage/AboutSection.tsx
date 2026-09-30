@@ -332,7 +332,7 @@ export const AboutSection = () => {
                 >
                   <span className="text-xl sm:text-2xl shrink-0">{item.icon}</span>
                   <div className="min-w-0">
-                    <h4 className="font-medium sm:font-semibold text-slate-900 text-xs sm:text-sm leading-snug tracking-tight">{item.title}</h4>
+                    <h4 className="font-medium  text-slate-900 text-xs sm:text-sm leading-snug tracking-tight">{item.title}</h4>
                     <p className="hidden sm:block text-xs text-slate-500 leading-normal mt-0.5">{item.desc}</p>
                   </div>
                 </div>

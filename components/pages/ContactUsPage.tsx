@@ -13,7 +13,7 @@ export const ContactUsPage = () => {
         fullName: '',
         phone: '',
         email: '',
-        service: 'Diesel Engine & Diagnostics',
+        address: '',
         description: '',
     });
 
@@ -81,7 +81,7 @@ export const ContactUsPage = () => {
                 fullName: '',
                 phone: '',
                 email: '',
-                service: 'Diesel Engine & Diagnostics',
+                address: '',
                 description: '',
             });
             generateCaptcha();
@@ -130,9 +130,14 @@ export const ContactUsPage = () => {
                                         {item.title}
                                     </h3>
 
-                                    <span className="font-mono font-bold text-slate-900 text-xs sm:text-sm block break-words">
+                                    <a
+                                        href={item.actionHref}
+                                        target={item.actionHref.startsWith('http') ? '_blank' : undefined}
+                                        rel={item.actionHref.startsWith('http') ? 'noopener noreferrer' : undefined}
+                                        className="font-mono font-bold text-slate-900 hover:text-red-600 transition-colors text-xs sm:text-sm block break-words"
+                                    >
                                         {item.value}
-                                    </span>
+                                    </a>
                                 </div>
 
                                 <div className="mt-3.5 pt-2.5 border-t border-slate-100">
@@ -212,7 +217,7 @@ export const ContactUsPage = () => {
                                         </div>
                                     </div>
 
-                                    {/* Row 2: Email & Service */}
+                                    {/* Row 2: Email & Address */}
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                                         <div>
                                             <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
@@ -229,24 +234,16 @@ export const ContactUsPage = () => {
                                         </div>
                                         <div>
                                             <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                                                Service Requested *
+                                                Address *
                                             </label>
-                                            <select
-                                                value={formData.service}
-                                                onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                                                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500 transition-all cursor-pointer"
-                                            >
-                                                <option>Diesel Engine &amp; Diagnostics</option>
-                                                <option>Commercial Brake &amp; Air Lines</option>
-                                                <option>Heavy-Duty Transmission &amp; Clutch</option>
-                                                <option>Commercial Tires &amp; Wheel Seals</option>
-                                                <option>Truck &amp; Trailer Washout</option>
-                                                <option>Trailer Structural &amp; Door Repair</option>
-                                                <option>DOT BIT Safety Inspection</option>
-                                                <option>24/7 Emergency Mobile Roadside</option>
-                                                <option>Preventative Maintenance &amp; Oil Service</option>
-                                                <option>Other / General Fleet Inquiry</option>
-                                            </select>
+                                            <input
+                                                type="text"
+                                                required
+                                                placeholder="e.g. 123 Main St, Manteca, CA"
+                                                value={formData.address}
+                                                onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                                                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500 transition-all"
+                                            />
                                         </div>
                                     </div>
 

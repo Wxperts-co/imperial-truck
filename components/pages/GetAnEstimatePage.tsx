@@ -14,6 +14,7 @@ export const GetAnEstimatePage = () => {
         fullName: '',
         phone: '',
         email: '',
+        address: '',
         selectedServices: ['Diesel Engine Repair & Overhauls'],
         description: '',
     });
@@ -72,6 +73,7 @@ export const GetAnEstimatePage = () => {
                 fullName: '',
                 phone: '',
                 email: '',
+                address: '',
                 selectedServices: ['Diesel Engine Repair & Overhauls'],
                 description: '',
             });
@@ -209,19 +211,34 @@ export const GetAnEstimatePage = () => {
                                         </div>
                                     </div>
 
-                                    {/* Row 2: Email Address */}
-                                    <div>
-                                        <label className="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1">
-                                            Email Address *
-                                        </label>
-                                        <input
-                                            type="email"
-                                            required
-                                            placeholder="john@carrier.com"
-                                            value={formData.email}
-                                            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                            className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500 transition-all font-medium"
-                                        />
+                                    {/* Row 2: Email & Address */}
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                                        <div>
+                                            <label className="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1">
+                                                Email Address *
+                                            </label>
+                                            <input
+                                                type="email"
+                                                required
+                                                placeholder="john@carrier.com"
+                                                value={formData.email}
+                                                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                                                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500 transition-all font-medium"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label className="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1">
+                                                Address *
+                                            </label>
+                                            <input
+                                                type="text"
+                                                required
+                                                placeholder="e.g. 123 Main St, Manteca, CA"
+                                                value={formData.address}
+                                                onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                                                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500 transition-all font-medium"
+                                            />
+                                        </div>
                                     </div>
 
                                     {/* Row 3: Multi-Select Services */}
@@ -233,7 +250,7 @@ export const GetAnEstimatePage = () => {
                                             <span className="text-[11px] text-red-600 font-bold">Select all that apply</span>
                                         </div>
                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                                            {servicesData.services.map((s) => {
+                                            {[...servicesData.services, { id: 'other', name: 'Other' }].map((s) => {
                                                 const isSelected = formData.selectedServices.includes(s.name);
                                                 return (
                                                     <button
@@ -364,7 +381,10 @@ export const GetAnEstimatePage = () => {
                                     href="tel:+12092398111"
                                     className="w-full py-3 px-4 rounded-xl bg-red-600 hover:bg-red-700 active:scale-[0.98] text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-red-600/40 transition-all flex items-center justify-center gap-2 mb-2.5 cursor-pointer"
                                 >
-                                    <span>📞 Call (209) 239-8111</span>
+                                    <svg className="w-3.5 h-3.5 fill-white shrink-0" viewBox="0 0 24 24">
+                                        <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                    </svg>
+                                    <span>(209) 239-8111</span>
                                 </a>
 
                                 <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 text-center">
