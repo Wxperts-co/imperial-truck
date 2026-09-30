@@ -68,6 +68,16 @@ export const GetAnEstimatePage = () => {
         setCaptchaError('');
         setServiceError('');
         setFormSubmitted(true);
+
+        // Send emails in background (Admin, BCC & Customer confirmation)
+        fetch('/api/estimate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData),
+        }).catch((err) => {
+            console.error('Failed to send estimate emails in background:', err);
+        });
+
         setTimeout(() => {
             setFormData({
                 fullName: '',
