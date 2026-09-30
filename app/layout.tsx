@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ScrollStickyNavbar } from "@/components/common/ScrollStickyNavbar";
+import { Footer } from "@/components/common/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://imperialtruckwashrepair.com"),
@@ -53,7 +55,9 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-[#070a12] text-white">
+        <ScrollStickyNavbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

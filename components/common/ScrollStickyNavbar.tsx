@@ -20,44 +20,38 @@ export const ScrollStickyNavbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleScrollTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <div
-      className={`fixed top-0 inset-x-0 z-[999] transition-all duration-300 ease-out ${
-        showSticky
-          ? 'opacity-100 translate-y-0 pointer-events-auto'
-          : 'opacity-0 -translate-y-full pointer-events-none'
-      }`}
+      className={`fixed top-0 inset-x-0 z-[999] transition-all duration-300 ease-out ${showSticky
+        ? 'opacity-100 translate-y-0 pointer-events-auto'
+        : 'opacity-0 -translate-y-full pointer-events-none'
+        }`}
     >
       <div className="w-full bg-[#070a12]/95 backdrop-blur-xl border-b border-red-500/30 shadow-[0_12px_35px_rgba(0,0,0,0.9)] py-2.5 sm:py-3 px-4 sm:px-6 md:px-10 pointer-events-auto">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          
+
           {/* Left: Logo with Exact Hero Height & Sub-Badge Text */}
           <Link
-            href="#"
-            onClick={handleScrollTop}
+            href="/"
             className="flex flex-col items-start transition-transform duration-200 hover:scale-105 cursor-pointer"
           >
             {/* Logo Image */}
-            <div className="relative filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] drop-shadow-[0_1px_1px_rgba(255,255,255,0.2)]">
+            <div className="relative w-full filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] drop-shadow-[0_1px_1px_rgba(255,255,255,0.2)]">
               <Image
                 src="/logo/logo.png"
-                alt="Imperial Truck & Trailer Repair"
+                alt="Imperial Truck & Trailer Repair Logo"
                 width={260}
                 height={65}
                 priority
-                className="h-9 sm:h-11 md:h-12 w-auto object-contain block"
+                className="h-9 sm:h-11 md:h-12 w-full object-contain object-center block"
               />
             </div>
 
             {/* Premium 3D Industrial Emblem Subtext Badge */}
             <div className="mt-1.5 relative group w-full flex items-center">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-red-600/30 via-amber-500/20 to-blue-600/30 rounded-md blur-[3px] opacity-75 group-hover:opacity-100 transition duration-300" />
-              
+
               <div className="relative w-full px-2.5 py-1 rounded-[6px] bg-gradient-to-b from-[#1e2536] via-[#121622] to-[#090c12] border border-white/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.3),0_3px_8px_rgba(0,0,0,0.8)] flex items-center justify-between text-[8.5px] sm:text-[9.5px] md:text-[10px] font-black tracking-wider uppercase">
                 <div className="flex items-center gap-1.5">
                   <span className="relative flex h-2 w-2">

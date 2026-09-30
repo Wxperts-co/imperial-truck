@@ -44,7 +44,7 @@ export const CTA = () => {
                             </div>
 
                             {/* 3D Title */}
-                            <h2 className="font-racing text-[19px] sm:text-3xl lg:text-4xl text-slate-900 uppercase tracking-wider leading-[1.1]">
+                            <h2 className="font-racing text-[18px] sm:text-3xl lg:text-4xl text-slate-900 uppercase tracking-wider leading-[1.1]">
                                 NEED RAPID ROADSIDE ASSISTANCE OR{' '}
                                 <span className="text-red-600">
                                     TRUCK SERVICE?

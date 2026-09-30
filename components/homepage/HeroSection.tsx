@@ -215,13 +215,13 @@ export const HeroSection = () => {
                             initial={{ opacity: 0, y: 15 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-                            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950/90 backdrop-blur-md border border-red-500/50 text-red-400 text-xs sm:text-sm font-bold tracking-wider uppercase shadow-[0_0_20px_rgba(239,68,68,0.35)]"
+                            className="hidden md:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950/90 backdrop-blur-md border border-red-500/50 text-red-400 text-xs sm:text-sm font-bold tracking-wider uppercase shadow-[0_0_20px_rgba(239,68,68,0.35)]"
                         >
                             <span className="relative flex h-2 w-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500 shadow-[0_0_8px_#ef4444]" />
                             </span>
-                            <span>24/7 HEAVY DUTY ROADSIDE RESCUE &amp; SHOP REPAIR</span>
+                            <span>EST. 2012 • 24/7 HEAVY DUTY ROADSIDE RESCUE &amp; SHOP REPAIR</span>
                         </motion.div>
 
                         {/* 2. Ultra-Sharp Shiny Chrome & Ruby Racing Headline with Clear Letter Shadows */}
@@ -229,7 +229,7 @@ export const HeroSection = () => {
                             initial={{ opacity: 0, y: 25 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                            className="font-racing text-2xl sm:text-4xl md:text-5xl lg:text-[58px] uppercase tracking-wider leading-[1.08] filter drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:pb-55"
+                            className="font-racing text-2xl sm:text-4xl md:text-4xl lg:text-[58px] uppercase tracking-wider leading-[1.08] filter drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:pb-55 text-center"
                         >
                             {/* Shiny Brilliant White / Chrome Text with Clear Black Letter Shadows */}
                             <span
@@ -250,7 +250,7 @@ export const HeroSection = () => {
                                     WebkitTextStroke: '0.6px rgba(254,202,202,0.4)',
                                 }}
                             >
-                                REPAIR SPECIALISTS
+                                REPAIR SPECIALISTS & WASH
                             </span>
                         </motion.h1>
 
@@ -272,7 +272,7 @@ export const HeroSection = () => {
                             </a>
 
                             <Link
-                                href="#services"
+                                href="/services"
                                 className="px-6 py-3.5 rounded-xl bg-slate-900/85 hover:bg-slate-800/90 border border-slate-600/80 text-white font-bold text-sm sm:text-base uppercase tracking-wider shadow-[0_6px_20px_rgba(0,0,0,0.6)] backdrop-blur-md hover:text-red-400 transition-all duration-200 flex items-center gap-2"
                             >
                                 <span>View All Services</span>

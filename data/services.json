@@ -1,115 +1,136 @@
 {
   "services": [
     {
-      "id": "computer-diagnostics",
-      "name": "Computer Diagnostics",
-      "category": "Diagnostics & Electrical",
+      "id": "diesel-repair",
+      "name": "Diesel Engine Repair & Overhauls",
+      "category": "Powertrain & Engine",
       "image": "/services/truck-computer-diagnostics-car-service-service-repair-trucks-large-garage-car.jpg",
-      "description": "Dealer-grade OEM computer scanning, ECM reprogramming, and live sensor telemetry for Cummins, Detroit, and PACCAR powertrains.",
+      "description": "Complete diesel powertrain diagnostics, cylinder head overhauls, turbo replacements, fuel injection triage, and preventative fleet maintenance.",
+      "fulldescription": "Our master diesel technicians deliver comprehensive engine diagnostics, cylinder head overhauls, in-frame rebuilds, and complete fuel injection system triage for all major commercial heavy-duty platforms including Cummins, Detroit Diesel, PACCAR, and Caterpillar. Utilizing advanced OEM dealer-level software and high-precision torque tooling, we isolate loss of power, abnormal exhaust smoke, oil consumption, and turbocharger failures with pinpoint accuracy. From EGR valve cleaning and DPF aftertreatment maintenance to full cylinder head replacements, our 10-bay Manteca facility ensures freight carriers and owner-operators experience minimal downtime, optimal fuel economy, and maximum road-ready reliability.",
+      "tag": "Diesel Specialists",
+      "badge": "Experienced Mechanics",
+      "features": ["Cummins, Detroit & PACCAR", "Turbo & Fuel Injectors", "EGR & Aftertreatment Triage"]
+    },
+    {
+      "id": "computer-diagnostics",
+      "name": "Computer Diagnostics & ECM Scanning",
+      "category": "Diagnostics & Electrical",
+      "image": "/services/professional-car-mechanic-working-auto-repair-service.jpg",
+      "description": "Dealer-grade OEM electronic computer scanning, live sensor telemetry, ECM tuning, and instantaneous fault-code isolation.",
+      "fulldescription": "Experience rapid fault-code identification and live sensor telemetry with our state-of-the-art dealer-grade electronic diagnostic suite. We support proprietary OEM diagnostic protocols across Freightliner, Kenworth, Peterbilt, International, and Volvo trucks. Our certified technicians read and clear active/inactive ECM, TCM, and ABS fault codes, perform forced DPF regenerations, analyze real-time rail pressure and boost levels, and reprogram engine parameters. Whether diagnosing intermittent electrical anomalies, check-engine lights, or complex CAN-bus communication drops, we eliminate guesswork and expedite immediate turnaround so your commercial rig returns to freight lanes without costly delays.",
       "tag": "OEM Diagnostics",
       "badge": "99.8% Accuracy",
-      "features": ["ECM / ECU Tuning", "Emissions & DPF Faults", "Live Sensor Scans"]
+      "features": ["Dealer-Level Software", "Live Sensor Scans", "ECM / ECU Calibration"]
     },
     {
       "id": "brakes-air-systems",
-      "name": "Brakes & Air Systems",
-      "category": "Safety & Pneumatics",
+      "name": "Brakes & Pneumatic Air Systems",
+      "category": "Safety & Braking",
       "image": "/services/young-worker-checks-wheel-truck-malfunction-service-work.jpg",
-      "description": "Heavy-duty air brake pneumatic overhauls, ABS sensor diagnostics, air dryer replacements, and certified DOT brake safety checks.",
-      "tag": "Braking Systems",
+      "description": "Heavy-duty air brake rebuilds, ABS sensor diagnostics, S-cam & drum replacements, air compressors, and certified DOT inspections.",
+      "fulldescription": "Commercial safety starts with a robust, DOT-compliant pneumatic braking system. Our Manteca master bays specialize in complete heavy-duty air brake rebuilds, S-cam and bushing replacements, drum machining, air compressor overhauls, air dryer cartridge exchanges, and ABS modulator valve diagnostics. We conduct multi-point pneumatic leak-down tests, adjust automatic slack adjusters to exact FMCSA specifications, and install premium high-friction brake shoes designed for severe highway loads. Whether passing mandatory 90-day BIT inspections or resolving emergency roadside air pressure drops, Imperial delivers certified stopping power you can rely on.",
+      "tag": "Air Brakes",
       "badge": "DOT Certified",
-      "features": ["Air Compressor & Dryers", "S-Cam & Drum Kits", "ABS Modulation"]
+      "features": ["Air Compressor & Dryers", "S-Cam & Drum Kits", "ABS Modulation Triage"]
     },
     {
-      "id": "tire-services",
-      "name": "Tire Services & Wheel Mounting",
+      "id": "tires-wheel-mounting",
+      "name": "Commercial Tires & Wheel Mounting",
       "category": "Wheels & Tires",
       "image": "/services/indian-mechanic-unscrews-wheel-truck-pneumatic-wrench.jpg",
-      "description": "Commercial tire mounting, computerized wheel balancing, torque inspections, and rapid 24/7 highway blowout replacement.",
+      "description": "Commercial steer and drive tire mounting, precision computerized dynamic balancing, torque checks, and 24/7 highway blowout assistance.",
+      "fulldescription": "Keep your commercial tractor and 53ft trailer rolling safely with our high-speed commercial tire and wheel mounting services. We stock premium steer, drive, and trailer tires across major commercial brands, providing computerized dynamic wheel balancing, high-torque pneumatic stud tightening, and rim inspections. Our technicians examine tread depth, irregular wear patterns, and valve stem integrity to prevent hazardous highway blowouts. In addition to our fast drive-in shop bays, our 24/7 mobile emergency road service team delivers prompt on-highway flat tire assistance, roadside replacements, and air refills across Northern California freight corridors.",
       "tag": "Commercial Tires",
-      "badge": "24/7 Highway Rescue",
+      "badge": "24/7 Roadside Line",
       "features": ["Steer & Drive Tires", "Pneumatic Torque Check", "Roadside Tire Service"]
     },
     {
-      "id": "suspension-steering",
-      "name": "Suspension & Steering",
-      "category": "Chassis & Handling",
+      "id": "wheel-seals-shocks",
+      "name": "Wheel Seals, Shocks & Hub Assemblies",
+      "category": "Suspension & Axles",
       "image": "/services/suspension-and-steering.jpg",
-      "description": "Complete kingpin rebuilds, leaf spring replacements, torque rods, air bags, and laser front-end truck steering alignments.",
-      "tag": "Rig Stability",
-      "badge": "Laser Alignment",
-      "features": ["Air Spring / Bags", "Kingpins & Bushings", "Steering Gearboxes"]
+      "description": "Precision oil bath wheel seals, heavy-duty gas/hydraulic shocks, hub bearings, and axle spindle rebuilds to prevent costly bearing failures.",
+      "fulldescription": "Prevent catastrophic hub failures and dangerous bearing seizures with our specialized wheel seal, shock absorber, and axle hub maintenance services. We install high-performance oil bath seals, precision spindle nuts, and heavy-duty hub bearings, torque-verified to manufacturer tolerances. Our team replaces worn gas and hydraulic suspension shocks, preventing excessive steer vibration and uneven tire cupping. Through regular oil level inspections, hub cap replacements, and seal leak prevention, Imperial protects expensive commercial axles, ensures smooth driver ride comfort, and keeps long-haul rigs fully compliant with DOT road standards.",
+      "tag": "Wheel Seals & Shocks",
+      "badge": "Zero Leak Guarantee",
+      "features": ["Oil Bath Wheel Seals", "Heavy-Duty Shocks", "Hub Bearings & Spindles"]
     },
     {
-      "id": "transmission-clutch",
-      "name": "Transmission & Clutch",
-      "category": "Powertrain & Drivetrain",
+      "id": "transmissions-clutch",
+      "name": "Transmissions & Heavy-Duty Clutch",
+      "category": "Drivetrain & Transmission",
       "image": "/services/replacing-clutch-disc-car-gearbox-service-station.jpg",
-      "description": "Eaton Fuller manual & automated manual transmission repairs, dual-disc clutch adjustments, and differential rebuilds.",
+      "description": "Eaton Fuller manual and automated transmission repairs, dual-disc ceramic clutch replacements, flywheel resurfacing, and driveline U-joints.",
+      "fulldescription": "Ensure seamless torque delivery and smooth shifting under heavy payload with our transmission and commercial clutch services. We service Eaton Fuller manual, automated manual (AMT), and Allison automatic gearboxes, executing complete dual-disc ceramic clutch replacements, flywheel resurfacing, pilot bearing installations, and clutch linkage adjustments. We diagnose gear grinding, hard shifting, slippage, and driveline vibration, repairing universal joints, carrier bearings, and output seals with OEM precision. Our certified mechanics restore drivetrain reliability so your truck pulls heavy grades across California highways with dependable power.",
       "tag": "Heavy Drivetrain",
       "badge": "Eaton Certified",
-      "features": ["Manual & AMT Transmissions", "Heavy-Duty Clutch Kits", "Driveline & U-Joints"]
+      "features": ["Manual & AMT Transmissions", "Dual-Disc Clutch Kits", "Driveline & U-Joints"]
+    },
+    {
+      "id": "king-pins-steering",
+      "name": "King Pins, Bushings & Steering",
+      "category": "Steering & Alignment",
+      "image": "/services/suspension-and-steering.jpg",
+      "description": "Precision king pin replacement, bronze/nylon reaming, drag links, tie rod ends, steering gearboxes, and laser axle alignment.",
+      "fulldescription": "Eliminate hazardous steering wander, loose front-end play, and rapid steer tire wear with our precision king pin and steering linkage overhauls. Our technicians utilize specialized hydraulic presses and reaming equipment to install bronze and bi-metal kingpin bushings, tie rod assemblies, drag links, and steering gearboxes. We finish every front-end service with laser axle alignment to ensure crisp directional stability and reduced rolling resistance. Designed for heavy-duty commercial tractors, our steering services enhance driver safety, improve handling on tight turns, and extend front tire life.",
+      "tag": "Steering & Handling",
+      "badge": "Laser Alignment",
+      "features": ["Kingpin Reaming & Kits", "Tie Rods & Drag Links", "Steering Gearboxes"]
     },
     {
       "id": "electrical-alternators",
-      "name": "Electrical & Alternators",
-      "category": "Diagnostics & Electrical",
+      "name": "Electrical Systems & Alternators",
+      "category": "Electrical & Starters",
       "image": "/services/professional-car-mechanic-working-auto-repair-service.jpg",
-      "description": "High-output alternator overhauls, starter motors, battery bank load tests, and wiring harness short circuit diagnosis.",
-      "tag": "Auto Electrical",
+      "description": "High-output commercial alternators, heavy-duty starter motors, battery bank load tests, and wiring harness short circuit diagnosis.",
+      "fulldescription": "Resolve complex commercial 12V/24V electrical failures and charging issues quickly with our certified electrical repair team. We supply and install high-output commercial alternators, heavy-duty gear-reduction starter motors, and commercial battery banks tested under simulated cold-cranking loads. Our technicians trace broken wiring harnesses, corroded grounds, parasitic battery drains, illuminated dashboard warning lights, and malfunctioning exterior LED clearance lamps. With heavy vibration and weather exposure common in trucking, Imperial ensures clean electrical connections, consistent charging voltage, and reliable ignition starts every single trip.",
+      "tag": "Commercial Electrical",
       "badge": "Zero Downtime",
-      "features": ["Starters & Alternators", "Harness Troubleshooting", "Battery Load Triage"]
+      "features": ["Alternators & Starters", "Battery Banks Load Test", "Wiring Harness Triage"]
     },
-    {
-      "id": "truck-rv-wash",
-      "name": "Truck & RV Wash Station",
-      "category": "Fleet Care & Wash",
-      "image": "/services/washing-vehicle-young-truck-driver-casual-clothes.jpg",
-      "description": "Eco-friendly high-pressure hot water truck, semi trailer, and RV washouts with complete chassis undercarriage degreasing.",
-      "tag": "Eco Rig Wash",
-      "badge": "Drive-Through Bay",
-      "features": ["Reefer Trailer Washout", "Engine & Chassis Wash", "Citrus Aluminum Polish"]
-    },
-    {
-      "id": "truck-trailer-repair",
-      "name": "Truck & Trailer Repair",
-      "category": "Full Rig Maintenance",
-      "image": "/services/man-with-tools-truck-worker-uniform-faulty-truck.jpg",
-      "description": "Comprehensive bumper-to-bumper commercial tractor and semi-trailer maintenance, welding, landing gear, and door repairs.",
-      "tag": "Bumper-to-Bumper",
-      "badge": "10-Bay Capacity",
-      "features": ["Trailer Structural Welding", "Landing Gear & Doors", "Preventative Maintenance"]
-    },
-   
     {
       "id": "ac-climate-control",
-      "name": "A/C & Climate Control",
+      "name": "A/C & Cabin Climate Control",
       "category": "Cabin Comfort",
       "image": "/services/medium-shot-man-checking-car.jpg",
-      "description": "Commercial cab A/C compressor overhauls, condenser leak testing, R134a/R1234yf recharges, and heater core replacements.",
-      "tag": "Cab Comfort",
+      "description": "Commercial cab A/C compressor replacements, condenser leak tests, R134a/R1234yf freon recharges, and heater core overhauls.",
+      "fulldescription": "Maintain peak driver comfort and all-weather cab safety with our commercial heating, ventilation, and air conditioning (HVAC) services. We service R134a and R1234yf cab climate systems, replacing heavy-duty A/C compressors, condensers, expansion valves, evaporator cores, and blower motors. Using electronic halogen leak detectors and nitrogen pressure testing, we isolate microscopic freon leaks, flush contaminated systems, and recharge to exact factory weight specifications. We also repair heater cores and cab temperature actuators to ensure defrosters and heating function flawlessly through extreme winter weather.",
+      "tag": "A/C & Climate",
       "badge": "All-Weather Ready",
       "features": ["Compressor & Condenser", "Leak Triage & Recharge", "Blower Motor & Cores"]
     },
     {
-      "id": "reefer-apu-repair",
-      "name": "Reefer & APU Repair",
-      "category": "Temperature Control",
-      "image": "/services/mechanic-repairing-truck-service.jpg",
-      "description": "Thermo King & Carrier refrigeration unit troubleshooting, auxiliary power unit (APU) diesel servicing, and temp monitoring.",
-      "tag": "Refrigeration",
-      "badge": "Cold Chain Protected",
-      "features": ["Thermo King & Carrier", "APU Diesel Generator", "Cold Chain Compliance"]
+      "id": "truck-rv-wash",
+      "name": "Eco-Friendly Truck & RV Wash",
+      "category": "Fleet Care & Wash",
+      "image": "/services/washing-vehicle-young-truck-driver-casual-clothes.jpg",
+      "description": "High-pressure hot water truck, 53ft trailer, and RV washouts, undercarriage degreasing, citrus aluminum brightening, and sanitation.",
+      "fulldescription": "Preserve fleet appearance, protect aluminum components, and maintain sanitary cargo standards in our dedicated drive-through truck and RV washout bays. Using high-pressure commercial hot water systems, citrus-based aluminum brighteners, and eco-friendly degreasers, we clean 53ft reefer trailers, dry vans, flatbeds, and commercial tractor exteriors. We specialize in food-grade trailer washouts, undercarriage road grime removal, engine bay degreasing, and chassis cleaning. Fast turnarounds and easy drive-through access ensure drivers get in, get clean, and get back on schedule while projecting a clean, professional company image.",
+      "tag": "Rig Washout Bay",
+      "badge": "Drive-Through Bay",
+      "features": ["53ft Trailer Washout", "Engine & Chassis Wash", "Citrus Aluminum Polish"]
     },
     {
-      "id": "smog-safety-inspection",
-      "name": "Smog Check & DOT Inspection",
-      "category": "Compliance & Safety",
-      "image": "/services/car-repairman-wearing-white-uniform-standing-holding-wrench-that-is-essential-tool-mechanic.jpg",
-      "description": "Certified California heavy-duty diesel smog check, Clean Truck Check compliance testing, and annual 90-day BIT/DOT inspections.",
-      "tag": "State Compliance",
-      "badge": "California Clean Truck",
-      "features": ["Clean Truck Check OBD", "90-Day BIT Inspections", "Annual DOT Safety Signoff"]
+      "id": "heavy-duty-parts",
+      "name": "Heavy Duty Truck Parts Inventory",
+      "category": "Parts & Inventory",
+      "image": "/gallery/11.png",
+      "description": "Extensive in-stock warehouse inventory of genuine OEM and premium aftermarket parts ready for immediate pickup and bay installation.",
+      "fulldescription": "Minimize carrier downtime with immediate access to our extensive on-site warehouse inventory of genuine OEM and premium aftermarket heavy-duty parts. We stock air brake chambers, drums, S-cam kits, wheel seals, oil and air filters, alternators, starters, LED lighting, suspension air bags, leveling valves, and diesel engine sensors ready for rapid bay installation or direct counter pickup. Sourced from industry-leading manufacturers, our commercial parts meet or exceed stringent fleet durability specifications, ensuring long service life, reliable fitment, and competitive commercial pricing for fleet maintenance managers.",
+      "tag": "OEM Parts Warehouse",
+      "badge": "In-Stock Inventory",
+      "features": ["Brake Chambers & Drums", "Filters & Turbos", "Suspension Bags & Valves"]
+    },
+    {
+      "id": "truck-trailer-repair",
+      "name": "Full Truck & Trailer Maintenance",
+      "category": "Full Rig Care",
+      "image": "/services/man-with-tools-truck-worker-uniform-faulty-truck.jpg",
+      "description": "Complete bumper-to-bumper commercial tractor and trailer repairs, welding fabrication, roll-up doors, landing gear, and DOT safety signoffs.",
+      "fulldescription": "Imperial delivers full-spectrum, bumper-to-bumper commercial tractor and trailer maintenance under one single roof. Our 10-bay Manteca facility handles structural trailer welding, aluminum panel patching, roll-up and swing door repairs, landing gear rebuilds, crossmember reinforcement, and fifth-wheel servicing. We conduct comprehensive 90-day California BIT and annual DOT safety inspections, certifying braking, lighting, suspension, and coupling systems. By combining mechanical diagnostics, parts replacement, structural welding, and washouts in one master depot, we provide freight fleets with unmatched convenience, speed, and safety.",
+      "tag": "Bumper-to-Bumper",
+      "badge": "10-Bay Capacity",
+      "features": ["Trailer Structural Welding", "Landing Gear & Doors", "90-Day BIT Inspections"]
     }
   ]
 }

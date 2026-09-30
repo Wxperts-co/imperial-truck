@@ -4,6 +4,7 @@ import React, { useState, useRef } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import servicesData from '@/data/services.json';
+import Link from 'next/link';
 
 interface ServiceItem {
     id: string;
@@ -20,18 +21,18 @@ interface ServiceItem {
 const DiagnosticTruckBlueprint = ({ activeIndex }: { activeIndex: number }) => {
     // Exact physical coordinates on the semi-truck diagram matching servicesData.services (index 0 to 11)
     const nodes = [
-        { id: 0, x: 266, y: 74, label: 'Hood ECM & Engine Powertrain' },       // Computer Diagnostics (Engine Hood)
-        { id: 1, x: 215, y: 96, label: 'Axle Pneumatic Air Brakes' },          // Brakes & Air Systems (Drive Axle)
-        { id: 2, x: 260, y: 105, label: 'Commercial Steer & Drive Tires' },     // Tire Services (Steer Wheel)
-        { id: 3, x: 246, y: 92, label: 'Steering Gearbox & Kingpins' },         // Suspension & Steering (Front Axle)
-        { id: 4, x: 205, y: 88, label: 'Eaton Fuller Transmission & Clutch' },  // Transmission & Clutch (Mid Drivetrain)
-        { id: 5, x: 242, y: 68, label: 'Alternator & 24V Electrical Harness' }, // Electrical & Alternator (Engine Bay)
-        { id: 6, x: 105, y: 36, label: 'High-Pressure Rig Washout Port' },      // Truck & RV Wash (Trailer Roof)
-        { id: 7, x: 105, y: 65, label: '53ft Trailer Chassis & Structural Frame' }, // Truck & Trailer Repair (Trailer Chassis)
-        { id: 8, x: 145, y: 55, label: 'OEM Parts Inventory & Filtration Bay' }, // Heavy Duty Parts (Trailer Cargo Bay)
-        { id: 9, x: 232, y: 52, label: 'Cab Climate Compressor & R134a HVAC' },  // A/C & Climate (Cab Cabin)
-        { id: 10, x: 180, y: 40, label: 'Thermo King / Bulkhead Reefer Unit' },  // Reefer & APU (Trailer Front Bulkhead)
-        { id: 11, x: 196, y: 45, label: 'Clean Truck Check OBD & Exhaust Stack' }, // Smog Check (Exhaust / CARB Port)
+        { id: 0, x: 266, y: 74, label: 'Cummins & Detroit Diesel Powertrain' }, // Diesel Engine Repair
+        { id: 1, x: 250, y: 65, label: 'Hood ECM & Sensor Telemetry' },        // Computer Diagnostics
+        { id: 2, x: 215, y: 96, label: 'Drive Axle Pneumatic Air Brakes' },     // Brakes & Air Systems
+        { id: 3, x: 260, y: 105, label: 'Commercial Steer & Drive Tires' },     // Tires & Wheel Mounting
+        { id: 4, x: 215, y: 105, label: 'Wheel Seals, Shocks & Hub Bearings' }, // Wheel Seals & Shocks
+        { id: 5, x: 205, y: 88, label: 'Eaton Fuller Transmission & Clutch' },  // Transmissions & Clutch
+        { id: 6, x: 246, y: 92, label: 'Steering Gearbox & Kingpins' },         // King Pins & Steering
+        { id: 7, x: 242, y: 68, label: 'Alternator & 24V Electrical Harness' }, // Electrical Systems
+        { id: 8, x: 232, y: 52, label: 'Cab Climate Compressor & HVAC' },       // A/C & Climate
+        { id: 9, x: 105, y: 36, label: 'High-Pressure Rig Washout Port' },      // Truck & RV Wash
+        { id: 10, x: 145, y: 55, label: 'OEM Parts Inventory & Filtration Bay' }, // Heavy Duty Parts
+        { id: 11, x: 105, y: 65, label: '53ft Trailer Chassis & Structural Frame' }, // Truck & Trailer Repair
     ];
 
     const activeNode = nodes[activeIndex % nodes.length] || nodes[0];
@@ -365,15 +366,15 @@ export const ServiceSection = () => {
 
                         {/* View All Services and Left/Right Navigation Controls */}
                         <div className="flex items-center gap-3.5 mt-6">
-                            <a
-                                href="#contact"
+                            <Link
+                                href="/services"
                                 className="px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-extrabold text-xs sm:text-sm uppercase tracking-wider shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:scale-105 transition-all duration-200 flex items-center gap-2"
                             >
                                 <span>View All Services</span>
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>
-                            </a>
+                            </Link>
 
                             <div className="flex items-center gap-2">
                                 <button
@@ -570,13 +571,13 @@ export const ServiceSection = () => {
 
                                 {/* Call-to-Action Buttons */}
                                 <div className="flex gap-2.5 pt-3 sm:pt-4 border-t border-slate-800">
-                                    <a
-                                        href="#contact"
+                                    <Link
+                                        href={`/services/${selectedService.id}`}
                                         onClick={() => setSelectedService(null)}
                                         className="flex-1 py-2 sm:py-3 px-3 sm:px-4 rounded-xl bg-red-600 hover:bg-red-500 text-white font-black text-xs uppercase tracking-wider text-center shadow-lg transition-all"
                                     >
                                         View Details
-                                    </a>
+                                    </Link>
                                     <button
                                         onClick={() => setSelectedService(null)}
                                         className="py-2 sm:py-3 px-3 sm:px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs uppercase tracking-wider text-center transition-colors"

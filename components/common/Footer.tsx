@@ -7,16 +7,17 @@ import servicesData from '@/data/services.json';
 
 export const Footer = () => {
   const navLinks = [
-    { name: 'About Company', href: '#about' },
-    { name: 'Repair Services', href: '#services' },
-    { name: 'Why Choose Us', href: '#why-us' },
-    { name: 'Customer Reviews', href: '#reviews' },
-    { name: 'Contact & Location', href: '#contact' },
+    { name: 'Home', href: '/' },
+    { name: 'About Company', href: '/about-us' },
+    { name: 'Repair Services', href: '/services' },
+    { name: 'Gallery', href: '/gallery' },
+    { name: 'Get An Estimate', href: '/get-an-estimate' },
+    { name: 'Contact & Location', href: '/contact-us' },
   ];
 
   const coreServices = servicesData.services.map((service) => ({
     name: service.name,
-    href: '#services',
+    href: `/services/${service.id}`,
   }));
 
   const businessHours = [
@@ -44,7 +45,7 @@ export const Footer = () => {
           <div className="col-span-2 lg:col-span-4 flex flex-col items-start gap-3 sm:gap-4">
             
             {/* Logo */}
-            <div className="py-0.5 sm:py-1">
+            <Link href="/" className="py-0.5 sm:py-1 inline-block transition-all  active:scale-[0.98] cursor-pointer">
               <Image
                 src="/logo/logo.png"
                 alt="Imperial Truck & Trailer Repair and Wash"
@@ -52,7 +53,7 @@ export const Footer = () => {
                 height={65}
                 className="h-10 sm:h-12 w-auto object-contain object-left block"
               />
-            </div>
+            </Link>
 
             <p className="text-[13.5px] sm:text-[15px] text-neutral-200 leading-relaxed max-w-sm">
               Northern California’s trusted commercial rig repair facility. Delivering expert diesel diagnostics, mobile highway recovery, and full washouts in Manteca, CA.
