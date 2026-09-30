@@ -36,8 +36,9 @@ jobs:
           username: ${{ secrets.CPANEL_USER }}
           password: ${{ secrets.CPANEL_PASSWORD }}
           server-dir: ${{ secrets.CPANEL_PROJECT_PATH || 'public_html/' }}
-          protocol: ftps
-          security: loose
+          protocol: ftp
+          port: 21
+          timeout: 60000
           exclude: |
             **/.git*
             **/.git*/**
