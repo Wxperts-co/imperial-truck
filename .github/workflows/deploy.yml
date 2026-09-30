@@ -1,0 +1,56 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  deploy:
+    name: Deploy to cPanel Server
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.CPANEL_HOST }}
+          port: ${{ secrets.CPANEL_PORT || 22 }}
+          username: ${{ secrets.CPANEL_USER }}
+          key: ${{ secrets.CPANEL_SSH_KEY }}
+          passphrase: ${{ secrets.CPANEL_SSH_PASSPHRASE || '' }}
+          script_stop: true
+          script: |
+            # 1. Navigate to project directory
+            TARGET_DIR="${{ secrets.CPANEL_PROJECT_PATH || 'public_html' }}"
+            if [ -d "$HOME/$TARGET_DIR" ]; then
+              cd "$HOME/$TARGET_DIR"
+            elif [ -d "$TARGET_DIR" ]; then
+              cd "$TARGET_DIR"
+            else
+              echo "Error: Directory not found. Please verify CPANEL_PROJECT_PATH in GitHub Secrets."
+              exit 1
+            fi
+
+            echo "🚀 Working in directory: $(pwd)"
+
+            # 2. Pull latest changes from repository
+            echo "📥 Pulling latest code from origin/main..."
+            git fetch origin main
+            git reset --hard origin/main
+
+            # 3. Install dependencies
+            echo "📦 Installing npm dependencies..."
+            npm install
+
+            # 4. Build Next.js application
+            echo "⚙️ Building Next.js application..."
+            npm run build
+
+            # 5. Restart Node.js application (cPanel Phusion Passenger)
+            echo "🔄 Restarting Node.js application..."
+            mkdir -p tmp
+            touch tmp/restart.txt
+
+            echo "✅ Deployment completed successfully!"
