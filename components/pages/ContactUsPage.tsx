@@ -379,13 +379,13 @@ export const ContactUsPage = () => {
                             <div className="relative h-56 sm:h-64 rounded-3xl overflow-hidden border border-slate-200 shadow-md">
                                 <iframe
                                     title="Imperial Truck & Trailer Repair Location"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.673895514656!2d-121.25299492348508!3d37.79462837198132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090409c2598be69%3A0x6b306b38cbb2d40c!2s2142%20W%20Yosemite%20Ave%2C%20Manteca%2C%20CA%2095337!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12610.81282544151!2d-121.2534653!3d37.7969947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80904072dae7049b%3A0xa29b4e2da1b0edba!2sIMPERIAL%20TRUCK%20WASH%20%26%20REPAIR!5e0!3m2!1sen!2sin!4v1791222044843!5m2!1sen!2sin"
                                     width="100%"
                                     height="100%"
                                     style={{ border: 0 }}
                                     allowFullScreen={false}
                                     loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
+                                    referrerPolicy="strict-origin-when-cross-origin"
                                 />
                             </div>
 
