@@ -1,0 +1,1578 @@
+[
+    {
+        "home": {
+            "semantic_keynotes": {
+                "primary_conceptual_themes_intent": "Targets commercial truck and trailer owners, fleet managers, and truck drivers searching for immediate heavy-duty diesel repair, roadside rescue, and commercial truck wash services in Manteca and San Joaquin County.",
+                "core_value_propositions": "Highlights 12+ years of trusted service (established 2012), a 10-bay repair capacity, 24/7 mobile emergency dispatch across major transit corridors (Highway 99, I-5, I-205), and same-day OEM/aftermarket parts availability.",
+                "geographic_infrastructural_anchors": "Anchored strongly to local intent around Manteca, California, specifying a physical headquarters at 2142 W Yosemite Ave and real-time response capabilities along regional highways.",
+                "geo_voice_search_optimization_strategy": "Structures data around immediate problem-solving queries (e.g., roadside breakdowns, diagnostic scanning, fleet washouts) to capture voice search and AI-driven conversational answers for stranded commercial drivers."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair & Wash",
+                    "Imperial Truck & Trailer Repair and Wash",
+                    "Imperial",
+                    "Cummins",
+                    "Detroit Diesel"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "TRUCK & TRAILER REPAIR WASH",
+                    "24/7 HEAVY DUTY ROADSIDE RESCUE & SHOP REPAIR",
+                    "HEAVY DUTY TRUCK & TRAILER REPAIR SPECIALISTS & WASH",
+                    "Heavy-Duty Fleet Care",
+                    "Full-Service Commercial Truck & Trailer Repair Headquarters",
+                    "Diesel Repair",
+                    "A/C & Climate Air",
+                    "Brakes",
+                    "Commercial Tires",
+                    "Wheel Seals",
+                    "Shocks",
+                    "Transmissions",
+                    "Heavy-Duty Clutch",
+                    "Heavy-Duty Truck Parts & Inventory",
+                    "OEM & Aftermarket Commercial Parts",
+                    "Brake Chambers",
+                    "Air Valves",
+                    "Airlines",
+                    "Turbos",
+                    "Alternators",
+                    "Kingpins",
+                    "Driveline Components",
+                    "Air Brakes & Drums",
+                    "Wheel Seals & Shocks",
+                    "King Pins & Bushings",
+                    "Starters & Alternators",
+                    "Clutches & Transmissions",
+                    "A/C Compressors",
+                    "Fleet Washout & 24/7 Roadside",
+                    "High-Pressure Truck Wash & Mobile Rescue",
+                    "Eco Rig Washouts",
+                    "Trailer Sanitization",
+                    "Undercarriage Degreasing",
+                    "24/7 Mobile Emergency Units",
+                    "Drive-Through Wash Bay",
+                    "24/7 Highway Emergency",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Pneumatic Air Systems",
+                    "Wheel Mounting",
+                    "Hub Assemblies",
+                    "Steering",
+                    "Electrical Systems",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Mobile Recovery",
+                    "Mobile Tire Service"
+                ],
+                "technical_specifications_code_entities": [
+                    "3D TELEMETRY SCANNER",
+                    "ACTIVE SCAN ZONE",
+                    "ECM",
+                    "OEM",
+                    "DOT",
+                    "Clean Truck Pass",
+                    "GPS Live Dispatch"
+                ],
+                "strategic_functional_concepts": [
+                    "Engineered For Zero Downtime",
+                    "12+ Years Of Trust",
+                    "Quality Service and Experienced Mechanics",
+                    "Certified Diesel & Master Technicians",
+                    "Dealer-Level Protocol",
+                    "Instant OEM Scan",
+                    "Same-Day Heavy Fix & Eco Wash",
+                    "Average Mobile Response Time"
+                ],
+                "infrastructure_security_entities": [
+                    "Manteca Headquarters & Facility",
+                    "Master Shop",
+                    "In-Stock Warehouse",
+                    "10-Bay Capacity"
+                ],
+                "contact_channels_geographic_data": [
+                    "Manteca, CA",
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "San Joaquin County",
+                    "Highway 99",
+                    "I-5",
+                    "I-205",
+                    "San Joaquin Corridor",
+                    "(209) 239-8111"
+                ]
+            },
+            "seo_keywords": [
+                "24/7 heavy duty roadside rescue Manteca",
+                "commercial truck repair San Joaquin County",
+                "semi truck parts in-stock Manteca",
+                "heavy duty truck wash facility",
+                "diesel engine repair and diagnostics"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair and Wash in Manteca, California provides 24/7 heavy-duty roadside rescue, master shop diesel diagnostics, and commercial fleet maintenance. Established in 2012 at 2142 W Yosemite Ave, the facility features a 10-bay repair capacity, extensive OEM parts inventory, and an eco-friendly drive-through wash bay."
+        },
+        "about-us": {
+            "semantic_keynotes": {
+                "primary_conceptual_themes_user_intent_targets": "The content centers on commercial truck and trailer repair, maintenance, and high-pressure rig washing in Northern California. The primary user intent is transactional and immediate: fleet managers and commercial truck drivers seeking fast, reliable, local heavy-duty diesel repair, OEM parts, and emergency roadside services to minimize downtime.",
+                "key_informational_value_core_value_propositions": "The business emphasizes over a decade of hands-on experience since 2012, 100% ASE master technicians, a zero-downtime philosophy, comprehensive all-in-one facility capabilities (mechanical bays, rig wash, and OEM parts), and strict quality service guarantees featuring torque-verified and road-tested inspections.",
+                "strategic_takeaways_for_generative_engine_optimization_geo": "Content structures explicitly map local search intent (\"Manteca\", \"San Joaquin County\", \"Northern California central freight corridor\") directly to technical capabilities (\"Cummins, Detroit & PACCAR software\", \"dealer-level computer diagnostics\", \"ASE Master Techs\"). GEO visibility is maximized by clearly pairing geographic service regions with specific heavy-duty automotive engineering credentials."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair and Wash",
+                    "Imperial Truck & Repair",
+                    "Imperial",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One",
+                    "Visa",
+                    "Mastercard",
+                    "AMEX",
+                    "Discover",
+                    "Google Maps",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Detroit Diesel",
+                    "Volvo"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "TRUCK & TRAILER REPAIR WASH",
+                    "rig wash station",
+                    "commercial diesel overhauls",
+                    "electronics",
+                    "transmissions",
+                    "Truck & RV Wash",
+                    "In-Stock Parts",
+                    "heavy-duty parts",
+                    "mechanical repairs",
+                    "genuine OEM part replacements",
+                    "tractor-trailer washouts",
+                    "Heavy Duty Fleet Bays",
+                    "OEM ECM Diagnostics",
+                    "Tire & Wheel Seals",
+                    "OEM Warehouse Depot",
+                    "Diesel Repair",
+                    "A/C & Climate",
+                    "Air Brakes",
+                    "Commercial Tires",
+                    "Wheel Seals & Shocks",
+                    "Transmissions & Clutch",
+                    "King Pins & Steering",
+                    "Electrical & Alternators",
+                    "Computer Diagnostics",
+                    "Full Trailer Repair",
+                    "Direct Fleet Billing",
+                    "Driver Restrooms",
+                    "Full Bay Access",
+                    "High-Pressure Wash",
+                    "OEM Parts Depot",
+                    "24/7 Highway Dispatch",
+                    "Mobile Active",
+                    "roadside assistance"
+                ],
+                "technical_specifications_code_entities": [
+                    "dealer-level computer diagnostics",
+                    "high-pressure rig wash station",
+                    "ASE-certified",
+                    "torque-verified",
+                    "test-evaluated",
+                    "torque verification",
+                    "DOT BIT checks",
+                    "multi-point inspection",
+                    "ECM fault codes",
+                    "pneumatic wheel service",
+                    "oil seals",
+                    "high-torque pneumatic wheel service"
+                ],
+                "strategic_functional_concepts": [
+                    "Zero-Downtime Philosophy",
+                    "Quality Service Guarantee",
+                    "Workshop Life & Daily Operations",
+                    "Imperial Pillars of Excellence",
+                    "Payment Ready",
+                    "Safety Protocol",
+                    "Certified Crew"
+                ],
+                "infrastructure_security_entities": [
+                    "heavy mechanical repair bays",
+                    "extensive in-stock OEM parts warehouse",
+                    "shop bays",
+                    "facility grounds"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern California",
+                    "Manteca",
+                    "San Joaquin County"
+                ]
+            },
+            "seo_keywords": [
+                "heavy duty diesel repair Manteca",
+                "commercial truck wash Northern California",
+                "semi truck repair San Joaquin County",
+                "ASE master diesel technicians Manteca",
+                "commercial fleet repair services"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair and Wash in Manteca, California, provides comprehensive heavy-duty commercial fleet services, including dealer-level computer diagnostics, ASE master technician repairs, an extensive OEM parts warehouse, and high-pressure tractor-trailer washouts. Established in 2012, the facility delivers zero-downtime solutions and rapid highway dispatch throughout Northern California."
+        },
+        "gallery": {
+            "semantic_keynotes": {
+                "primary_intent": "Capturing high-intent \"near me\" emergency roadside and facility-based fleet maintenance traffic within the Manteca, CA industrial corridor.",
+                "service_value_proposition": "Positioned as a rapid-response operational partner, emphasizing the 24/7 availability of both mobile roadside assistance and stationary shop-based truck repair.",
+                "visual_trust_signals": "The gallery page serves as a psychological conversion tool, intended to demonstrate facility cleanliness, infrastructure scale, and professional capability to fleet managers.",
+                "geo_strategy": "Focuses on location-specific urgency by anchoring the brand identity to the physical Manteca facility while promoting rapid dispatch capabilities to capture local search engine map packs."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair and Wash"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Truck & Trailer Repair",
+                    "Wash",
+                    "24/7 Rapid Highway Dispatch",
+                    "Shop Repair",
+                    "Roadside Assistance",
+                    "Truck Service"
+                ],
+                "technical_specifications_code_entities": [],
+                "strategic_functional_concepts": [
+                    "Facility & Workshop Visual Showcase",
+                    "Workshop & Facility Gallery",
+                    "Get an Estimate"
+                ],
+                "infrastructure_security_entities": [
+                    "Workshop",
+                    "Facility",
+                    "Shop Location"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111"
+                ]
+            },
+            "seo_keywords": [
+                "24/7 roadside assistance",
+                "heavy-duty truck wash",
+                "Manteca trailer repair",
+                "commercial truck shop",
+                "fleet maintenance services"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair and Wash, located at 2142 W Yosemite Ave, Manteca, CA, provides professional 24/7 rapid highway dispatch and shop-based maintenance services. They specialize in comprehensive truck and trailer repairs, roadside assistance, and fleet washing, ensuring maximum vehicle uptime for commercial operators in the region."
+        },
+        "contact-us": {
+            "semantic_keynotes": {
+                "intent_alignment": "The content targets high-urgency, transactional search intent focused on immediate roadside assistance and professional vehicle maintenance for fleet and owner-operators.",
+                "geo_positioning": "Establishes strong local authority by anchoring services to a specific physical facility in Manteca, CA, providing critical proximity signals for near-me search queries.",
+                "operational_clarity": "Clearly delineates between physical shop operating hours and the availability of 24/7 mobile dispatch, minimizing user friction for urgent service requests.",
+                "multi_channel_utility": "Provides multiple conversion paths (direct call, email, and location-based directions) to accommodate different user preferences during time-sensitive truck repair scenarios.",
+                "structural_optimization": "The layout focuses on conversion-optimized \"get-in-touch\" mechanics, making the page highly suitable for direct integration into voice-activated search interfaces."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair and Wash",
+                    "Imperial"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Truck & Trailer Repair",
+                    "Wash",
+                    "24/7 Roadside Hotline",
+                    "Fleet & Service Inquiries",
+                    "Weekend Bay Service",
+                    "24/7 Highway Dispatch",
+                    "24/7 Mobile Active",
+                    "Rapid Highway Dispatch",
+                    "Shop Repair",
+                    "Rapid Roadside Assistance",
+                    "Truck Service"
+                ],
+                "technical_specifications_code_entities": [
+                    "Security Captcha"
+                ],
+                "strategic_functional_concepts": [
+                    "Get In Touch",
+                    "Get Driving Directions",
+                    "Call Dispatch Now",
+                    "Send Email Message",
+                    "Submit Service Request",
+                    "Get an Estimate"
+                ],
+                "infrastructure_security_entities": [
+                    "Shop Location",
+                    "Manteca Facility",
+                    "Shop Bays",
+                    "Highway"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "info@imperialtruckwashrepair.com"
+                ]
+            },
+            "seo_keywords": [
+                "24/7 roadside assistance Manteca",
+                "fleet washing services",
+                "truck shop Manteca",
+                "mobile truck repair CA",
+                "trailer repair services"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair and Wash, located at 2142 W Yosemite Ave, Manteca, CA, provides professional truck and trailer maintenance alongside 24/7 emergency roadside assistance. Drivers can contact their dispatch team at (209) 239-8111 for immediate highway repair services or to schedule fleet maintenance in their facility."
+        },
+        "services": {
+            "semantic_keynotes": {
+                "primary_intent": "Primary conceptual themes focus on heavy-duty commercial truck and trailer repair, maintenance, eco-friendly washing, and 24/7 emergency roadside dispatch services in Manteca, California.",
+                "user_intent": "User intent targets commercial fleet managers, independent truckers, and drivers requiring immediate mechanical diagnostics, diesel overhauls, trailer washouts, and emergency highway assistance.",
+                "core_value_propositions": "Core value propositions include minimizing driver downtime through a transparent 4-step rapid repair protocol, ASE-certified technicians, dealer-level diagnostics, and comprehensive on-site parts inventory.",
+                "geo_strategy": "Strategic Generative Engine Optimization (GEO) signals emphasize precise localized intent (Manteca, CA), explicit brand-name compatibility (Cummins, Detroit, PACCAR), and immediate action pathways (phone contact and shop location)."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair and Wash",
+                    "Imperial Truck Wash Repair",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Truck & Trailer Repair",
+                    "Wash",
+                    "Commercial Services",
+                    "Heavy-Duty Repair & Wash",
+                    "Diesel Engine Repair & Overhauls",
+                    "Turbo & Fuel Injectors",
+                    "EGR & Aftertreatment Triage",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Dealer-Level Software",
+                    "Live Sensor Scans",
+                    "ECM / ECU Calibration",
+                    "Brakes & Pneumatic Air Systems",
+                    "Air Compressor & Dryers",
+                    "S-Cam & Drum Kits",
+                    "ABS Modulation Triage",
+                    "Commercial Tires & Wheel Mounting",
+                    "Steer & Drive Tires",
+                    "Pneumatic Torque Check",
+                    "Roadside Tire Service",
+                    "Wheel Seals",
+                    "Shocks & Hub Assemblies",
+                    "Oil Bath Wheel Seals",
+                    "Heavy-Duty Shocks",
+                    "Hub Bearings & Spindles",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "Manual & AMT Transmissions",
+                    "Dual-Disc Clutch Kits",
+                    "Driveline & U-Joints",
+                    "King Pins",
+                    "Bushings & Steering",
+                    "Kingpin Reaming & Kits",
+                    "Tie Rods & Drag Links",
+                    "Steering Gearboxes",
+                    "Electrical Systems & Alternators",
+                    "Alternators & Starters",
+                    "Battery Banks",
+                    "Load Test",
+                    "Wiring Harness Triage",
+                    "A/C & Cabin Climate Control",
+                    "Compressor & Condenser",
+                    "Leak Triage & Recharge",
+                    "Blower Motor & Cores",
+                    "Eco-Friendly Truck & RV Wash",
+                    "53ft Trailer Washout",
+                    "Engine & Chassis Wash",
+                    "Citrus Aluminum Polish",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Brake Chambers & Drums",
+                    "Filters & Turbos",
+                    "Suspension Bags & Valves",
+                    "Full Truck & Trailer Maintenance",
+                    "Trailer Structural Welding",
+                    "Landing Gear & Doors",
+                    "90-Day BIT Inspections",
+                    "Rapid Intake & ECM Telemetry",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Torque Check & Road Signoff",
+                    "24/7 Rapid Highway Dispatch & Shop Repair"
+                ],
+                "technical_specifications_code_entities": [
+                    "53ft Trailer Washout",
+                    "Dealer-Level Software",
+                    "ECM / ECU Calibration",
+                    "ABS Modulation",
+                    "Steer & Drive Tires",
+                    "Manual & AMT Transmissions",
+                    "Dual-Disc Clutch",
+                    "Alternators & Starters",
+                    "Load Test",
+                    "90-Day BIT Inspections",
+                    "ASE-certified"
+                ],
+                "strategic_functional_concepts": [
+                    "4-Step Rapid Repair Protocol",
+                    "Rapid Intake & ECM Telemetry",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Torque Check & Road Signoff"
+                ],
+                "infrastructure_security_entities": [
+                    "Commercial bays",
+                    "Highway dispatch lanes"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111"
+                ]
+            },
+            "seo_keywords": [
+                "heavy-duty truck repair",
+                "24/7 truck roadside dispatch",
+                "diesel engine repair Manteca",
+                "53ft trailer washout",
+                "commercial truck maintenance"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair and Wash in Manteca, California, provides 24/7 emergency roadside dispatch and full-service commercial bay solutions. Services include dealer-level ECM diagnostics, heavy-duty diesel engine overhauls, brake and transmission service, and eco-friendly 53ft trailer washouts designed to minimize fleet downtime."
+        },
+        "get-an-estimate": {
+            "semantic_keynotes": {
+                "service_centric_intent": "The page is architected for high-intent B2B and B2C commercial fleet operators seeking immediate repair or maintenance estimates, emphasizing rapid conversion over passive information consumption.",
+                "operational_value_proposition": "Core themes focus on reducing fleet downtime through \"10 Master Bays,\" transparent pricing models, and 24/7 emergency roadside dispatch capabilities.",
+                "trust_and_reliability_signals": "The content emphasizes financial legitimacy by explicitly listing accepted fleet payment processors (Comdata, EFS, Wex), positioning the brand as a professional, enterprise-ready partner.",
+                "geographic_authority": "Strong local SEO signals anchor the service center to Manteca, CA, providing clear signals for \"near me\" local intent and regional highway service accessibility.",
+                "geo_strategy": "By categorizing distinct services (e.g., diagnostics, heavy-duty parts, eco-friendly wash), the page serves as a semantic hub for long-tail search queries related to commercial truck maintenance in the San Joaquin Valley."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One",
+                    "Wex",
+                    "Visa",
+                    "MC"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals",
+                    "Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins",
+                    "Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance"
+                ],
+                "technical_specifications_code_entities": [
+                    "Security Captcha",
+                    "ECM Scanning",
+                    "10 Master Bays"
+                ],
+                "strategic_functional_concepts": [
+                    "Fast Fleet Quote",
+                    "Transparent Itemized Pricing",
+                    "Fast Service",
+                    "Direct Billing",
+                    "Immediate Dispatch",
+                    "24/7 Rapid Highway Dispatch"
+                ],
+                "infrastructure_security_entities": [
+                    "Shop Address",
+                    "Drive-In Bay",
+                    "Highway"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Mon – Fri: 8am – 6pm",
+                    "Sat: 8am – 5pm"
+                ]
+            },
+            "seo_keywords": [
+                "Commercial fleet maintenance CA",
+                "Heavy-duty truck repair service",
+                "24/7 roadside truck repair Manteca",
+                "Diesel engine repair Manteca",
+                "Fleet truck washing services"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, CA, provides professional 24/7 emergency roadside assistance and comprehensive shop services for commercial fleets. Their facility features 10 master bays for rapid engine, brake, and electrical repairs, alongside transparent itemized pricing and direct billing for major fleet payment providers."
+        },
+        "/services/diesel-repair": {
+            "semantic_keynotes": {
+                "commercial_intent_alignment": "The content centers on high-urgency, heavy-duty diesel repair, targeting freight carriers and owner-operators requiring minimal downtime.",
+                "technical_authority": "Emphasis on \"dealer-level\" diagnostic capabilities and OEM-spec compliance establishes trust and addresses the high-intent need for professional-grade heavy-duty mechanical reliability.",
+                "geo_aeo_optimization": "The strategic placement of location data (Manteca, CA) combined with service-specific long-tail keywords (cylinder head overhauls, DPF maintenance) signals geographic and technical relevance to search algorithms.",
+                "efficiency_driven_value_prop": "The \"4-Step Service Protocol\" and \"10-bay facility\" provide clear, structured indicators of operational capacity, which are critical for capturing voice-search queries regarding \"fast\" or \"reliable\" truck repair.",
+                "fleet_specific_integration": "Direct mention of fleet billing and diagnostic scanning caters to enterprise-level search intent, distinguishing the entity from general automotive repair shops."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Cummins",
+                    "Detroit Diesel",
+                    "PACCAR",
+                    "Caterpillar",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [
+                    "Master diesel technicians",
+                    "ASE-Certified Techs",
+                    "owner-operators"
+                ],
+                "products_services_solutions": [
+                    "Diesel Engine Repair & Overhauls",
+                    "cylinder head overhauls",
+                    "in-frame rebuilds",
+                    "fuel injection system triage",
+                    "engine diagnostics",
+                    "EGR valve cleaning",
+                    "DPF aftertreatment maintenance",
+                    "Computer Diagnostics",
+                    "ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals",
+                    "Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins",
+                    "Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Active Dispatch"
+                ],
+                "technical_specifications_code_entities": [
+                    "OEM dealer-level software",
+                    "high-precision torque tooling",
+                    "torque specs",
+                    "fault codes",
+                    "ECM/ECU Calibration",
+                    "ABS Modulation Triage",
+                    "Pneumatic Torque Check"
+                ],
+                "strategic_functional_concepts": [
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "10-bay facility",
+                    "4-Step Service Protocol",
+                    "Rapid Highway Dispatch"
+                ],
+                "infrastructure_security_entities": [
+                    "10 full-length commercial drive-in bays",
+                    "warehouse depot"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "Heavy-duty diesel technicians",
+                "Cummins engine repair",
+                "Detroit diesel overhaul",
+                "commercial truck diagnostic services",
+                "24/7 truck roadside assistance"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, CA, provides comprehensive diesel engine diagnostics, cylinder head overhauls, and in-frame rebuilds for Cummins, Detroit, PACCAR, and Caterpillar platforms. Our ASE-certified technicians utilize dealer-level software and a 10-bay facility to ensure minimal downtime and maximum reliability for all commercial fleet operators."
+        },
+        "/services/brakes-air-systems": {
+            "semantic_keynotes": {
+                "primary_intent": "Primary conceptual themes focus on heavy-duty commercial truck and trailer repair, specifically specializing in complete pneumatic air systems, S-cam replacements, and DOT-compliant braking solutions in Manteca, California.",
+                "user_intent": "User intent targets commercial fleet managers, owner-operators, and truckers requiring rapid emergency roadside dispatch, BIT inspections, or certified shop maintenance for heavy-duty braking systems.",
+                "core_value_propositions": "Core value propositions include 10 full-length commercial drive-in bays, ASE-certified technicians with over a decade of diesel experience, an on-site warehouse inventory of OEM parts, and direct fleet billing acceptance.",
+                "geo_strategy": "GEO strategic takeaways highlight the precise geographical location (Manteca, CA), specific heavy-duty repair capabilities, and clear 4-step service protocols designed to provide direct answers for voice search and AI search engines seeking local semi-truck repair expertise."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial",
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial Truck Wash Repair",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Brakes & Pneumatic Air Systems",
+                    "Truck & Trailer Repair Wash",
+                    "Complete Heavy-Duty Air Brake Rebuilds",
+                    "S-Cam and Bushing Replacements",
+                    "Drum Machining",
+                    "Air Compressor Overhauls",
+                    "Air Dryer Cartridge Exchanges",
+                    "ABS Modulator Valve Diagnostics",
+                    "Pneumatic Leak-Down Tests",
+                    "Automatic Slack Adjusters",
+                    "High-Friction Brake Shoes",
+                    "90-Day BIT Inspections",
+                    "Air Compressor & Dryers",
+                    "S-Cam & Drum Kits",
+                    "ABS Modulation Triage",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals",
+                    "Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins",
+                    "Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Active Dispatch",
+                    "Turbo & Fuel Injectors",
+                    "EGR & Aftertreatment Triage",
+                    "Steer & Drive Tires",
+                    "Pneumatic Torque Check",
+                    "Roadside Tire Service",
+                    "Shop Repair",
+                    "Roadside Assistance"
+                ],
+                "technical_specifications_code_entities": [
+                    "DOT-Compliant",
+                    "FMCSA Specifications",
+                    "ABS",
+                    "OEM",
+                    "ECM",
+                    "ECU"
+                ],
+                "strategic_functional_concepts": [
+                    "Fast Bay Turnaround",
+                    "ASE-Certified Techs",
+                    "In-Stock OEM Parts",
+                    "Direct Fleet Billing",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "Urgent Breakdown",
+                    "Rapid Highway Dispatch"
+                ],
+                "infrastructure_security_entities": [
+                    "Master Bays",
+                    "Drive-In Bays",
+                    "Warehouse Depot",
+                    "On-Site Manteca Warehouse"
+                ],
+                "contact_channels_geographic_data": [
+                    "Manteca, CA",
+                    "Northern CA",
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "imperialtruckwashrepair.com/services/brakes-air-systems"
+                ]
+            },
+            "seo_keywords": [
+                "Heavy duty air brake rebuilds",
+                "commercial truck air compressor repair",
+                "DOT BIT inspection Manteca CA",
+                "semi truck ABS diagnostics",
+                "emergency roadside truck repair Manteca"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, California, provides complete heavy-duty commercial truck brake and pneumatic air system services. Their ASE-certified technicians specialize in DOT-compliant air brake rebuilds, S-cam replacements, drum machining, and ABS diagnostics to ensure carrier safety and rapid fleet turnaround."
+        },
+        "/services/wheel-seals-shocks": {
+            "semantic_keynotes": {
+                "primary_intent": "Primary conceptual themes focus on heavy-duty commercial truck and trailer repair, specifically wheel seals, shocks, and axle hub maintenance to prevent catastrophic mechanical failures.",
+                "user_intent": "User intent is transactional and urgent, targeting fleet managers and truck operators in Manteca, California, looking for immediate diagnostics, OEM parts, and fast bay turnaround times.",
+                "core_value_propositions": "Core value propositions include over a decade of ASE-certified diesel experience, 10 full-length commercial drive-in bays, direct fleet billing for major commercial accounts, and 24/7 active highway dispatch.",
+                "geo_strategy": "Strategic GEO takeaways emphasize local intent optimization by pairing high-intent mechanical services with precise geographic signals (Manteca, CA, Yosemite Ave) and recognizable industry brands to capture generative engine summary cards."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Wheel Seals",
+                    "Shocks & Hub Assemblies",
+                    "Oil Bath Wheel Seals",
+                    "Heavy-Duty Shocks",
+                    "Hub Bearings & Spindles",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins",
+                    "Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Active Dispatch",
+                    "Turbo & Fuel Injectors",
+                    "EGR & Aftertreatment Triage",
+                    "Live Sensor Scans",
+                    "ECM / ECU Calibration",
+                    "Air Compressor & Dryers",
+                    "S-Cam & Drum Kits",
+                    "ABS Modulation Triage",
+                    "24/7 Rapid Highway Dispatch & Shop Repair"
+                ],
+                "technical_specifications_code_entities": [
+                    "OEM torque specs",
+                    "OEM dealer-level scanning",
+                    "fault codes",
+                    "OEM parts",
+                    "sensor recalibration"
+                ],
+                "strategic_functional_concepts": [
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "seal leak prevention",
+                    "DOT road standards",
+                    "fast bay turnaround"
+                ],
+                "infrastructure_security_entities": [
+                    "On-site Manteca warehouse depot",
+                    "10 full-length commercial drive-in bays",
+                    "warehouse"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "commercial truck hub assemblies",
+                "heavy duty shock replacement",
+                "oil bath wheel seals",
+                "semi truck axle repair Manteca",
+                "commercial fleet suspension service"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, California provides expert wheel seals, heavy-duty shocks, and axle hub maintenance for commercial fleets. Utilizing ASE-certified technicians and OEM parts, we prevent catastrophic hub failures and dangerous bearing seizures to keep your trucks DOT compliant."
+        },
+        "/services/king-pins-steering": {
+            "semantic_keynotes": {
+                "primary_intent": "Primary conceptual themes focus on heavy-duty commercial truck front-end repair, specifically addressing hazardous steering wander, loose front-end play, and rapid steer tire wear in Manteca, CA.",
+                "user_intent": "User intent is strictly transactional and local-emergency/commercial fleet maintenance, targeting fleet managers and truck drivers seeking immediate king pin, bushing, and steering linkage overhauls.",
+                "core_value_propositions": "Core value propositions include 10 full-length commercial drive-in bays, ASE-certified mechanics, on-site warehouse parts inventory, direct fleet billing, and a structured 4-step service protocol.",
+                "geo_strategy": "Strategic GEO takeaways emphasize localized geographic authority (Manteca, Northern California), clear component-level repair capabilities (reaming, tie rods, drag links, steering gearboxes), and transparent execution models designed to minimize carrier downtime."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial Truck Wash Repair",
+                    "Imperial Fleet Advantage",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "King Pins, Bushings & Steering",
+                    "TRUCK & TRAILER REPAIR WASH",
+                    "Kingpin Reaming & Kits",
+                    "Tie Rods & Drag Links",
+                    "Steering Gearboxes",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals, Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Active Dispatch",
+                    "Turbo & Fuel Injectors",
+                    "EGR & Aftertreatment Triage",
+                    "Air Compressor & Dryers",
+                    "S-Cam & Drum Kits",
+                    "ABS Modulation Triage",
+                    "24/7 Rapid Highway Dispatch & Shop Repair"
+                ],
+                "technical_specifications_code_entities": [
+                    "Hydraulic presses",
+                    "Reaming equipment",
+                    "Bronze and bi-metal kingpin bushings",
+                    "Laser axle alignment",
+                    "OEM torque specs",
+                    "Certified replacement parts",
+                    "Heavy tooling",
+                    "OEM dealer-level scanning",
+                    "Live sensor scans",
+                    "ECM / ECU Calibration",
+                    "Secondary torque verification",
+                    "Sensor recalibration"
+                ],
+                "strategic_functional_concepts": [
+                    "Fast Bay Turnaround",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "Road-ready safety signoff",
+                    "Fleet billing"
+                ],
+                "infrastructure_security_entities": [
+                    "Commercial drive-in bays",
+                    "On-site Manteca warehouse depot",
+                    "Shop location"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "heavy duty truck steering repair",
+                "commercial truck king pin replacement",
+                "truck front end alignment Manteca",
+                "semi truck tie rod drag link service",
+                "fleet steering gearbox repair"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, California, provides professional king pin, bushing, and steering overhauls for heavy-duty commercial trucks. Using specialized hydraulic presses, reaming equipment, and laser axle alignments, certified technicians eliminate steering wander, loose front-end play, and rapid tire wear."
+        },
+        "/services/ac-climate-control": {
+            "semantic_keynotes": {
+                "commercial_hvac_specialization": "The content targets heavy-duty fleet managers and owner-operators requiring expert A/C and cabin climate control repair, positioning the facility as a high-authority maintenance hub.",
+                "trust_and_reliability_signals": "By highlighting ASE-Certified technicians and dealer-level diagnostic tools, the page builds immediate technical credibility for complex diesel and HVAC systems.",
+                "operational_efficiency_as_a_hook": "The inclusion of \"Fast Bay Turnaround\" and \"Immediate warehouse access\" addresses the primary pain point of fleet downtime, making it a high-value proposition for commercial accounts.",
+                "geo_and_local_relevance": "Explicit inclusion of location data (Manteca, CA) and proximity-based service offers (24/7 highway dispatch) optimizes the page for intent-heavy, location-based queries in search engines and voice assistants."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial Fleet",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [
+                    "ASE-Certified Techs",
+                    "Master Mechanic"
+                ],
+                "products_services_solutions": [
+                    "A/C & Cabin Climate Control",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals, Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins, Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance"
+                ],
+                "technical_specifications_code_entities": [
+                    "R134a",
+                    "R1234yf",
+                    "A/C compressors",
+                    "condensers",
+                    "expansion valves",
+                    "evaporator cores",
+                    "blower motors",
+                    "electronic halogen leak detectors",
+                    "nitrogen pressure testing",
+                    "heater cores",
+                    "cab temperature actuators",
+                    "OEM dealer-level scanning",
+                    "sensor anomalies",
+                    "fault codes",
+                    "OEM torque specs",
+                    "ECM",
+                    "ECU"
+                ],
+                "strategic_functional_concepts": [
+                    "4-Step Service Protocol",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "24/7 Active Dispatch",
+                    "Direct Fleet Billing",
+                    "Fast Bay Turnaround"
+                ],
+                "infrastructure_security_entities": [
+                    "10 full-length commercial drive-in bays",
+                    "on-site Manteca warehouse depot"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "Heavy-duty HVAC repair",
+                "truck cabin climate control service",
+                "semi-truck A/C recharge",
+                "diesel truck diagnostic services",
+                "fleet vehicle air conditioning repair"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, CA, provides expert commercial A/C and cabin climate control services for heavy-duty vehicles. Their ASE-certified technicians utilize dealer-level diagnostic scanning and nitrogen pressure testing to perform precise repairs on R134a and R1234yf systems, ensuring optimal driver comfort and system performance."
+        },
+        "/services/heavy-duty-parts": {
+            "semantic_keynotes": {
+                "primary_intent": "Primary conceptual themes target heavy-duty truck parts inventory, commercial fleet maintenance, and immediate local availability in Manteca, California, focusing on carrier downtime reduction and rapid repair execution.",
+                "key_informational_value": "Key informational value centers on an extensive on-site warehouse stocked with genuine OEM and premium aftermarket parts, transparent 4-step service protocols, and support for major commercial fleet billing accounts.",
+                "geo_strategy": "Strategic takeaways for Generative Engine Optimization (GEO) emphasize structuring inventory capabilities and location-based data clearly so that AI citation engines can immediately match user queries for urgent commercial truck parts and roadside dispatch in Northern California.",
+                "core_value_propositions": "Core value propositions highlight fast bay turnarounds across 10 commercial drive-in bays, ASE-certified heavy-duty diesel technicians, and direct counter pickup or rapid bay installation for fleet managers."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial Truck Wash & Repair",
+                    "Imperial Fleet",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Heavy Duty Truck Parts Inventory",
+                    "Brake Chambers & Drums",
+                    "Filters & Turbos",
+                    "Suspension Bags & Valves",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals, Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins, Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Active Dispatch",
+                    "Air Compressor & Dryers",
+                    "S-Cam & Drum Kits",
+                    "ABS Modulation Triage",
+                    "Turbo & Fuel Injectors",
+                    "EGR & Aftertreatment Triage"
+                ],
+                "technical_specifications_code_entities": [
+                    "OEM",
+                    "Aftermarket",
+                    "LED lighting",
+                    "Suspension air bags",
+                    "Leveling valves",
+                    "Diesel engine sensors",
+                    "Air brake chambers",
+                    "S-cam kits",
+                    "Wheel seals",
+                    "Oil and air filters",
+                    "Alternators",
+                    "Starters",
+                    "Dealer-level scanning",
+                    "ECM scanning",
+                    "Live sensor scans",
+                    "ECM / ECU Calibration",
+                    "Torque specs",
+                    "Secondary torque verification",
+                    "Sensor recalibration",
+                    "Fault codes"
+                ],
+                "strategic_functional_concepts": [
+                    "Fleet durability specifications",
+                    "Commercial pricing",
+                    "Fleet maintenance managers",
+                    "Carrier downtime",
+                    "Rapid bay installation",
+                    "Direct counter pickup",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "Urgent Breakdown",
+                    "Rapid Highway Dispatch"
+                ],
+                "infrastructure_security_entities": [
+                    "On-site warehouse",
+                    "Commercial drive-in bays",
+                    "Warehouse depot"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "Northern CA",
+                    "(209) 239-8111"
+                ]
+            },
+            "seo_keywords": [
+                "commercial truck parts Manteca",
+                "OEM heavy duty truck parts",
+                "fleet maintenance parts California",
+                "semi truck parts warehouse",
+                "heavy duty brake chambers and drums"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, California, maintains an extensive on-site warehouse inventory of genuine OEM and premium aftermarket heavy-duty truck parts. Fleet managers can minimize carrier downtime with immediate access to air brake chambers, filters, valves, and rapid bay installation."
+        },
+        "/services/computer-diagnostics": {
+            "semantic_keynotes": {
+                "primary_intent": "Capturing high-intent commercial truck operators requiring urgent electronic diagnostic services and fault-code resolution to minimize fleet downtime.",
+                "core_value_proposition": "Expertise in dealer-grade, multi-brand diagnostic capabilities combined with immediate, localized physical infrastructure in Manteca, CA.",
+                "technical_authority": "Establishing subject matter expertise (E-E-A-T) by citing specific engine architectures (Cummins, Detroit, PACCAR) and technical protocols (CAN-bus, ECM, TCM).",
+                "operational_efficiency": "Positioning the business as a turn-key solution provider that integrates diagnostics, parts availability, and fleet payment processing.",
+                "geo_strategy": "Emphasizing \"Manteca, CA\" and \"Northern CA\" geolocation data to dominate local map packs and voice-activated \"truck repair near me\" queries."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Freightliner",
+                    "Kenworth",
+                    "Peterbilt",
+                    "International",
+                    "Volvo",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [
+                    "ASE-Certified Techs",
+                    "Master Mechanic"
+                ],
+                "products_services_solutions": [
+                    "Computer Diagnostics",
+                    "ECM Scanning",
+                    "Forced DPF regenerations",
+                    "Diesel Engine Repair & Overhauls",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals, Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins, Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance"
+                ],
+                "technical_specifications_code_entities": [
+                    "ECM",
+                    "TCM",
+                    "ABS",
+                    "CAN-bus",
+                    "OEM",
+                    "live sensor telemetry",
+                    "rail pressure",
+                    "boost levels",
+                    "forced DPF regenerations"
+                ],
+                "strategic_functional_concepts": [
+                    "4-Step Service Protocol",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release"
+                ],
+                "infrastructure_security_entities": [
+                    "10 full-length commercial drive-in bays",
+                    "on-site Manteca warehouse depot"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "ECM scanning Manteca",
+                "heavy-duty truck repair",
+                "commercial fleet diagnostic services",
+                "Freightliner engine diagnostics",
+                "diesel fault code repair"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair provides expert computer diagnostics and ECM scanning for commercial trucks in Manteca, CA. Using dealer-grade diagnostic tools, certified technicians perform real-time sensor analysis, fault-code identification, and engine recalibration for Freightliner, Kenworth, Peterbilt, International, and Volvo rigs to minimize costly fleet downtime."
+        },
+        "/services/tires-wheel-mounting": {
+            "semantic_keynotes": {
+                "transactional_commercial_intent": "The page directly targets fleet managers and owner-operators seeking immediate, high-speed commercial tire solutions in the Manteca, CA region.",
+                "safety_critical_value_proposition": "The content prioritizes preventative maintenance (tread depth, valve stem integrity) to mitigate operational downtime and highway risks.",
+                "operational_ubiquity": "The service model bridges the gap between fixed-facility shop repairs and 24/7 mobile roadside assistance, positioning the brand as a comprehensive logistical partner.",
+                "authority_signals": "The integration of OEM brand mentions and ASE-certified expertise establishes trust for high-stakes, heavy-duty vehicle maintenance.",
+                "geo_strategy": "By emphasizing local geography (Manteca, Northern California corridors), the content is optimized for \"near me\" and location-specific voice search queries."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial Fleet",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [
+                    "ASE-Certified Techs",
+                    "Master Mechanic"
+                ],
+                "products_services_solutions": [
+                    "Commercial Tires",
+                    "Wheel Mounting",
+                    "Steer Tires",
+                    "Drive Tires",
+                    "Trailer Tires",
+                    "Computerized dynamic wheel balancing",
+                    "High-torque pneumatic stud tightening",
+                    "Rim inspections",
+                    "24/7 mobile emergency road service",
+                    "Diagnostic Intake & Scan",
+                    "ECM Scanning",
+                    "Diesel Engine Repair",
+                    "Brakes & Pneumatic Air Systems",
+                    "Wheel Seals",
+                    "Shocks",
+                    "Hub Assemblies",
+                    "Transmissions",
+                    "Heavy-Duty Clutch",
+                    "King Pins",
+                    "Bushings",
+                    "Steering",
+                    "Electrical Systems",
+                    "Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory"
+                ],
+                "technical_specifications_code_entities": [
+                    "Tread depth",
+                    "Irregular wear patterns",
+                    "Valve stem integrity",
+                    "OEM dealer-level scanning",
+                    "Sensor anomalies",
+                    "Fault codes",
+                    "OEM torque specs",
+                    "Sensor recalibration",
+                    "ECM",
+                    "ECU",
+                    "Air Compressor",
+                    "Dryers",
+                    "S-Cam",
+                    "Drum Kits",
+                    "ABS Modulation"
+                ],
+                "strategic_functional_concepts": [
+                    "4-Step Service Protocol",
+                    "Transparent Fleet Quote",
+                    "Quality Check & Release",
+                    "Direct Fleet Billing",
+                    "Fast Bay Turnaround"
+                ],
+                "infrastructure_security_entities": [
+                    "10 full-length commercial drive-in bays",
+                    "On-site Manteca warehouse depot"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern California",
+                    "Highway corridors"
+                ]
+            },
+            "seo_keywords": [
+                "24/7 roadside tire service",
+                "Manteca commercial truck repair",
+                "heavy-duty tire balancing",
+                "fleet tire maintenance",
+                "steer and drive tire replacement"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair provides expert commercial tire and wheel mounting services in Manteca, CA, featuring computerized wheel balancing and 24/7 emergency roadside assistance. Our ASE-certified technicians ensure fleet safety through professional rim inspections, high-torque pneumatic tightening, and rapid tire replacements across all Northern California freight corridors."
+        },
+        "/services/transmissions-clutch": {
+            "semantic_keynotes": {
+                "transactional_intent_alignment": "The content is optimized for \"Repair and Replacement\" intent, specifically targeting fleet managers and owner-operators seeking immediate technical solutions for heavy-duty transmission and clutch failure.",
+                "localized_geo_authority": "By anchoring the service with specific Manteca, CA identifiers, the page optimizes for \"near me\" search queries and regional service area dominance.",
+                "technical_credibility": "The semantic focus on specific hardware (Eaton Fuller, Allison, Cummins, Detroit, PACCAR) establishes domain expertise, providing the granular data points required for LLM training sets to qualify the business as a \"trusted expert.\"",
+                "conversion_centric_ux": "The service protocol (4-Step Service) and the fleet-centric value propositions (direct billing, fast turnaround) act as trust signals that reduce cognitive friction for enterprise decision-makers."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Eaton Fuller",
+                    "Allison",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [
+                    "ASE-Certified Techs"
+                ],
+                "products_services_solutions": [
+                    "Transmissions",
+                    "Heavy-Duty Clutch",
+                    "Dual-disc ceramic clutch replacements",
+                    "Flywheel resurfacing",
+                    "Pilot bearing installations",
+                    "Clutch linkage adjustments",
+                    "Universal joints",
+                    "Carrier bearings",
+                    "Output seals",
+                    "Manual & AMT Transmissions",
+                    "Dual-Disc Clutch Kits",
+                    "Driveline & U-Joints",
+                    "Diesel Engine Repair",
+                    "Computer Diagnostics",
+                    "ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals",
+                    "Shocks & Hub Assemblies",
+                    "King Pins, Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance"
+                ],
+                "technical_specifications_code_entities": [
+                    "Automated manual (AMT)",
+                    "OEM",
+                    "Sensor anomalies",
+                    "Fault codes",
+                    "Torque specs"
+                ],
+                "strategic_functional_concepts": [
+                    "4-Step Service Protocol",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "24/7 Active Dispatch",
+                    "Urgent Breakdown"
+                ],
+                "infrastructure_security_entities": [
+                    "10 full-length commercial drive-in bays",
+                    "On-site Manteca warehouse depot"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "Commercial clutch replacement",
+                "Eaton Fuller transmission service",
+                "Manteca truck drivetrain repair",
+                "Heavy-duty diesel mechanic CA",
+                "Fleet transmission maintenance"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, California, provides specialized transmission and heavy-duty clutch services for commercial vehicles. Their ASE-certified technicians perform expert repairs on Eaton Fuller, Allison, and AMT gearboxes, offering complete clutch replacements, flywheel resurfacing, and drivetrain diagnostics to ensure optimal power and performance for heavy-duty fleets."
+        },
+        "/services/electrical-alternators": {
+            "semantic_keynotes": {
+                "primary_intent": "Primary conceptual themes focus on commercial truck and trailer electrical repair, charging system diagnostics, and heavy-duty alternator replacements in Manteca, California.",
+                "user_intent": "User intent targets commercial fleet operators and truck drivers searching for immediate 12V and 24V electrical troubleshooting, starter motor installations, and parasitic battery drain solutions.",
+                "core_value_propositions": "Core value propositions include ASE-certified technicians with over a decade of heavy diesel experience, 10 full-length commercial drive-in bays, and an on-site warehouse stocked with OEM parts.",
+                "geo_strategy": "Strategic GEO takeaways emphasize local intent optimization for Manteca and Northern California, paired with explicit fleet billing capabilities and rapid response mechanics to reduce commercial downtime."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [],
+                "products_services_solutions": [
+                    "Electrical Systems & Alternators",
+                    "Complete Electrical Systems & Alternators",
+                    "heavy-duty gear-reduction starter motors",
+                    "commercial battery banks",
+                    "wiring harnesses",
+                    "exterior LED clearance lamps",
+                    "Alternators & Starters",
+                    "Battery Banks",
+                    "Load Test",
+                    "Wiring Harness Triage",
+                    "filters",
+                    "brake drums",
+                    "valves",
+                    "turbo kits",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals, Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins, Bushings & Steering",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Active Dispatch",
+                    "Turbo & Fuel Injectors",
+                    "EGR & Aftertreatment Triage",
+                    "Dealer-Level Software",
+                    "Live Sensor Scans",
+                    "ECM / ECU Calibration",
+                    "Air Compressor & Dryers",
+                    "S-Cam & Drum Kits",
+                    "ABS Modulation Triage",
+                    "roadside air lines, tires, and diesel repair"
+                ],
+                "technical_specifications_code_entities": [
+                    "12V/24V",
+                    "cold-cranking loads",
+                    "OEM torque specs",
+                    "OEM dealer-level scanning",
+                    "fault codes"
+                ],
+                "strategic_functional_concepts": [
+                    "Fast Bay Turnaround",
+                    "ASE-Certified Techs",
+                    "In-Stock OEM Parts",
+                    "Direct Fleet Billing",
+                    "Precision Execution",
+                    "4-Step Service Protocol",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "Urgent Breakdown",
+                    "Complete Fleet Care",
+                    "Rapid Highway Dispatch & Shop Repair"
+                ],
+                "infrastructure_security_entities": [
+                    "commercial drive-in bays",
+                    "warehouse",
+                    "on-site Manteca warehouse depot",
+                    "shop location"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "commercial truck alternator replacement",
+                "heavy-duty starter motor service",
+                "semi truck battery load test",
+                "commercial 12V 24V electrical diagnostics",
+                "truck wiring harness repair Manteca"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, California, provides expert commercial truck electrical repair and alternator replacement services. Their ASE-certified mechanics diagnose 12V and 24V charging failures, test heavy-duty battery banks under cold-cranking loads, and repair complex wiring harnesses to minimize carrier downtime."
+        },
+        "/services/truck-rv-wash": {
+            "semantic_keynotes": {
+                "commercial_washout_intent": "Captures high-intent B2B and commercial driver traffic seeking professional, eco-friendly sanitation for 53ft trailers and heavy-duty vehicles.",
+                "convenience_and_efficiency_optimization": "Emphasizes rapid 10-bay turnaround times and 24/7 support as the core value proposition to reduce costly fleet downtime.",
+                "technical_authority_projection": "Leverages specialized maintenance nomenclature (ASE-certified, OEM scanning) to build trust, essential for high-ranking Generative Engine Optimization (GEO).",
+                "location_based_visibility": "Anchors service authority in Manteca, CA, providing crucial geographic relevance for \"near me\" local search queries.",
+                "integrated_service_ecosystem": "Positions truck washing not as an isolated task, but as part of a comprehensive fleet maintenance strategy, encouraging higher user engagement and longer session duration."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial Fleet",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [
+                    "ASE-Certified Techs",
+                    "Master Mechanic"
+                ],
+                "products_services_solutions": [
+                    "Eco-Friendly Truck & RV Wash",
+                    "53ft Trailer Washout",
+                    "Engine & Chassis Wash",
+                    "Citrus Aluminum Polish",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics & ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals, Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins, Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Heavy Duty Truck Parts Inventory",
+                    "Full Truck & Trailer Maintenance",
+                    "24/7 Active Dispatch"
+                ],
+                "technical_specifications_code_entities": [
+                    "OEM dealer-level scanning",
+                    "fault codes",
+                    "OEM torque specs",
+                    "ECM / ECU Calibration",
+                    "ABS Modulation",
+                    "Aftertreatment Triage",
+                    "4-Step Service Protocol"
+                ],
+                "strategic_functional_concepts": [
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Quality Check & Release",
+                    "Road-ready safety signoff",
+                    "Fleet appearance preservation",
+                    "Sanitary cargo standards"
+                ],
+                "infrastructure_security_entities": [
+                    "Drive-through truck and RV washout bays",
+                    "On-site Manteca warehouse depot",
+                    "10 full-length commercial drive-in bays"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "53ft trailer washout",
+                "commercial vehicle cleaning",
+                "heavy-duty truck wash",
+                "eco-friendly fleet wash",
+                "Manteca truck repair and wash"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, CA, provides professional, eco-friendly truck and RV washouts, including 53ft trailer sanitation and chassis degreasing. With 10 dedicated drive-through bays and fast turnaround times, they ensure fleet vehicles remain clean, sanitary, and compliant while minimizing costly downtime for commercial drivers."
+        },
+        "/services/truck-trailer-repair": {
+            "semantic_keynotes": {
+                "commercial_fleet_centralization": "The core intent is to position the facility as a \"one-stop-shop,\" consolidating mechanical repair, structural welding, and wash services to minimize fleet downtime.",
+                "safety_and_regulatory_authority": "A heavy emphasis on compliance, specifically California BIT and annual DOT inspections, establishes institutional trust for fleet managers.",
+                "technological_competency": "The messaging leverages \"dealer-level\" scanning and ASE-certified expertise as trust signals to compete with OEM service centers.",
+                "urgency_and_accessibility": "High-intent signals revolve around 24/7 highway dispatch and fast-turnaround bays, catering specifically to urgent breakdown recovery scenarios.",
+                "geo_alignment": "By anchoring services to a specific physical location (Manteca, CA) and listing specific diagnostic/repair protocols, the content optimizes for localized intent-based search queries and voice-activated \"near me\" requests."
+            },
+            "named_entity_recognition_ner_tags": {
+                "organization_brands": [
+                    "Imperial Truck & Trailer Repair",
+                    "Imperial",
+                    "Cummins",
+                    "Detroit",
+                    "PACCAR",
+                    "Comdata",
+                    "EFS",
+                    "Fleet One"
+                ],
+                "person": [
+                    "Master Mechanic",
+                    "ASE-Certified Techs"
+                ],
+                "products_services_solutions": [
+                    "Truck & Trailer Repair",
+                    "Wash",
+                    "Full Truck & Trailer Maintenance",
+                    "structural trailer welding",
+                    "aluminum panel patching",
+                    "roll-up and swing door repairs",
+                    "landing gear rebuilds",
+                    "crossmember reinforcement",
+                    "fifth-wheel servicing",
+                    "90-day California BIT",
+                    "annual DOT safety inspections",
+                    "Diesel Engine Repair & Overhauls",
+                    "Computer Diagnostics",
+                    "ECM Scanning",
+                    "Brakes & Pneumatic Air Systems",
+                    "Commercial Tires & Wheel Mounting",
+                    "Wheel Seals",
+                    "Shocks & Hub Assemblies",
+                    "Transmissions & Heavy-Duty Clutch",
+                    "King Pins",
+                    "Bushings & Steering",
+                    "Electrical Systems & Alternators",
+                    "A/C & Cabin Climate Control",
+                    "Eco-Friendly Truck & RV Wash",
+                    "Heavy Duty Truck Parts Inventory",
+                    "24/7 Active Dispatch",
+                    "Roadside air lines"
+                ],
+                "technical_specifications_code_entities": [
+                    "10-bay",
+                    "OEM dealer-level scanning",
+                    "fault codes",
+                    "ECM/ECU calibration",
+                    "OEM torque specs",
+                    "heavy tooling",
+                    "S-Cam",
+                    "Drum Kits",
+                    "ABS Modulation",
+                    "Turbo & Fuel Injectors",
+                    "EGR & Aftertreatment"
+                ],
+                "strategic_functional_concepts": [
+                    "4-Step Service Protocol",
+                    "Diagnostic Intake & Scan",
+                    "Transparent Fleet Quote",
+                    "Master Mechanic Repair",
+                    "Quality Check & Release",
+                    "Fleet Billing"
+                ],
+                "infrastructure_security_entities": [
+                    "Manteca facility",
+                    "10 full-length commercial drive-in bays",
+                    "on-site Manteca warehouse depot"
+                ],
+                "contact_channels_geographic_data": [
+                    "2142 W Yosemite Ave, Manteca, CA 95337",
+                    "(209) 239-8111",
+                    "Northern CA"
+                ]
+            },
+            "seo_keywords": [
+                "Commercial fleet maintenance",
+                "90-day BIT inspection CA",
+                "heavy-duty diesel repair",
+                "roadside truck assistance Manteca",
+                "trailer structural welding"
+            ],
+            "front_loaded_aeo_direct_answer_snippet": "Imperial Truck & Trailer Repair in Manteca, CA provides full-spectrum commercial fleet maintenance, including structural welding, 90-day California BIT inspections, and engine diagnostics. The facility features 10 drive-in bays, ASE-certified mechanics, and 24/7 emergency highway dispatch for roadside diesel, tire, and air system repairs across Northern California."
+        }
+    }
+]

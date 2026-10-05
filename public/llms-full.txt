@@ -1,0 +1,77 @@
+# Imperial Truck & Trailer Repair and Wash — Comprehensive Knowledge Base
+
+> Imperial Truck & Trailer Repair and Wash (located at 2142 W Yosemite Ave, Manteca, CA 95337) is a full-service commercial truck and trailer repair facility, parts warehouse, and eco-friendly rig washout depot. Offering 10 drive-in bays, ASE-certified master diesel technicians, dealer-level diagnostic scanning, and 24/7 emergency roadside assistance across Northern California.
+
+---
+
+## 1. Company Information & Contact Signals
+- **Legal Entity**: Imperial Truck & Trailer Repair and Wash
+- **Address**: 2142 W Yosemite Ave, Manteca, CA 95337
+- **Phone**: +1 (209) 239-8111
+- **Service Area**: Manteca, Stockton, Modesto, Tracy, Lathrop, and the broader Northern California freight corridor (I-5, CA-99, CA-120).
+- **Facility Capacity**: 10 full-length commercial drive-in bays, drive-through trailer washout bays, and an extensive on-site parts warehouse.
+- **Accepted Fleet Cards & Billing**: Comdata, EFS, Fleet One, Wex, Visa, MasterCard.
+- **24/7 Mobile Roadside Rescue**: Emergency mobile dispatch for tire blowouts, air leaks, freeze-ups, no-starts, and roadside mechanical failures.
+
+---
+
+## 2. 4-Step Standard Operating Procedure
+1. **Diagnostic Intake & Scan**: Immediate intake telemetry, OEM dealer-grade fault-code analysis, and structural multi-point inspection.
+2. **Transparent Fleet Quote**: Itemized pricing breakdown with parts, labor, turnaround time estimates, and direct fleet account billing.
+3. **Master Mechanic Repair**: ASE-certified diesel technicians perform precision component repairs adhering to OEM torque specifications.
+4. **Quality Check & Road Signoff**: Rigorous road-safety inspection, sensor recalibration, pneumatic leak tests, and final clearance.
+
+---
+
+## 3. Detailed Service Breakdown
+
+### Diesel Engine Repair & Overhauls
+- **URL**: https://imperialtruckwashrepair.com/services/diesel-repair
+- **Engines Supported**: Cummins (ISX, X15), Detroit Diesel (DD13, DD15, DD16), PACCAR (MX-11, MX-13), Caterpillar (C12, C13, C15, 3406E), Volvo/Mack engines.
+- **Capabilities**: In-frame and out-of-frame engine rebuilds, cylinder head overhauls, fuel injector triage, common-rail high-pressure fuel pumps, turbocharger replacement, EGR cooler cleaning, DPF/DOC aftertreatment diagnostics and forced regenerations.
+
+### Computer Diagnostics & ECM Scanning
+- **URL**: https://imperialtruckwashrepair.com/services/computer-diagnostics
+- **Platforms Supported**: Freightliner, Kenworth, Peterbilt, International, Volvo, Mack, Western Star.
+- **Capabilities**: Proprietary OEM dealer software, CAN-bus communication diagnostics, live sensor telemetry, ECM/TCM/ABS parameter calibration, injector cut-out testing, turbo boost analysis, clearing inactive fault codes.
+
+### Brakes & Pneumatic Air Systems
+- **URL**: https://imperialtruckwashrepair.com/services/brakes-air-systems
+- **Capabilities**: Heavy-duty S-cam and bushing replacements, brake drum machining, high-friction brake shoe installation, automatic slack adjusters, air compressor overhauls, air dryer desiccant cartridge swaps, pneumatic leak-down testing, ABS modulator valve diagnostics, 90-day California BIT and DOT safety inspections.
+
+### Commercial Tires & Wheel Mounting
+- **URL**: https://imperialtruckwashrepair.com/services/tires-wheel-mounting
+- **Capabilities**: Steer, drive, and trailer tire mounting; computerized dynamic balancing; high-torque pneumatic stud tightening; rim inspection; tread wear analysis; 24/7 mobile roadside tire blowout dispatch across CA highways.
+
+### Wheel Seals, Shocks & Hub Assemblies
+- **URL**: https://imperialtruckwashrepair.com/services/wheel-seals-shocks
+- **Capabilities**: Oil bath wheel seal installation, spindle nut torque verification, heavy-duty tapered roller bearing replacement, axle spindle repairs, heavy-duty gas and hydraulic suspension shock absorbers, preventing hub leaks and bearing seizures.
+
+### Transmissions & Heavy-Duty Clutch
+- **URL**: https://imperialtruckwashrepair.com/services/transmissions-clutch
+- **Platforms Supported**: Eaton Fuller manual (9, 10, 13, 18-speed), automated manual transmissions (AMT), Allison automatics.
+- **Capabilities**: Dual-disc ceramic clutch replacements, flywheel resurfacing, pilot bearing replacements, clutch linkage and free-play adjustment, universal joints (U-joints), carrier bearings, transmission output seals.
+
+### King Pins, Bushings & Steering
+- **URL**: https://imperialtruckwashrepair.com/services/king-pins-steering
+- **Capabilities**: King pin extraction and replacement using hydraulic presses, bronze and bi-metal bushing reaming, tie rod ends, drag links, steering gearboxes, laser front-end axle alignment to eliminate steering wander and steer tire cupping.
+
+### Electrical Systems & Alternators
+- **URL**: https://imperialtruckwashrepair.com/services/electrical-alternators
+- **Capabilities**: 12V and 24V system diagnostics, high-output commercial alternators, heavy-duty gear-reduction starter motors, commercial battery bank load testing under simulated cold-cranking amps, wiring harness repairs, parasitic drain elimination, exterior LED lighting.
+
+### A/C & Cabin Climate Control
+- **URL**: https://imperialtruckwashrepair.com/services/ac-climate-control
+- **Capabilities**: R134a and R1234yf air conditioning diagnostics, heavy-duty compressors, condensers, expansion valves, evaporator cores, blower motors, electronic halogen and nitrogen pressure leak detection, freon recovery/recharge, heater cores.
+
+### Eco-Friendly Truck & RV Wash
+- **URL**: https://imperialtruckwashrepair.com/services/truck-rv-wash
+- **Capabilities**: 53ft reefer/dry van trailer washouts, high-pressure hot water systems, citrus aluminum polish, undercarriage road grime degreasing, engine bay washing, food-grade sanitary trailer washes in dedicated drive-through bays.
+
+### Heavy Duty Truck Parts Inventory
+- **URL**: https://imperialtruckwashrepair.com/services/heavy-duty-parts
+- **Stocked Components**: Genuine OEM and aftermarket brake chambers, drums, S-cam kits, wheel seals, oil/fuel/air filters, alternators, starter motors, LED lamps, air suspension bags, leveling valves, diesel engine sensors.
+
+### Full Truck & Trailer Maintenance
+- **URL**: https://imperialtruckwashrepair.com/services/truck-trailer-repair
+- **Capabilities**: Bumper-to-bumper commercial vehicle maintenance, structural trailer welding, aluminum panel patching, roll-up and swing door repairs, landing gear rebuilds, crossmember reinforcement, fifth-wheel rebuilding, 90-day BIT / annual DOT safety signoffs.

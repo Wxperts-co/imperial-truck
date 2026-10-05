@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { ScrollStickyNavbar } from "@/components/common/ScrollStickyNavbar";
+import { SematicAccordian } from "@/components/common/SematicAccordian";
 import { Footer } from "@/components/common/Footer";
 
 export const metadata: Metadata = {
@@ -76,6 +77,7 @@ export default function RootLayout({
         </Script>
         <ScrollStickyNavbar />
         {children}
+        <SematicAccordian />
         <Footer />
       </body>
     </html>

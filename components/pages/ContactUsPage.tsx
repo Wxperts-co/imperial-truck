@@ -6,6 +6,7 @@ import { PageHero } from '@/components/common/PageHero';
 import { CTA } from '@/components/common/CTA';
 import { MobileStickyActions } from '@/components/common/MobileStickyActions';
 import { FloatingEstimateButton } from '@/components/common/FloatingEstimateButton';
+import { AeoDirectAnswerSnippet } from '@/components/homepage/AeoDirectAnswerSnippet';
 
 export const ContactUsPage = () => {
     const [formSubmitted, setFormSubmitted] = useState(false);
@@ -113,6 +114,9 @@ export const ContactUsPage = () => {
                     { label: 'Contact Us' },
                 ]}
             />
+
+            {/* AEO DIRECT ANSWER SNIPPET */}
+            <AeoDirectAnswerSnippet pageKey="contact-us" />
 
             {/* 2. THREE CORE CONTACT TILES */}
             <section className="relative w-full py-6 sm:py-8 px-4 sm:px-6 md:px-10 lg:px-12 bg-white border-b border-slate-200">

@@ -8,6 +8,7 @@ import { PageHero } from '@/components/common/PageHero';
 import { CTA } from '@/components/common/CTA';
 import { MobileStickyActions } from '@/components/common/MobileStickyActions';
 import { FloatingEstimateButton } from '@/components/common/FloatingEstimateButton';
+import { AeoDirectAnswerSnippet } from '@/components/homepage/AeoDirectAnswerSnippet';
 import servicesData from '@/data/services.json';
 
 export const ServicesPage = () => {
@@ -55,6 +56,9 @@ export const ServicesPage = () => {
                     { label: 'Services' },
                 ]}
             />
+
+            {/* AEO DIRECT ANSWER SNIPPET */}
+            <AeoDirectAnswerSnippet pageKey="services" />
 
             {/* 2. SERVICES CATALOG GRID SECTION */}
             <section id="services" className="relative w-full py-10 sm:py-14 md:py-16 px-4 sm:px-6 md:px-10 lg:px-12 bg-white border-b border-slate-200">
