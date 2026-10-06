@@ -52,6 +52,8 @@ export const HeroSection = () => {
                                 alt={mobileBanners[currentSlide % mobileBanners.length].alt}
                                 fill
                                 priority
+                                loading="eager"
+                                fetchPriority="high"
                                 quality={75}
                                 sizes="(max-width: 639px) 100vw, 100vw"
                                 className="object-cover object-center"

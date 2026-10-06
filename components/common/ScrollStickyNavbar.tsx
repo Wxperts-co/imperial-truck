@@ -7,18 +7,27 @@ import { Header } from '@/components/common/Header';
 
 export const ScrollStickyNavbar = () => {
   const [showSticky, setShowSticky] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      // Trigger new sticky navbar when scrolled past hero header area (> 140px)
-      setShowSticky(window.scrollY > 140);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const isPastHero = window.pageYOffset > 140;
+          setShowSticky(isPastHero);
+          if (isPastHero && !hasScrolled) {
+            setHasScrolled(true);
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll();
-
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [hasScrolled]);
 
 
   return (
@@ -74,7 +83,7 @@ export const ScrollStickyNavbar = () => {
 
           {/* Right: Navbar with Isolated Layout Animation */}
           <div className="flex items-center">
-            <Header layoutPrefix="sticky" />
+            {(showSticky || hasScrolled) && <Header layoutPrefix="sticky" />}
           </div>
 
         </div>

@@ -1,16 +1,23 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Plus_Jakarta_Sans, Racing_Sans_One } from "next/font/google";
+import dynamic from "next/dynamic";
 import "./globals.css";
-import { ScrollStickyNavbar } from "@/components/common/ScrollStickyNavbar";
-import { SematicAccordian } from "@/components/common/SematicAccordian";
 import { Footer } from "@/components/common/Footer";
+
+const ScrollStickyNavbar = dynamic(
+  () => import("@/components/common/ScrollStickyNavbar").then((mod) => mod.ScrollStickyNavbar)
+);
+const SematicAccordian = dynamic(
+  () => import("@/components/common/SematicAccordian").then((mod) => mod.SematicAccordian)
+);
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["400", "600", "700", "800"],
   variable: "--font-sans",
   display: "swap",
+  preload: true,
 });
 
 const racingSansOne = Racing_Sans_One({
@@ -18,6 +25,7 @@ const racingSansOne = Racing_Sans_One({
   weight: "400",
   variable: "--font-racing",
   display: "swap",
+  preload: true,
 });
 
 export const metadata: Metadata = {

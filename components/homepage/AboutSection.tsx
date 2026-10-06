@@ -10,28 +10,46 @@ export const AboutSection = () => {
   const sectionRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
-      // 1. Header & Text Stagger Reveal
-      gsap.from('.gsap-about-reveal', {
-        opacity: 0,
-        y: 25,
-        duration: 0.8,
-        stagger: 0.1,
-        ease: 'power3.out',
-      });
+    const el = sectionRef.current;
+    if (!el) return;
 
-      // 2. Chapter Row Stagger Reveal
-      gsap.from('.gsap-chapter-reveal', {
-        opacity: 0,
-        y: 35,
-        duration: 0.9,
-        stagger: 0.18,
-        ease: 'power3.out',
-        delay: 0.15,
-      });
-    }, sectionRef);
+    let ctx: gsap.Context | null = null;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          ctx = gsap.context(() => {
+            // 1. Header & Text Stagger Reveal
+            gsap.from('.gsap-about-reveal', {
+              opacity: 0,
+              y: 25,
+              duration: 0.8,
+              stagger: 0.1,
+              ease: 'power3.out',
+            });
 
-    return () => ctx.revert();
+            // 2. Chapter Row Stagger Reveal
+            gsap.from('.gsap-chapter-reveal', {
+              opacity: 0,
+              y: 35,
+              duration: 0.9,
+              stagger: 0.18,
+              ease: 'power3.out',
+              delay: 0.15,
+            });
+          }, sectionRef);
+
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '100px' }
+    );
+
+    observer.observe(el);
+
+    return () => {
+      observer.disconnect();
+      if (ctx) ctx.revert();
+    };
   }, []);
 
   const coreSpecialties = [
