@@ -4,27 +4,13 @@ import { HeroSection } from '@/components/homepage/HeroSection';
 import { AeoDirectAnswerSnippet } from '@/components/homepage/AeoDirectAnswerSnippet';
 import rawAcceleratorData from '@/data/ai-accelerator.json';
 
-const AboutSection = dynamic(() => import('@/components/homepage/AboutSection').then((mod) => mod.AboutSection), {
-  ssr: true,
-});
-const ServiceSection = dynamic(() => import('@/components/homepage/ServiceSection').then((mod) => mod.ServiceSection), {
-  ssr: true,
-});
-const WhyChooseUsSection = dynamic(() => import('@/components/homepage/WhyChooseUsSection').then((mod) => mod.WhyChooseUsSection), {
-  ssr: true,
-});
-const TestimonialSection = dynamic(() => import('@/components/homepage/TestimonialSection').then((mod) => mod.TestimonialSection), {
-  ssr: true,
-});
-const CTA = dynamic(() => import('@/components/common/CTA').then((mod) => mod.CTA), {
-  ssr: true,
-});
-const MobileStickyActions = dynamic(() => import('@/components/common/MobileStickyActions').then((mod) => mod.MobileStickyActions), {
-  ssr: false,
-});
-const FloatingEstimateButton = dynamic(() => import('@/components/common/FloatingEstimateButton').then((mod) => mod.FloatingEstimateButton), {
-  ssr: false,
-});
+const AboutSection = dynamic(() => import('@/components/homepage/AboutSection').then((mod) => mod.AboutSection));
+const ServiceSection = dynamic(() => import('@/components/homepage/ServiceSection').then((mod) => mod.ServiceSection));
+const WhyChooseUsSection = dynamic(() => import('@/components/homepage/WhyChooseUsSection').then((mod) => mod.WhyChooseUsSection));
+const TestimonialSection = dynamic(() => import('@/components/homepage/TestimonialSection').then((mod) => mod.TestimonialSection));
+const CTA = dynamic(() => import('@/components/common/CTA').then((mod) => mod.CTA));
+const MobileStickyActions = dynamic(() => import('@/components/common/MobileStickyActions').then((mod) => mod.MobileStickyActions));
+const FloatingEstimateButton = dynamic(() => import('@/components/common/FloatingEstimateButton').then((mod) => mod.FloatingEstimateButton));
 
 export const metadata: Metadata = {
   title: 'Imperial Truck & Trailer Repair & Wash | Manteca, CA',
@@ -128,7 +114,7 @@ const jsonLdSchema = {
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#0b1120] relative">
+    <div className="min-h-screen bg-[#0b1120] relative">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
@@ -142,7 +128,7 @@ export default function HomePage() {
       <CTA />
       <MobileStickyActions />
       <FloatingEstimateButton />
-    </main>
+    </div>
   );
 }
 
