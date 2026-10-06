@@ -7,13 +7,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Header } from '@/components/common/Header';
 
 const desktopBanners = [
-    { src: '/banner/banner3.png', alt: 'Imperial Truck Banner 1' },
+    { src: '/banner/banner3.webp', alt: 'Imperial Truck Banner 1' },
     { src: '/banner/second-banner.webp', alt: 'Imperial Truck Banner 2' },
 ];
 
 const mobileBanners = [
     { src: '/banner/mobile-banner.webp', alt: 'Imperial Truck Mobile Banner 1' },
-    { src: '/banner/mobile-banner2.png', alt: 'Imperial Truck Mobile Banner 2' },
+    { src: '/banner/mobile-banner2.webp', alt: 'Imperial Truck Mobile Banner 2' },
 ];
 
 export const HeroSection = () => {
@@ -221,7 +221,7 @@ export const HeroSection = () => {
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500 shadow-[0_0_8px_#ef4444]" />
                             </span>
-                            <span>EST. 2012 • 24/7 HEAVY DUTY ROADSIDE RESCUE &amp; SHOP REPAIR</span>
+                            <span>Fixed right. Washed clean. Back on the road. </span>
                         </motion.div>
 
                         {/* 2. Ultra-Sharp Shiny Chrome & Ruby Racing Headline with Clear Letter Shadows */}

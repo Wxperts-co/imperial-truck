@@ -361,8 +361,11 @@ export const ServiceSection = () => {
 
                     <div className="max-w-5xl">
                         <h2 className="font-racing text-3xl sm:text-4xl lg:text-[45px] uppercase tracking-wider text-white leading-tight">
-                            Precision Heavy-Duty <span className="text-red-500">Engineering</span>
+                            What the <span className="text-red-600">ten bays handle</span>
                         </h2>
+                        <p className='text-white md:text-base text-xs font-normal text-justify'>
+                            Diesel engines come first: overhauls, and every repair in between. Then comes everything around the engine – air brakes and the lines that feed them, wheel seals, hubs, shocks, kingpins, bushings, steering. We handle transmissions and heavy-duty clutches, alternators and electrical faults, and a cab A/C that quit in July. Tires get mounted in the shop or at the roadside. Trailers come in for the same work, whole or in pieces. The technicians know Cummins, Detroit Diesel, PACCAR, and Volvo engines best, and they work with dealer-level software for all four.
+                        </p>
 
                         {/* View All Services and Left/Right Navigation Controls */}
                         <div className="flex items-center gap-3.5 mt-6">

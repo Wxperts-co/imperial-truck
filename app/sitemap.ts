@@ -1,9 +1,11 @@
 import type { MetadataRoute } from 'next';
 import servicesData from '@/data/services.json';
 
+export const revalidate = 86400;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://imperialtruckwashrepair.com';
-  const currentDate = new Date();
+  const currentDate = new Date().toISOString();
 
   // Core static pages
   const staticRoutes: MetadataRoute.Sitemap = [

@@ -12,11 +12,11 @@ export const WhyChooseUsSection = () => {
         {
             step: '01',
             badge: '24/7 Mobile Recovery',
-            title: 'Highway Breakdown?',
-            tagline: 'Instant GPS Highway Dispatch',
-            metric: '45 MIN',
-            metricLabel: 'Average Mobile Response Time',
-            desc: 'Immediate 24/7 mobile emergency dispatch directly to your GPS location across Highway 99, I-5, and I-205 with mobile tire mounting and air line triage.',
+            title: 'Broken down on 99, I-5, or 205?',
+            tagline: 'Call any hour.',
+            metric: '24/7',
+            metricLabel: 'Manteca & San Joaquin County',
+            desc: 'Call any hour. Our mobile units cover Manteca and San Joaquin County around the clock and head to your GPS location, equipped for mobile tire mounting and air-line triage. No need to wait for opening time or even know the exit number.',
             image: '/journey/step1.jpg',
             accentColor: '#ef4444',
             glow: 'shadow-[0_12px_32px_rgba(239,68,68,0.25)]',
@@ -28,16 +28,16 @@ export const WhyChooseUsSection = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
             ),
-            specs: ['GPS Live Dispatch', 'Mobile Tire Service', 'San Joaquin Corridor'],
+            specs: ['Call any hour', 'Manteca & San Joaquin', 'Mobile tire & air-line triage'],
         },
         {
             step: '02',
             badge: 'Dealer-Level Protocol',
-            title: 'Instant OEM Scan',
-            tagline: 'Precision Electronic Diagnostic',
-            metric: '99.8%',
-            metricLabel: 'Diagnostic Scan Accuracy',
-            desc: 'Direct electronic ECM diagnostics for Cummins, Detroit Diesel, and PACCAR powertrains to isolate fault codes in minutes without guessing.',
+            title: 'Codes are clues',
+            tagline: 'Diagnostic & ECM Scanning',
+            metric: 'OEM',
+            metricLabel: 'Dealer-Level Diagnostics',
+            desc: "A modern truck tells you a story while plugged in, but usually a partial one. Computer diagnostics and ECM scanning pull the trouble codes; then our mechanics go looking for the real cause. The component being named by a code isn’t always the component failing. Before the truck goes back to you, it's torque-checked, inspected, and driven.",
             image: '/journey/step2.jpg',
             accentColor: '#f59e0b',
             glow: 'shadow-[0_12px_32px_rgba(245,158,11,0.25)]',
@@ -49,16 +49,16 @@ export const WhyChooseUsSection = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                 </svg>
             ),
-            specs: ['Cummins & Detroit Insite', 'J1939 Telemetry', 'DPF & DEF Sensor Triage'],
+            specs: ['Computer diagnostics & ECM', 'Find the real cause', 'Torque-checked & driven'],
         },
         {
             step: '03',
             badge: '10-Bay Capacity',
-            title: 'Heavy Fix & Eco Wash',
-            tagline: 'Master Overhaul & Rig Washout',
-            metric: 'Same-Day',
-            metricLabel: 'Routine Bay Release Rate',
-            desc: 'Master powertrain rebuilds, transmissions, genuine in-stock parts inventory, and dedicated high-pressure truck and trailer washout bays.',
+            title: 'Fleet maintenance, without the fire drill',
+            tagline: 'Scheduled Maintenance & Inspections',
+            metric: '10 Bays',
+            metricLabel: 'Scheduled Fleet Maintenance',
+            desc: 'Not every visit is an emergency. Fleet managers can bring their units in for scheduled maintenance, inspections, and the smaller repairs that turn into big ones if they are left alone for too long. Catching a worn wheel seal on a Tuesday is a lot easier and costs far less than finding it on a Friday night on the shoulder.',
             image: '/journey/step3.jpg',
             accentColor: '#3b82f6',
             glow: 'shadow-[0_12px_32px_rgba(59,130,246,0.25)]',
@@ -70,16 +70,16 @@ export const WhyChooseUsSection = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                 </svg>
             ),
-            specs: ['10 Full Service Bays', 'Eaton Fuller AMT & Manual', 'Eco Rig Sanitization'],
+            specs: ['Scheduled maintenance', 'Preventive inspections', 'Catch issues early'],
         },
         {
             step: '04',
             badge: 'DOT & Clean Truck Pass',
-            title: 'Back On The Highway',
-            tagline: '100% Certified Road-Ready Release',
-            metric: '100%',
-            metricLabel: 'Safety Compliance Pass Rate',
-            desc: 'Official California Clean Truck Check OBD emissions certification, 90-day BIT signoff, and guaranteed zero-downtime release back to freight.',
+            title: 'Why this corner of Manteca',
+            tagline: 'Crossroads of California',
+            metric: 'I-5 / 99',
+            metricLabel: 'Crossroads of California',
+            desc: 'Manteca is called the Crossroads of California for a reason. Farm loads, food, retail, and warehouse freight all move through the area every day, with I-205 heading toward the Bay Area and the Port of Stockton just about 15 miles away. A truck can break anywhere on that map. If it does, Imperial is a good place to end up to get it back on the road.',
             image: '/journey/step4.jpg',
             accentColor: '#10b981',
             glow: 'shadow-[0_12px_32px_rgba(16,185,129,0.25)]',
@@ -91,7 +91,7 @@ export const WhyChooseUsSection = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             ),
-            specs: ['California Clean Truck Pass', '90-Day BIT Certified', 'Zero Violation Guarantee'],
+            specs: ['Crossroads of California', 'I-205, I-5 & CA-99', 'Port of Stockton corridor'],
         },
     ];
 
@@ -359,6 +359,54 @@ export const WhyChooseUsSection = () => {
                             </div>
                         </motion.div>
                     </AnimatePresence>
+                </div>
+
+                {/* ======================================================== */}
+                {/* 4. A FEW QUICK ANSWERS                                   */}
+                {/* ======================================================== */}
+                <div className="max-w-5xl mx-auto mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-slate-200">
+                    <div className="text-center max-w-3xl mx-auto mb-6">
+                        <span className="text-xs uppercase font-extrabold text-red-600 tracking-wider block">
+                            Common Questions
+                        </span>
+                        <h3 className="font-racing text-xl sm:text-3xl uppercase tracking-wider text-slate-900 mt-1">
+                            A few quick answers
+                        </h3>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                        <div className="p-4 rounded-xl sm:rounded-2xl bg-gradient-to-b from-white via-white to-red-50/30 border border-slate-200 shadow-[inset_0_0_14px_rgba(239,68,68,0.12)] hover:shadow-[inset_0_0_18px_rgba(239,68,68,0.2)] hover:border-red-400/80 transition-all flex items-start gap-3.5">
+                            <span className="w-2.5 h-2.5 rounded-full bg-red-600 shrink-0 mt-1.5" />
+                            <div>
+                                <h4 className="font-medium text-slate-900 text-sm sm:text-base leading-snug">Trailers?</h4>
+                                <p className="text-xs sm:text-sm text-slate-800 mt-1 font-medium">Yes. Brakes, tires, wheel seals, kingpins, full maintenance.</p>
+                            </div>
+                        </div>
+
+                        <div className="p-4 rounded-xl sm:rounded-2xl bg-gradient-to-b from-white via-white to-red-50/30 border border-slate-200 shadow-[inset_0_0_14px_rgba(239,68,68,0.12)] hover:shadow-[inset_0_0_18px_rgba(239,68,68,0.2)] hover:border-red-400/80 transition-all flex items-start gap-3.5">
+                            <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0 mt-1.5" />
+                            <div>
+                                <h4 className="font-medium text-slate-900 text-sm sm:text-base leading-snug">Repair and wash in one visit?</h4>
+                                <p className="text-xs sm:text-sm text-slate-800 mt-1 font-medium">Yes, the wash bay is on the property.</p>
+                            </div>
+                        </div>
+
+                        <div className="p-4 rounded-xl sm:rounded-2xl bg-gradient-to-b from-white via-white to-red-50/30 border border-slate-200 shadow-[inset_0_0_14px_rgba(239,68,68,0.12)] hover:shadow-[inset_0_0_18px_rgba(239,68,68,0.2)] hover:border-red-400/80 transition-all flex items-start gap-3.5">
+                            <span className="w-2.5 h-2.5 rounded-full bg-blue-500 shrink-0 mt-1.5" />
+                            <div>
+                                <h4 className="font-medium text-slate-900 text-sm sm:text-base leading-snug">Sunday?</h4>
+                                <p className="text-xs sm:text-sm text-slate-800 mt-1 font-medium">The shop is closed. The mobile rescue line is open all day and all night.</p>
+                            </div>
+                        </div>
+
+                        <div className="p-4 rounded-xl sm:rounded-2xl bg-gradient-to-b from-white via-white to-red-50/30 border border-slate-200 shadow-[inset_0_0_14px_rgba(239,68,68,0.12)] hover:shadow-[inset_0_0_18px_rgba(239,68,68,0.2)] hover:border-red-400/80 transition-all flex items-start gap-3.5">
+                            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shrink-0 mt-1.5" />
+                            <div>
+                                <h4 className="font-medium text-slate-900 text-sm sm:text-base leading-snug">Parts on hand?</h4>
+                                <p className="text-xs sm:text-sm text-slate-800 mt-1 font-medium">A full warehouse, with same-day pickup.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

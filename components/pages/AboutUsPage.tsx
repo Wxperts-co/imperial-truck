@@ -27,42 +27,41 @@ export const AboutUsPage = () => {
     ];
 
     const shopHighlights = [
-        { tag: 'EST. 2012', title: 'Over a Decade of Trusted Service', desc: 'Serving Manteca and Northern California commercial freight haulers since 2012 with dependable fleet care.' },
-        { tag: 'QUALITY', title: 'Quality Service Guarantee', desc: 'Every repair is thoroughly inspected, torque-verified, and test-evaluated before release.' },
-        { tag: 'EXPERTS', title: 'Experienced Master Mechanics', desc: 'ASE-certified technicians skilled in commercial diesel overhauls, electronics, and transmissions.' },
-        { tag: 'FACILITY', title: 'Truck & RV Wash + In-Stock Parts', desc: 'Full-service rig washouts combined with an extensive warehouse inventory of heavy-duty parts.' },
+        { tag: 'REALITY', title: 'No Impossible Promises', desc: 'No shop can promise that a truck will never go down. Tires may blow, sensors might fail, and nobody schedules a bad hour.' },
+        { tag: 'THE GAP', title: 'Shrinking The Wait', desc: 'What a shop can do is shrink the gap between the phone call and the road: parts already on the shelf, a technician who has seen the problem before, a bay that’s ready.' },
+        { tag: 'FOCUS', title: 'What We Work On', desc: 'That gap is the thing Imperial works on.' },
     ];
 
     const corePillars = [
         {
             number: '01',
-            title: 'Quality Service Guarantee',
-            subtitle: 'Zero-Downtime Philosophy',
-            desc: 'Every commercial tractor and trailer undergoes rigorous torque verification, DOT BIT checks, and multi-point inspection before it rolls out of our bays.',
-            highlight: 'Torque-verified & road-tested',
+            title: 'Honest work',
+            subtitle: 'Torqued • Tested • Told Straight',
+            desc: "In a truck shop, honesty is a sequence. A multi-point inspection. Torque verification. The DOT BIT checks. A road test. Then a conversation with the driver, in simple words, about what was found and what was done. A driver can't crawl under their own rig and double-check a repair, so the process has to earn the trust. It runs the same way for a wheel seal on a Tuesday morning as it does for a full overhaul.",
+            highlight: 'Torqued. Tested. Told straight.',
             icon: '🛡️',
             image: '/services/medium-shot-man-checking-car.jpg',
-            imageAlt: 'Master Mechanic Quality Check',
+            imageAlt: 'Honest Work Quality Verification',
         },
         {
             number: '02',
-            title: 'Experienced Mechanics',
-            subtitle: 'Master ASE Diesel Techs',
-            desc: 'With over a decade of specialized commercial diesel experience, our master mechanics isolate elusive ECM fault codes and execute precision overhauls with speed.',
-            highlight: '12+ Years Hands-On Experience',
+            title: 'Craft',
+            subtitle: 'ASE-Certified Master Techs',
+            desc: 'Diesel work rewards patience. The technicians are ASE-certified and have spent more than a decade with their hands inside commercial diesels: overhauls, electrical faults, transmissions. Certification proves what a person knows. The years of experience show up in smaller things, like how a mechanic reads a leak, which bolt gets a second look, and why a clutch that feels fine still gets driven before the truck goes back. None of that comes from a manual alone. It comes from doing the job long enough to know where the trouble tends to hide, and then staying careful anyway.',
+            highlight: 'Decade+ Hands-On Experience',
             icon: '🔧',
             image: '/services/mechanic-repairing-truck-service.jpg',
-            imageAlt: 'Heavy Duty Diesel Repair',
+            imageAlt: 'Master Diesel Mechanic Craft',
         },
         {
             number: '03',
-            title: 'All-In-One Facility',
-            subtitle: 'Repair • Wash • OEM Parts',
-            desc: 'Save critical fleet hours by combining mechanical repairs, genuine OEM part replacements, and high-pressure tractor-trailer washouts under one single roof.',
-            highlight: 'Manteca Prime Location',
+            title: 'Speed, with a condition',
+            subtitle: 'Ten Bays • In-Stock Parts • 24/7 Mobile',
+            desc: "Every repair has a clock running behind it, whether it's a delivery window or a Monday-morning dispatch. We are set up to respect that: ten repair bays, a parts warehouse on the property, and a mobile line that never closes – all helping the wait stay short. The condition is that none of it can cut into the checks above. A fast repair that comes back is the slowest kind.",
+            highlight: 'Short Wait • Zero Shortcuts',
             icon: '🚛',
             image: '/services/washing-vehicle-young-truck-driver-casual-clothes.jpg',
-            imageAlt: 'High Pressure Rig Washout Facility',
+            imageAlt: 'Speed With A Condition',
         },
     ];
 
@@ -116,9 +115,9 @@ export const AboutUsPage = () => {
             {/* 1. TOP PAGE HERO */}
             <PageHero
                 title="About Imperial"
-                highlightTitle="Truck & Trailer Repair"
-                subtitle="Northern California’s trusted commercial diesel repair, fleet maintenance, and high-pressure rig wash facility in Manteca, CA. Established in 2012."
-                badge="ESTABLISHED IN 2012 • QUALITY SERVICE & EXPERIENCED MECHANICS"
+                highlightTitle="Truck & Trailer Repair and Wash"
+                subtitle="Honest Work at the Crossroads of California. Imperial Truck & Trailer Repair and Wash opened in Manteca, California, in 2012 with a simple goal: keep working trucks working."
+                badge="TORQUED. TESTED. TOLD STRAIGHT."
                 bgImage="/banner/inner-banner.png"
                 mobileBgImage="/banner/mobile-page-banner.png"
                 breadcrumbs={[
@@ -140,17 +139,16 @@ export const AboutUsPage = () => {
                         {/* Left Story Column with Visual Collage */}
                         <div className="lg:col-span-7 space-y-3">
 
-
                             <h2 className="font-racing text-[21px] sm:text-4xl md:text-4xl uppercase tracking-wider text-slate-900 leading-tight">
-                                Built On Honest Work, <span className="text-red-600">Master Craftsmanship</span> &amp; Speed
+                                About Imperial Truck &amp; Trailer Repair and Wash: <span className="text-red-600">Honest Work at the Crossroads of California</span>
                             </h2>
 
                             <p className="text-slate-800 text-[13px] sm:text-lg md:leading-[1.75] md:font-medium tracking-[-0.01em] antialiased text-justify">
-                                Founded in 2012, <strong className="text-slate-950 font-bold">Imperial Truck &amp; Trailer Repair and Wash</strong> was established with a singular mission: keeping commercial freight haulers and enterprise fleets operating at peak reliability without costly downtime.
+                                <strong className="text-slate-950 font-bold">Imperial Truck &amp; Trailer Repair and Wash</strong> opened in Manteca, California, in 2012 with a simple goal: keep working trucks working.
                             </p>
 
                             <p className="text-slate-800 text-[13px] sm:text-lg md:leading-[1.75] md:font-medium tracking-[-0.01em] antialiased text-justify">
-                                Located strategically along Northern California’s central freight corridor in Manteca, our facility combines dealer-level computer diagnostics, heavy mechanical repair bays, an extensive in-stock OEM parts warehouse, and an eco-friendly high-pressure rig wash station.
+                                Everything on the property answers the same complaint: that a truck sitting in a yard earns nothing. It&apos;s why the repair bays, the parts warehouse, the wash bay, and the dispatch line all share one address.
                             </p>
 
                             {/* Authentic Shop Images Grid in Story */}
@@ -195,26 +193,25 @@ export const AboutUsPage = () => {
 
                                 <div className="px-2 sm:px-4 text-left pl-3 sm:pl-6 relative z-10">
                                     <span className="font-racing text-2xl sm:text-4xl text-slate-900 block drop-shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
-                                        100%
+                                        10 Bays
                                     </span>
                                     <span className="text-[10px] sm:text-xs text-slate-700 uppercase font-bold tracking-wider mt-0.5 block">
-                                        ASE Master Techs
+                                        Shop Capacity
                                     </span>
                                 </div>
 
                                 <div className="px-2 sm:px-4 text-left pl-3 sm:pl-6 relative z-10">
                                     <span className="font-racing text-2xl sm:text-4xl text-red-600 block drop-shadow-[0_2px_4px_rgba(239,68,68,0.2)]">
-                                        13+
+                                        24/7
                                     </span>
                                     <span className="text-[10px] sm:text-xs text-slate-700 uppercase font-bold tracking-wider mt-0.5 block">
-                                        Core Specialties
+                                        Mobile Rescue
                                     </span>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Right Heritage Card with 3D Depth & Milestones */}
-                        {/* Right Heritage Card with 3D Depth & Shop Commitments */}
+                        {/* Right Heritage Card with 3D Depth & Zero Downtime Standards */}
                         <div className="lg:col-span-5 flex items-center justify-center">
                             <div className="relative w-full rounded-3xl bg-[#0b1120] text-white p-6 sm:p-8 shadow-[0_20px_50px_rgba(0,0,0,0.5),0_1px_0_rgba(255,255,255,0.15)_inset] border border-slate-700/80 flex flex-col justify-between overflow-hidden">
 
@@ -227,10 +224,9 @@ export const AboutUsPage = () => {
                                                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500 shadow-[0_0_8px_#ef4444]" />
                                             </span>
                                             <span className="text-xs font-mono font-bold tracking-widest text-slate-200 uppercase">
-                                                FACILITY STANDARDS
+                                                WHAT &quot;ZERO DOWNTIME&quot; CAN HONESTLY MEAN
                                             </span>
                                         </div>
-                                        
                                     </div>
 
                                     {/* Facility Commitments - High Contrast & Sharp Text */}
@@ -244,10 +240,10 @@ export const AboutUsPage = () => {
                                                     {i < shopHighlights.length - 1 && <span className="w-[2px] h-7 bg-red-500/40 my-1.5" />}
                                                 </div>
                                                 <div className="pt-0.5">
-                                                    <h4 className="text-sm sm:text-base  text-white">
+                                                    <h4 className="text-sm sm:text-base text-white font-bold">
                                                         {item.title}
                                                     </h4>
-                                                    <p className="text-xs sm:text-sm text-slate-300 mt-0.5 leading-snug">
+                                                    <p className="text-xs sm:text-sm text-slate-300 mt-0.5 leading-relaxed font-normal">
                                                         {item.desc}
                                                     </p>
                                                 </div>
@@ -314,18 +310,16 @@ export const AboutUsPage = () => {
                                         {/* Pillar Body Content */}
                                         <div className="p-4 flex flex-col justify-between flex-grow">
                                             <div>
-                                                <span className="text-xs font-bold text-red-600 uppercase tracking-wider block">
-                                                    {pillar.subtitle}
-                                                </span>
+                                             
                                                 <h4 className=" text-slate-900 text-lg group-hover:text-red-600 transition-colors">
                                                     {pillar.title}
                                                 </h4>
-                                                <p className="hidden md:block text-slate-600 font-medium text-xs sm:text-sm ">
+                                                <p className="hidden md:block text-slate-600 font-medium text-xs sm:text-[13px] ">
                                                     {pillar.desc}
                                                 </p>
                                             </div>
 
-                                            <div className="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
+                                            <div className=" pt-2 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
                                                 <span className="px-2.5 py-1 rounded-md bg-red-50 text-red-600 font-bold border border-red-100">
                                                     {pillar.highlight}
                                                 </span>
@@ -338,13 +332,21 @@ export const AboutUsPage = () => {
                         </div>
                     </div>
 
-                    {/* Workshop Facility Life Gallery Strip */}
+                    {/* Workshop Facility Life Gallery Strip: Yosemite Avenue & Two kinds of urgency */}
                     <div className="md:pt-14 pt-4 border-t border-slate-200 md:mt-12 mt-4">
-                        <div className="text-center max-w-2xl mx-auto mb-8">
+                        <div className="text-center max-w-4xl mx-auto mb-8">
+                            <span className="text-xs uppercase font-extrabold text-red-600 tracking-wider block mb-1">
+                                Crossroads of California
+                            </span>
                             <h3 className="font-racing text-2xl sm:text-3xl uppercase tracking-wider text-slate-900">
-                                Workshop Life &amp; <span className="text-red-600">Daily Operations</span>
+                                Yosemite Avenue &amp; <span className="text-red-600">Two kinds of urgency</span>
                             </h3>
-                        
+                            <p className="text-slate-800 text-xs sm:text-sm mt-3 leading-relaxed font-medium text-justify">
+                                The shop sits on W Yosemite Avenue, a street that shares its name with the park at the far end of Highway 120, about ninety miles east. That road carries two kinds of traffic through Manteca: freight on its way somewhere, and families on their way to the mountains, some of them in RVs with several hundred miles already on the odometer. Both end up needing something sooner or later. A shop on this corner sees both, and learns to tell one kind of urgency from the other.
+                            </p>
+                            <p className="text-slate-800 text-xs sm:text-sm mt-2.5 leading-relaxed font-medium text-justify">
+                                The owner-operator is usually watching a delivery window. The fleet manager is watching Monday morning and every unit that has to be ready for it. The pressures are different, and the need is the same. Imperial handles scheduled fleet maintenance and one-off repairs on a single truck, giving each one the attention the job requires.
+                            </p>
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-5 pb-4">
@@ -416,7 +418,7 @@ export const AboutUsPage = () => {
                 </div>
             </section>
 
-            {/* 4. AMENITIES & STANDARDS MATRIX (DISTINCT PATTERNED THEME) */}
+            {/* 4. AMENITIES & STANDARDS MATRIX: Staying Put */}
             <section className="relative w-full py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-12 bg-slate-100/75 border-t border-slate-200 overflow-hidden">
                 {/* Subtle Technical Engineering Grid Pattern & Ambient Depth Accents */}
                 <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:32px_32px] opacity-75 pointer-events-none" />
@@ -427,11 +429,16 @@ export const AboutUsPage = () => {
 
                     {/* Amenities & Standards */}
                     <div>
-                        <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
-
+                        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+                            <span className="text-xs uppercase font-extrabold text-red-600 tracking-wider block mb-1">
+                                Accountability &amp; Trust Since 2012
+                            </span>
                             <h2 className="font-racing text-2xl sm:text-3xl uppercase tracking-wider text-slate-900">
-                                Amenities and More
+                                Staying <span className="text-red-600">put</span>
                             </h2>
+                            <p className="text-slate-800 text-xs sm:text-sm mt-2 leading-relaxed font-medium text-justify">
+                                A shop that stays in one place for years answers to a particular kind of accountability. Customers come back, and drivers compare notes over the radio and at the fuel island. Imperial has been on W Yosemite Avenue since 2012, and it intends to keep earning whatever gets said about it.
+                            </p>
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
@@ -480,7 +487,7 @@ export const AboutUsPage = () => {
                         </div>
                     </div>
 
-                    {/* Operating Hours & Manteca Facility Location Card */}
+                    {/* Operating Hours & Manteca Facility Location Card: Stop by */}
                     <div className="pt-6 border-t border-slate-200">
                         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5 items-stretch max-w-5xl mx-auto">
 
@@ -491,7 +498,7 @@ export const AboutUsPage = () => {
                                         <div className="flex items-center gap-2">
                                             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                                             <h3 className="font-racing text-lg sm:text-xl uppercase tracking-wider text-slate-900">
-                                                Operating Hours
+                                                Stop by
                                             </h3>
                                         </div>
                                         <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200/80">
@@ -527,7 +534,7 @@ export const AboutUsPage = () => {
                                 <div className="relative z-10">
                                     <div className="flex items-center justify-between gap-2 pb-2.5 mb-2.5 border-b border-slate-800">
                                         <span className="text-[11px] uppercase font-extrabold text-red-400 tracking-wider">
-                                            Manteca Master Shop
+                                            Stop by
                                         </span>
                                         <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-red-950/80 text-red-400 border border-red-800/60">
                                             San Joaquin County
@@ -542,17 +549,9 @@ export const AboutUsPage = () => {
                                         <span className="text-red-400">📍</span> 2142 W Yosemite Ave, Manteca, CA 95337
                                     </p>
 
-                                    <div className="flex flex-wrap gap-1.5 mt-2.5">
-                                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-md bg-slate-800/80 text-slate-300 border border-slate-700/60">
-                                            Full Bay Access
-                                        </span>
-                                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-md bg-slate-800/80 text-slate-300 border border-slate-700/60">
-                                            High-Pressure Wash
-                                        </span>
-                                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-md bg-slate-800/80 text-slate-300 border border-slate-700/60">
-                                            OEM Parts Depot
-                                        </span>
-                                    </div>
+                                    <p className="text-slate-300 text-xs mt-2 leading-relaxed">
+                                        Open Monday to Friday, 8 AM to 6 PM, and Saturday, 8 AM to 5 PM. For roadside help at any hour, call (209) 239-8111 or request an estimate online.
+                                    </p>
                                 </div>
 
                                 <div className="flex flex-wrap items-center gap-2.5 pt-3 mt-3 border-t border-slate-800 relative z-10">

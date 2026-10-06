@@ -40,16 +40,17 @@ export const CTA = () => {
                             {/* 3D Pill Badge */}
                             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-red-50 border border-red-200 text-red-600 text-xs font-bold tracking-wider uppercase shadow-sm">
                                 <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse shadow-[0_0_8px_#ef4444]" />
-                                24/7 RAPID HIGHWAY DISPATCH &amp; SHOP REPAIR
+                                FIND THE SHOP &amp; ROADSIDE RESCUE
                             </div>
 
                             {/* 3D Title */}
-                            <h2 className="font-racing text-[18px] sm:text-3xl lg:text-4xl text-slate-900 uppercase tracking-wider leading-[1.1]">
-                                NEED RAPID ROADSIDE ASSISTANCE OR{' '}
-                                <span className="text-red-600">
-                                    TRUCK SERVICE?
-                                </span>
+                            <h2 className="font-racing text-2xl sm:text-3xl lg:text-4xl text-slate-900 uppercase tracking-wider leading-[1.1]">
+                                Find the <span className="text-red-600">shop</span>
                             </h2>
+
+                            <p className="text-slate-800 text-xs sm:text-sm leading-relaxed font-medium">
+                                2142 W Yosemite Ave, Manteca, CA 95337. Shop bays are open Monday to Friday, 8 AM to 6 PM, and Saturday, 8 AM to 5 PM. Roadside rescue never closes. Call (209) 239-8111 before the next mile, or request an estimate online. We&apos;ll take it from there.
+                            </p>
 
                             {/* 3D Call to Action Buttons */}
                             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto pt-1">
@@ -61,17 +62,15 @@ export const CTA = () => {
                                     <svg className="w-4 h-4 fill-white animate-bounce" viewBox="0 0 24 24">
                                         <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
                                     </svg>
-                                    <span>CALL  (209) 239-8111</span>
+                                    <span>CALL (209) 239-8111</span>
                                 </a>
 
                                 {/* Secondary Button */}
                                 <a
-                                    href="https://maps.app.goo.gl/NVCfUL71V9ntsT1n8"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    href="/get-an-estimate"
                                     className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 border border-slate-300 text-slate-900 font-bold text-xs sm:text-sm uppercase tracking-wider shadow-sm hover:text-red-600 transition-all duration-200"
                                 >
-                                    <span>Visit Shop Location</span>
+                                    <span>Request An Estimate</span>
                                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg>

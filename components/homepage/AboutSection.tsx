@@ -88,7 +88,7 @@ export const AboutSection = () => {
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4 w-full">
             <div>
               <h2 className="gsap-about-reveal font-racing text-2xl sm:text-4xl md:text-4xl uppercase tracking-wider text-slate-900 leading-[1.12] max-w-7xl pl-3.5 border-l-4 border-red-600">
-                Heavy-Duty Fleet Care <span className="text-red-600">Engineered For Zero Downtime</span>
+                Heavy-Duty Truck Repair in Manteca, California, <span className="text-red-600">Where the Rig Leaves Fixed and Clean</span>
               </h2>
 
             </div>
@@ -128,9 +128,8 @@ export const AboutSection = () => {
               <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-snug mb-2">
                 Full-Service Commercial Truck &amp; Trailer Repair Headquarters
               </h3>
-
-              <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mb-3 font-normal">
-                <strong className="text-slate-900 font-semibold">Imperial Truck &amp; Trailer Repair and Wash</strong> is Northern California’s trusted partner for commercial fleet maintenance. Established in 2012 and located at <span className="text-red-600 font-bold">2142 W Yosemite Ave in Manteca, CA</span>, our master shop is equipped with state-of-the-art diagnostic tooling and experienced mechanics dedicated to keeping your rigs on the road.
+              <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mb-3 font-normal text-justify">
+                You know the sound – a new whine from the wheel end somewhere on the road out of Tracy, or a check-engine light that disappears for a while and then comes back an hour later. <strong className="text-red-600 font-semibold">Imperial Truck &amp; Trailer Repair and Wash</strong> sits at 2142 W Yosemite Avenue in Manteca, California, close to Highway 99, Highway 120, and I-5, and we have been taking those calls since 2012. Pull in. Tell us what the truck is doing. Somebody here has heard that sound before. 
               </p>
 
               {/* Core Specialties Pills */}
@@ -190,7 +189,7 @@ export const AboutSection = () => {
               <div className="group relative rounded-2xl overflow-hidden bg-white border border-slate-200 shadow-[0_12px_32px_rgba(15,23,42,0.08)] hover:shadow-[0_20px_45px_rgba(245,158,11,0.18)] hover:border-amber-400 transition-all duration-300">
                 <div className="relative w-full h-56 sm:h-72 lg:h-80 overflow-hidden bg-slate-100">
                   <Image
-                    src="/gallery/11.png"
+                    src="/gallery/11.webp"
                     alt="Heavy-Duty Commercial Truck Parts Inventory Warehouse"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -210,11 +209,11 @@ export const AboutSection = () => {
               </div>
 
               <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-snug mb-2">
-                Extensive In-Stock OEM &amp; Aftermarket Commercial Parts
+                The part is already here 
               </h3>
 
-              <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mb-3 font-normal">
-                Beyond diagnostic and bay repairs, we supply an extensive in-stock warehouse of genuine OEM and high-durability aftermarket commercial truck and trailer parts. From brake chambers, air valves, and airlines to turbos, alternators, wheel seals, shocks, kingpins, and driveline components, we have the exact parts ready to eliminate downtime.
+              <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mb-3 font-normal text-justify">
+                Waiting on a part is often the slowest part of a repair, so Imperial keeps a warehouse stocked with genuine OEM and quality aftermarket parts. Brake chambers, air valves, and airlines. Turbos and alternators. Wheel seals, shocks, kingpins, driveline pieces. When the part is on the shelf, same-day pickup is possible, along with same-day installation in the bay where the schedule allows. 
               </p>
 
               {/* Parts Inventory Telemetry & Key Categories */}
@@ -260,15 +259,15 @@ export const AboutSection = () => {
               <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-blue-50 text-blue-600 font-black text-[11px] tracking-wider uppercase mb-2 border border-blue-100">
                 <span>03</span>
                 <span className="text-slate-300">|</span>
-                <span>Fleet Washout &amp; 24/7 Roadside</span>
+                <span>Fleet Washout &amp; Rig Care</span>
               </div>
 
               <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-snug mb-2">
-                High-Pressure Truck Wash &amp; Mobile Rescue
+                Then a bath
               </h3>
 
-              <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mb-3 font-normal">
-                Beyond in-shop powertrain maintenance, our dedicated commercial wash facility offers high-pressure eco rig washouts, trailer sanitization, and undercarriage degreasing. Paired with 24/7 mobile emergency units across Manteca and San Joaquin County, we deliver comprehensive road-ready care.
+              <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mb-3 font-normal text-justify">
+                A repaired truck should look the part too. Our drive-through wash bay handles high-pressure washouts, undercarriage degreasing, and trailer sanitization, using eco-friendly methods. RVs are welcome too. One stop, then the highway.
               </p>
 
               {/* Quick Feature Badges */}
@@ -320,8 +319,11 @@ export const AboutSection = () => {
                 Facility Amenities &amp; Standards
               </span>
               <h3 className="font-racing text-xl sm:text-3xl uppercase tracking-wider text-slate-900 mt-1">
-                Quality Service and Experienced Mechanics
+                Paying, waiting, washing up
               </h3>
+              <p className="text-slate-700 text-xs sm:text-sm leading-relaxed mt-2 max-w-4xl mx-auto font-normal">
+                We accept Comdata, EFS, Fleet One, and every major credit card. Private restrooms are on the grounds, and they&apos;re kept clean, which matters especially when a repair runs a few hours. Owner-operators with a single rig and fleets with many rely on the same bays and the same parts counter.
+              </p>
             </div>
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4">
