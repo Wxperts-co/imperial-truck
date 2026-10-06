@@ -155,7 +155,7 @@ export const AboutUsPage = () => {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                                 <div className="relative h-44 sm:h-52 rounded-2xl overflow-hidden shadow-md group border border-slate-200">
                                     <Image
-                                        src="/gallery/banner3.webp"
+                                        src="/banner/banner3.webp"
                                         alt="Imperial Master Diesel Technician"
                                         fill
                                         sizes="(max-width: 768px) 100vw, 350px"
