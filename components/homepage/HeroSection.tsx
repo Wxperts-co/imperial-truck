@@ -35,58 +35,80 @@ export const HeroSection = () => {
 
                 {/* Mobile Background Banner Slider */}
                 <div className="block sm:hidden absolute inset-0 w-full h-full overflow-hidden">
-                    <AnimatePresence initial={false}>
-                        <motion.div
-                            key={mobileBanners[currentSlide % mobileBanners.length].src}
-                            initial={hasMounted ? { opacity: 0, scale: 1.04 } : false}
-                            animate={{ opacity: 1, scale: 1 }}
-                            exit={{ opacity: 0 }}
-                            transition={{
-                                opacity: { duration: 1.2, ease: [0.4, 0, 0.2, 1] },
-                                scale: { duration: 5, ease: 'easeOut' },
-                            }}
-                            className="absolute inset-0 w-full h-full"
-                        >
-                            <Image
-                                src={mobileBanners[currentSlide % mobileBanners.length].src}
-                                alt={mobileBanners[currentSlide % mobileBanners.length].alt}
-                                fill
-                                priority
-                                loading="eager"
-                                fetchPriority="high"
-                                quality={75}
-                                sizes="(max-width: 639px) 100vw, 100vw"
-                                className="object-cover object-center"
-                            />
-                        </motion.div>
-                    </AnimatePresence>
+                    {/* Instant static base LCP layer */}
+                    <div className="absolute inset-0 w-full h-full">
+                        <Image
+                            src={mobileBanners[0].src}
+                            alt={mobileBanners[0].alt}
+                            fill
+                            priority
+                            unoptimized
+                            loading="eager"
+                            fetchPriority="high"
+                            sizes="100vw"
+                            className="object-cover object-center"
+                        />
+                    </div>
+                    {/* Cross-fade transition overlay for secondary slides */}
+                    {hasMounted && currentSlide > 0 && (
+                        <AnimatePresence>
+                            <motion.div
+                                key={mobileBanners[currentSlide % mobileBanners.length].src}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 1.0, ease: 'easeInOut' }}
+                                className="absolute inset-0 w-full h-full"
+                            >
+                                <Image
+                                    src={mobileBanners[currentSlide % mobileBanners.length].src}
+                                    alt={mobileBanners[currentSlide % mobileBanners.length].alt}
+                                    fill
+                                    unoptimized
+                                    className="object-cover object-center"
+                                />
+                            </motion.div>
+                        </AnimatePresence>
+                    )}
                 </div>
 
                 {/* Desktop Background Banner Slider */}
                 <div className="hidden sm:block absolute inset-0 w-full h-full overflow-hidden">
-                    <AnimatePresence initial={false}>
-                        <motion.div
-                            key={desktopBanners[currentSlide].src}
-                            initial={hasMounted ? { opacity: 0, scale: 1.06 } : false}
-                            animate={{ opacity: 1, scale: 1 }}
-                            exit={{ opacity: 0 }}
-                            transition={{
-                                opacity: { duration: 1.4, ease: [0.4, 0, 0.2, 1] },
-                                scale: { duration: 5.5, ease: 'easeOut' },
-                            }}
-                            className="absolute inset-0 w-full h-full"
-                        >
-                            <Image
-                                src={desktopBanners[currentSlide].src}
-                                alt={desktopBanners[currentSlide].alt}
-                                fill
-                                priority
-                                quality={75}
-                                sizes="(min-width: 640px) 100vw, 100vw"
-                                className="object-cover object-center"
-                            />
-                        </motion.div>
-                    </AnimatePresence>
+                    {/* Instant static base LCP layer */}
+                    <div className="absolute inset-0 w-full h-full">
+                        <Image
+                            src={desktopBanners[0].src}
+                            alt={desktopBanners[0].alt}
+                            fill
+                            priority
+                            unoptimized
+                            loading="eager"
+                            fetchPriority="high"
+                            sizes="100vw"
+                            className="object-cover object-center"
+                        />
+                    </div>
+                    {/* Cross-fade transition overlay for secondary slides */}
+                    {hasMounted && currentSlide > 0 && (
+                        <AnimatePresence>
+                            <motion.div
+                                key={desktopBanners[currentSlide % desktopBanners.length].src}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 1.0, ease: 'easeInOut' }}
+                                className="absolute inset-0 w-full h-full"
+                            >
+                                <Image
+                                    src={desktopBanners[currentSlide % desktopBanners.length].src}
+                                    alt={desktopBanners[currentSlide % desktopBanners.length].alt}
+                                    fill
+                                    unoptimized
+                                    className="object-cover object-center"
+                                />
+                            </motion.div>
+                        </AnimatePresence>
+                    )}
                 </div>
 
                 {/* Minimal subtle bottom transition blend only */}
@@ -120,7 +142,7 @@ export const HeroSection = () => {
                         >
                             <span className="relative flex h-2 w-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500 shadow-[0_0_6px_#ef4444]" />
+                                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500 shadow-[0_0_8px_#ef4444]" />
                             </span>
                             <span>(209) 239-8111</span>
                         </a>
@@ -215,10 +237,7 @@ export const HeroSection = () => {
                     <div className="max-w-4xl flex flex-col items-center space-y-4 sm:space-y-5">
 
                         {/* 1. Glowing 3D Industrial Roadside Tag */}
-                        <motion.div
-                            initial={{ opacity: 0, y: 15 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                        <div
                             className="hidden md:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950/90 backdrop-blur-md border border-red-500/50 text-red-400 text-xs sm:text-sm font-bold tracking-wider uppercase shadow-[0_0_20px_rgba(239,68,68,0.35)]"
                         >
                             <span className="relative flex h-2 w-2">
@@ -226,13 +245,10 @@ export const HeroSection = () => {
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500 shadow-[0_0_8px_#ef4444]" />
                             </span>
                             <span>Fixed right. Washed clean. Back on the road. </span>
-                        </motion.div>
+                        </div>
 
                         {/* 2. Ultra-Sharp Shiny Chrome & Ruby Racing Headline with Clear Letter Shadows */}
-                        <motion.h1
-                            initial={{ opacity: 0, y: 25 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+                        <h1
                             className="font-racing text-2xl sm:text-4xl md:text-4xl lg:text-[58px] uppercase tracking-wider leading-[1.08] filter drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] md:pb-55 text-center"
                         >
                             {/* Shiny Brilliant White / Chrome Text with Clear Black Letter Shadows */}
@@ -256,13 +272,10 @@ export const HeroSection = () => {
                             >
                                 REPAIR SPECIALISTS & WASH
                             </span>
-                        </motion.h1>
+                        </h1>
 
                         {/* 3D Action Buttons */}
-                        <motion.div
-                            initial={{ opacity: 0, y: 15 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
+                        <div
                             className="hidden md:flex flex-row items-center justify-center gap-3.5 pt-2"
                         >
                             <a
@@ -284,7 +297,7 @@ export const HeroSection = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>
                             </Link>
-                        </motion.div>
+                        </div>
                     </div>
                 </div>
 
