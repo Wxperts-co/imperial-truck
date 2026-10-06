@@ -69,7 +69,7 @@ export const AboutUsPage = () => {
         { src: '/gallery/12.png', title: 'Heavy Duty Fleet Bays', caption: 'Full-length commercial tractor-trailer repair bays' },
         { src: '/services/truck-computer-diagnostics-car-service-service-repair-trucks-large-garage-car.jpg', title: 'OEM ECM Diagnostics', caption: 'Dealer-level Cummins, Detroit & PACCAR software' },
         { src: '/services/indian-mechanic-unscrews-wheel-truck-pneumatic-wrench.jpg', title: 'Tire & Wheel Seals', caption: 'High-torque pneumatic wheel service & oil seals' },
-        { src: '/gallery/11.png', title: 'OEM Warehouse Depot', caption: 'Extensive in-stock genuine heavy-duty inventory' },
+        { src: '/gallery/11.webp', title: 'OEM Warehouse Depot', caption: 'Extensive in-stock genuine heavy-duty inventory' },
     ];
 
     const amenities = [
@@ -155,7 +155,7 @@ export const AboutUsPage = () => {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                                 <div className="relative h-44 sm:h-52 rounded-2xl overflow-hidden shadow-md group border border-slate-200">
                                     <Image
-                                        src="/banner/banner2.png"
+                                        src="/gallery/banner3.webp"
                                         alt="Imperial Master Diesel Technician"
                                         fill
                                         sizes="(max-width: 768px) 100vw, 350px"
@@ -166,7 +166,7 @@ export const AboutUsPage = () => {
 
                                 <div className="relative h-44 sm:h-52 rounded-2xl overflow-hidden shadow-md group border border-slate-200">
                                     <Image
-                                        src="/gallery/11.png"
+                                        src="/gallery/11.webp"
                                         alt="Imperial Repair Bays & Parts Warehouse"
                                         fill
                                         sizes="(max-width: 768px) 100vw, 350px"

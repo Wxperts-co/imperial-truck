@@ -29,7 +29,7 @@ export const GalleryPage = () => {
         { id: 8, src: '/gallery/8.webp', alt: 'Imperial Truck & Trailer Facility 8' },
         { id: 9, src: '/gallery/9.webp', alt: 'Imperial Truck & Trailer Facility 9' },
         { id: 10, src: '/gallery/10.webp', alt: 'Imperial Truck & Trailer Facility 10' },
-        { id: 11, src: '/gallery/11.png', alt: 'Imperial Truck & Trailer Facility 11' },
+        { id: 11, src: '/gallery/11.webp', alt: 'Imperial Truck & Trailer Facility 11' },
         { id: 12, src: '/gallery/12.png', alt: 'Imperial Truck & Trailer Facility 12' },
     ];
 
