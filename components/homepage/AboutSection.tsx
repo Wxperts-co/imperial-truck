@@ -169,7 +169,6 @@ export const AboutSection = () => {
                     alt="Imperial Truck & Trailer Repair Manteca Facility"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
-                    priority
                     className="object-cover object-center transform scale-100 group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
                   

@@ -38,3 +38,7 @@
 - [About Us](https://imperialtruckwashrepair.com/about-us): Company background, ASE-certified expertise, and facility capabilities.
 - [Gallery](https://imperialtruckwashrepair.com/gallery): Photos of the 10-bay facility, wash bays, warehouse inventory, and repair operations.
 - [Contact Us](https://imperialtruckwashrepair.com/contact-us): Direct phone, shop location map, operating hours, and dispatch request.
+
+## Optional
+- [Full LLM Knowledge Base](https://imperialtruckwashrepair.com/llms-full.txt): Complete detailed service specifications, technical guides, and business information.
+

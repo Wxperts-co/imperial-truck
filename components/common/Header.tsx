@@ -611,7 +611,6 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                                 alt="Imperial Truck & Trailer Repair"
                                                 width={150}
                                                 height={42}
-                                                priority
                                                 className="h-7 w-auto object-contain"
                                             />
                                             {/* Premium 3D Industrial Emblem Badge */}

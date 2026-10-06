@@ -1,9 +1,24 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Plus_Jakarta_Sans, Racing_Sans_One } from "next/font/google";
 import "./globals.css";
 import { ScrollStickyNavbar } from "@/components/common/ScrollStickyNavbar";
 import { SematicAccordian } from "@/components/common/SematicAccordian";
 import { Footer } from "@/components/common/Footer";
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const racingSansOne = Racing_Sans_One({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-racing",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://imperialtruckwashrepair.com"),
@@ -47,26 +62,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="en" className={`h-full antialiased ${plusJakartaSans.variable} ${racingSansOne.variable}`}>
       <head>
         <meta name="google-site-verification" content="pUeBtsxJJNATyAXHc2YItaSnlF3CNPuCTrd9D3M7mcc" />
         <link rel="icon" href="/logo/favicon.png" type="image/png" sizes="any" />
         <link rel="shortcut icon" href="/logo/favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/logo/favicon.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-[#070a12] text-white">
         {/* Google tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3GYM6MQEVB"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

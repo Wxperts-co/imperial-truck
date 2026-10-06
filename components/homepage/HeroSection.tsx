@@ -18,8 +18,10 @@ const mobileBanners = [
 
 export const HeroSection = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [hasMounted, setHasMounted] = useState(false);
 
     useEffect(() => {
+        setHasMounted(true);
         const timer = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % 2);
         }, 5000);
@@ -36,7 +38,7 @@ export const HeroSection = () => {
                     <AnimatePresence initial={false}>
                         <motion.div
                             key={mobileBanners[currentSlide % mobileBanners.length].src}
-                            initial={{ opacity: 0, scale: 1.04 }}
+                            initial={hasMounted ? { opacity: 0, scale: 1.04 } : false}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{
@@ -50,7 +52,7 @@ export const HeroSection = () => {
                                 alt={mobileBanners[currentSlide % mobileBanners.length].alt}
                                 fill
                                 priority
-                                quality={100}
+                                quality={80}
                                 sizes="100vw"
                                 className="object-cover object-center"
                             />
@@ -63,7 +65,7 @@ export const HeroSection = () => {
                     <AnimatePresence initial={false}>
                         <motion.div
                             key={desktopBanners[currentSlide].src}
-                            initial={{ opacity: 0, scale: 1.06 }}
+                            initial={hasMounted ? { opacity: 0, scale: 1.06 } : false}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{
@@ -77,7 +79,7 @@ export const HeroSection = () => {
                                 alt={desktopBanners[currentSlide].alt}
                                 fill
                                 priority
-                                quality={100}
+                                quality={80}
                                 sizes="100vw"
                                 className="object-cover object-center"
                             />

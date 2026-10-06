@@ -43,7 +43,6 @@ export const ScrollStickyNavbar = () => {
                 alt="Imperial Truck & Trailer Repair Logo"
                 width={260}
                 height={65}
-                priority
                 className="h-9 sm:h-11 md:h-12 w-full object-contain object-center block"
               />
             </div>

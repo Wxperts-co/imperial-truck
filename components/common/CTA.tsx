@@ -101,7 +101,6 @@ export const CTA = () => {
                                     alt="Imperial Truck Heavy Duty Rig"
                                     fill
                                     sizes="(max-width: 768px) 100vw, 420px"
-                                    priority
                                     className="object-contain object-center scale-105"
                                 />
                             </motion.div>
