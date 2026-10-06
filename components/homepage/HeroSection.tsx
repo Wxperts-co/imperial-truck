@@ -33,83 +33,47 @@ export const HeroSection = () => {
             {/* Full Visible Screen Canvas Container */}
             <div className="relative w-full h-full overflow-hidden bg-neutral-900 flex flex-col justify-between">
 
-                {/* Mobile Background Banner Slider */}
-                <div className="block sm:hidden absolute inset-0 w-full h-full overflow-hidden">
-                    {/* Instant static base LCP layer */}
-                    <div className="absolute inset-0 w-full h-full">
-                        <Image
+                {/* 1. Responsive Instant Base LCP Layer */}
+                <div className="absolute inset-0 w-full h-full">
+                    <picture className="w-full h-full">
+                        <source media="(max-width: 639px)" srcSet={mobileBanners[0].src} type="image/webp" />
+                        <source media="(min-width: 640px)" srcSet={desktopBanners[0].src} type="image/webp" />
+                        <img
                             src={mobileBanners[0].src}
-                            alt={mobileBanners[0].alt}
-                            fill
-                            priority
-                            unoptimized
-                            loading="eager"
+                            alt="Imperial Truck & Trailer Repair and Wash"
                             fetchPriority="high"
-                            sizes="100vw"
-                            className="object-cover object-center"
+                            loading="eager"
+                            decoding="async"
+                            className="w-full h-full object-cover object-center"
                         />
-                    </div>
-                    {/* Cross-fade transition overlay for secondary slides */}
-                    {hasMounted && currentSlide > 0 && (
-                        <AnimatePresence>
-                            <motion.div
-                                key={mobileBanners[currentSlide % mobileBanners.length].src}
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                exit={{ opacity: 0 }}
-                                transition={{ duration: 1.0, ease: 'easeInOut' }}
-                                className="absolute inset-0 w-full h-full"
-                            >
-                                <Image
-                                    src={mobileBanners[currentSlide % mobileBanners.length].src}
-                                    alt={mobileBanners[currentSlide % mobileBanners.length].alt}
-                                    fill
-                                    unoptimized
-                                    className="object-cover object-center"
-                                />
-                            </motion.div>
-                        </AnimatePresence>
-                    )}
+                    </picture>
                 </div>
 
-                {/* Desktop Background Banner Slider */}
-                <div className="hidden sm:block absolute inset-0 w-full h-full overflow-hidden">
-                    {/* Instant static base LCP layer */}
-                    <div className="absolute inset-0 w-full h-full">
-                        <Image
-                            src={desktopBanners[0].src}
-                            alt={desktopBanners[0].alt}
-                            fill
-                            priority
-                            unoptimized
-                            loading="eager"
-                            fetchPriority="high"
-                            sizes="100vw"
-                            className="object-cover object-center"
-                        />
-                    </div>
-                    {/* Cross-fade transition overlay for secondary slides */}
-                    {hasMounted && currentSlide > 0 && (
+                {/* 2. Smooth Cross-fade Transition Overlay for Secondary Slides */}
+                {hasMounted && currentSlide > 0 && (
+                    <div className="absolute inset-0 w-full h-full pointer-events-none">
                         <AnimatePresence>
                             <motion.div
-                                key={desktopBanners[currentSlide % desktopBanners.length].src}
+                                key={currentSlide}
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 1.0, ease: 'easeInOut' }}
                                 className="absolute inset-0 w-full h-full"
                             >
-                                <Image
-                                    src={desktopBanners[currentSlide % desktopBanners.length].src}
-                                    alt={desktopBanners[currentSlide % desktopBanners.length].alt}
-                                    fill
-                                    unoptimized
-                                    className="object-cover object-center"
-                                />
+                                <picture className="w-full h-full">
+                                    <source media="(max-width: 639px)" srcSet={mobileBanners[currentSlide % mobileBanners.length].src} type="image/webp" />
+                                    <source media="(min-width: 640px)" srcSet={desktopBanners[currentSlide % desktopBanners.length].src} type="image/webp" />
+                                    <img
+                                        src={mobileBanners[currentSlide % mobileBanners.length].src}
+                                        alt="Imperial Truck & Trailer Repair and Wash"
+                                        className="w-full h-full object-cover object-center"
+                                    />
+                                </picture>
                             </motion.div>
                         </AnimatePresence>
-                    )}
-                </div>
+                    </div>
+                )}
 
                 {/* Minimal subtle bottom transition blend only */}
                 <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-[#0b1120]/70 to-transparent pointer-events-none" />
