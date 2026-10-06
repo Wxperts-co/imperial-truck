@@ -271,6 +271,8 @@ export const GetAnEstimatePage = () => {
                                                         type="button"
                                                         key={s.id}
                                                         onClick={() => toggleService(s.name)}
+                                                        aria-pressed={isSelected}
+                                                        aria-label={`${s.name} service`}
                                                         className={`flex items-center gap-2.5 p-2.5 sm:p-3 rounded-xl border text-left text-xs font-bold transition-all cursor-pointer select-none ${
                                                             isSelected
                                                                 ? 'bg-red-600 text-white border-red-600 shadow-sm shadow-red-600/30'
@@ -278,6 +280,7 @@ export const GetAnEstimatePage = () => {
                                                         }`}
                                                     >
                                                         <span
+                                                            aria-hidden="true"
                                                             className={`w-4 h-4 rounded-md flex items-center justify-center text-[10px] shrink-0 border transition-colors ${
                                                                 isSelected
                                                                     ? 'bg-white text-red-600 border-white'
@@ -332,6 +335,7 @@ export const GetAnEstimatePage = () => {
                                                     type="button"
                                                     onClick={generateCaptcha}
                                                     title="Refresh Captcha"
+                                                    aria-label="Refresh Security Captcha Question"
                                                     className="p-1.5 text-slate-500 hover:text-red-600 rounded-lg hover:bg-slate-200/70 transition-colors text-xs cursor-pointer"
                                                 >
                                                     🔄
@@ -342,6 +346,7 @@ export const GetAnEstimatePage = () => {
                                                     type="number"
                                                     required
                                                     placeholder="Answer"
+                                                    aria-label="Security Captcha Answer"
                                                     value={captchaInput}
                                                     onChange={(e) => {
                                                         setCaptchaInput(e.target.value);

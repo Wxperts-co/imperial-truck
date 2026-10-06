@@ -295,6 +295,7 @@ export const ContactUsPage = () => {
                                                     type="button"
                                                     onClick={generateCaptcha}
                                                     title="Refresh Captcha"
+                                                    aria-label="Refresh Security Captcha Question"
                                                     className="p-1.5 text-slate-500 hover:text-red-600 rounded-lg hover:bg-slate-200/70 transition-colors text-xs cursor-pointer"
                                                 >
                                                     🔄
@@ -305,6 +306,7 @@ export const ContactUsPage = () => {
                                                     type="number"
                                                     required
                                                     placeholder="Answer"
+                                                    aria-label="Security Captcha Answer"
                                                     value={captchaInput}
                                                     onChange={(e) => {
                                                         setCaptchaInput(e.target.value);

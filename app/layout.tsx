@@ -68,6 +68,27 @@ export default function RootLayout({
         <link rel="icon" href="/logo/favicon.png" type="image/png" sizes="any" />
         <link rel="shortcut icon" href="/logo/favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/logo/favicon.png" />
+        {/* Preconnect to external analytics */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        {/* Preload Mobile & Desktop Hero LCP Images */}
+        <link
+          rel="preload"
+          as="image"
+          href="/banner/mobile-banner.webp"
+          type="image/webp"
+          media="(max-width: 639px)"
+          // @ts-expect-error Next.js HTML head supports fetchpriority
+          fetchpriority="high"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/banner/banner3.webp"
+          type="image/webp"
+          media="(min-width: 640px)"
+          // @ts-expect-error Next.js HTML head supports fetchpriority
+          fetchpriority="high"
+        />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-[#070a12] text-white">
         {/* Google tag (gtag.js) */}

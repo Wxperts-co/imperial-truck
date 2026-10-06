@@ -87,10 +87,12 @@ export const GalleryPage = () => {
                     {/* Gallery Images Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-6">
                         {galleryImages.map((item) => (
-                            <div
+                            <button
+                                type="button"
                                 key={item.id}
                                 onClick={() => setSelectedImage(item)}
-                                className="relative h-64 sm:h-72 rounded-2xl overflow-hidden group border border-slate-200 shadow-sm hover:shadow-[0_12px_28px_rgba(220,38,38,0.15)] hover:border-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer bg-slate-900"
+                                aria-label={`View photo: ${item.alt}`}
+                                className="relative h-64 sm:h-72 w-full rounded-2xl overflow-hidden group border border-slate-200 shadow-sm hover:shadow-[0_12px_28px_rgba(220,38,38,0.15)] hover:border-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer bg-slate-900 text-left p-0"
                             >
                                 <Image
                                     src={item.src}
@@ -102,14 +104,14 @@ export const GalleryPage = () => {
                                 <div className="absolute inset-0 bg-slate-950/20 group-hover:bg-slate-950/0 transition-colors" />
 
                                 {/* Hover Zoom Icon Indicator */}
-                                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                                     <div className="w-12 h-12 rounded-full bg-slate-950/75 backdrop-blur-md text-white border border-white/20 flex items-center justify-center shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
-                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
                                         </svg>
                                     </div>
                                 </div>
-                            </div>
+                            </button>
                         ))}
                     </div>
 
@@ -127,6 +129,9 @@ export const GalleryPage = () => {
                         className="fixed inset-0 z-[1000] bg-slate-950/90 backdrop-blur-xl flex items-center justify-center p-4 sm:p-6 md:p-10"
                     >
                         <motion.div
+                            role="dialog"
+                            aria-modal="true"
+                            aria-label={`Photo lightbox: ${selectedImage.alt}`}
                             initial={{ scale: 0.9, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.9, opacity: 0 }}

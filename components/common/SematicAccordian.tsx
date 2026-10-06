@@ -193,34 +193,42 @@ export const SematicAccordian: React.FC<SematicAccordianProps> = ({ pageKey, dat
       <div className="max-w-7xl mx-auto">
         <div className="rounded-2xl border border-slate-800/80 bg-[#0b1222]/90 backdrop-blur-sm overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.35)] transition-all duration-300">
           {/* Accordion Toggle Header */}
-          <button
-            type="button"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-expanded={isOpen}
-            className="w-full flex items-center justify-between p-5 sm:p-6 text-left cursor-pointer group hover:bg-slate-800/40 transition-colors duration-200"
-          >
-            <h2 className="text-base sm:text-lg md:text-xl font-medium text-white tracking-tight group-hover:text-red-400 transition-colors duration-200 flex items-center gap-2">
-              Semantic Keynotes &amp; Named Entity Recognition (NER) Tags
-            </h2>
+          <h2 className="text-base sm:text-lg md:text-xl font-medium text-white tracking-tight m-0 p-0">
+            <button
+              type="button"
+              id="semantic-accordion-header"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-expanded={isOpen}
+              aria-controls="semantic-accordion-panel"
+              className="w-full flex items-center justify-between p-5 sm:p-6 text-left cursor-pointer group hover:bg-slate-800/40 transition-colors duration-200"
+            >
+              <span className="group-hover:text-red-400 transition-colors duration-200 flex items-center gap-2">
+                Semantic Keynotes &amp; Named Entity Recognition (NER) Tags
+              </span>
 
-            <div className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-800/80 text-red-500 group-hover:bg-red-500/10 transition-all duration-200 shrink-0 ml-3">
-              <svg
-                className={`w-5 h-5 transition-transform duration-300 ease-out text-red-500 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2.5}
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-          </button>
+              <div className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-800/80 text-red-500 group-hover:bg-red-500/10 transition-all duration-200 shrink-0 ml-3">
+                <svg
+                  className={`w-5 h-5 transition-transform duration-300 ease-out text-red-500 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2.5}
+                  aria-hidden="true"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
+            </button>
+          </h2>
 
           {/* Accordion Collapsible Body */}
           <AnimatePresence initial={false}>
             {isOpen && (
               <motion.div
                 key="accordion-content"
+                id="semantic-accordion-panel"
+                role="region"
+                aria-labelledby="semantic-accordion-header"
                 initial={{ height: 0, opacity: 0 }}
                 animate={{ height: 'auto', opacity: 1 }}
                 exit={{ height: 0, opacity: 0 }}

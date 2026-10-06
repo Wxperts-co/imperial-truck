@@ -1,14 +1,30 @@
 import type { Metadata } from 'next';
+import dynamic from 'next/dynamic';
 import { HeroSection } from '@/components/homepage/HeroSection';
 import { AeoDirectAnswerSnippet } from '@/components/homepage/AeoDirectAnswerSnippet';
-import { AboutSection } from '@/components/homepage/AboutSection';
-import { ServiceSection } from '@/components/homepage/ServiceSection';
-import { WhyChooseUsSection } from '@/components/homepage/WhyChooseUsSection';
-import { TestimonialSection } from '@/components/homepage/TestimonialSection';
-import { CTA } from '@/components/common/CTA';
-import { MobileStickyActions } from '@/components/common/MobileStickyActions';
-import { FloatingEstimateButton } from '@/components/common/FloatingEstimateButton';
 import rawAcceleratorData from '@/data/ai-accelerator.json';
+
+const AboutSection = dynamic(() => import('@/components/homepage/AboutSection').then((mod) => mod.AboutSection), {
+  ssr: true,
+});
+const ServiceSection = dynamic(() => import('@/components/homepage/ServiceSection').then((mod) => mod.ServiceSection), {
+  ssr: true,
+});
+const WhyChooseUsSection = dynamic(() => import('@/components/homepage/WhyChooseUsSection').then((mod) => mod.WhyChooseUsSection), {
+  ssr: true,
+});
+const TestimonialSection = dynamic(() => import('@/components/homepage/TestimonialSection').then((mod) => mod.TestimonialSection), {
+  ssr: true,
+});
+const CTA = dynamic(() => import('@/components/common/CTA').then((mod) => mod.CTA), {
+  ssr: true,
+});
+const MobileStickyActions = dynamic(() => import('@/components/common/MobileStickyActions').then((mod) => mod.MobileStickyActions), {
+  ssr: false,
+});
+const FloatingEstimateButton = dynamic(() => import('@/components/common/FloatingEstimateButton').then((mod) => mod.FloatingEstimateButton), {
+  ssr: false,
+});
 
 export const metadata: Metadata = {
   title: 'Imperial Truck & Trailer Repair & Wash | Manteca, CA',

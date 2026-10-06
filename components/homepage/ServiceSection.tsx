@@ -213,6 +213,15 @@ const Infinite3DCard = ({
     return (
         <div
             ref={cardRef}
+            role="button"
+            tabIndex={0}
+            aria-label={`View quick details for ${service.name}`}
+            onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onSelect(service);
+                }
+            }}
             onMouseMove={handleMouseMove}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
@@ -505,6 +514,9 @@ export const ServiceSection = () => {
 
                         {/* 3D Pop Modal */}
                         <motion.div
+                            role="dialog"
+                            aria-modal="true"
+                            aria-labelledby="modal-service-title"
                             initial={{ opacity: 0, scale: 0.9, y: 30, rotateX: 12 }}
                             animate={{ opacity: 1, scale: 1, y: 0, rotateX: 0 }}
                             exit={{ opacity: 0, scale: 0.92, y: 20, rotateX: -8 }}
@@ -537,16 +549,18 @@ export const ServiceSection = () => {
                                             {selectedService.category}
                                         </span>
                                         <button
+                                            type="button"
                                             onClick={() => setSelectedService(null)}
-                                            className="p-1 sm:p-1.5 rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+                                            aria-label="Close service details"
+                                            className="p-1 sm:p-1.5 rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700 transition-colors cursor-pointer"
                                         >
-                                            <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </button>
                                     </div>
 
-                                    <h3 className="text-lg sm:text-2xl font-black text-white tracking-tight leading-snug">
+                                    <h3 id="modal-service-title" className="text-lg sm:text-2xl font-black text-white tracking-tight leading-snug">
                                         {selectedService.name}
                                     </h3>
 

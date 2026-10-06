@@ -154,14 +154,17 @@ export const TestimonialSection = () => {
                                 {/* Navigation Buttons */}
                                 <div className="flex items-center justify-between pt-2 sm:pt-3 border-t border-slate-800">
                                     <div className="flex items-center gap-1.5 sm:gap-2">
-                                        {reviews.map((_, idx) => (
+                                        {reviews.map((r, idx) => (
                                             <button
+                                                type="button"
                                                 key={idx}
                                                 onClick={() => {
                                                     setActiveIndex(idx);
                                                     setIsAutoPlaying(false);
                                                 }}
-                                                className={`h-1 sm:h-1.5 rounded-full transition-all duration-300 ${activeIndex === idx
+                                                aria-label={`Go to testimonial ${idx + 1} from ${r.name}`}
+                                                aria-pressed={activeIndex === idx}
+                                                className={`h-1 sm:h-1.5 rounded-full transition-all duration-300 cursor-pointer ${activeIndex === idx
                                                     ? 'w-5 sm:w-7 bg-red-600 shadow-[0_0_10px_#ef4444]'
                                                     : 'w-1.5 sm:w-2 bg-slate-700 hover:bg-slate-500'
                                                     }`}
@@ -171,24 +174,28 @@ export const TestimonialSection = () => {
 
                                     <div className="flex items-center gap-1.5 sm:gap-2">
                                         <button
+                                            type="button"
                                             onClick={() => {
                                                 setActiveIndex((prev) => (prev === 0 ? reviews.length - 1 : prev - 1));
                                                 setIsAutoPlaying(false);
                                             }}
-                                            className="p-1.5 sm:p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition-colors"
+                                            aria-label="Previous testimonial"
+                                            className="p-1.5 sm:p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition-colors cursor-pointer"
                                         >
-                                            <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
                                             </svg>
                                         </button>
                                         <button
+                                            type="button"
                                             onClick={() => {
                                                 setActiveIndex((prev) => (prev + 1) % reviews.length);
                                                 setIsAutoPlaying(false);
                                             }}
-                                            className="p-1.5 sm:p-2 rounded-lg bg-red-600 hover:bg-red-500 text-white shadow-md transition-colors"
+                                            aria-label="Next testimonial"
+                                            className="p-1.5 sm:p-2 rounded-lg bg-red-600 hover:bg-red-500 text-white shadow-md transition-colors cursor-pointer"
                                         >
-                                            <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                                             </svg>
                                         </button>

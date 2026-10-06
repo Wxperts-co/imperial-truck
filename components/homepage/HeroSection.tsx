@@ -52,8 +52,8 @@ export const HeroSection = () => {
                                 alt={mobileBanners[currentSlide % mobileBanners.length].alt}
                                 fill
                                 priority
-                                quality={80}
-                                sizes="100vw"
+                                quality={75}
+                                sizes="(max-width: 639px) 100vw, 100vw"
                                 className="object-cover object-center"
                             />
                         </motion.div>
@@ -79,8 +79,8 @@ export const HeroSection = () => {
                                 alt={desktopBanners[currentSlide].alt}
                                 fill
                                 priority
-                                quality={80}
-                                sizes="100vw"
+                                quality={75}
+                                sizes="(min-width: 640px) 100vw, 100vw"
                                 className="object-cover object-center"
                             />
                         </motion.div>

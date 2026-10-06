@@ -440,6 +440,8 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                     <Link
                                         href={link.href}
                                         onClick={(e) => handleNavClick(e, link.name, link.href)}
+                                        aria-haspopup={link.hasDropdown ? 'true' : undefined}
+                                        aria-expanded={link.hasDropdown ? servicesDropdownOpen : undefined}
                                         className={`relative z-20 px-4 py-2 rounded-full text-xs sm:text-sm transition-all duration-200 flex items-center gap-1.5 cursor-pointer pointer-events-auto  ${isActive
                                             ? 'text-white font-bold drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]'
                                             : 'text-neutral-700 hover:text-black font-semibold hover:bg-white/80 hover:shadow-[0_2px_6px_rgba(0,0,0,0.08),inset_0_1px_0_rgba(255,255,255,0.9)] hover:-translate-y-0.5'
@@ -456,6 +458,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
+                                                aria-hidden="true"
                                             >
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                                             </svg>
@@ -470,6 +473,8 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                                 animate={{ opacity: 1, y: 0, scale: 1 }}
                                                 exit={{ opacity: 0, y: 10, scale: 0.95 }}
                                                 transition={{ duration: 0.2, ease: 'easeOut' }}
+                                                role="menu"
+                                                aria-label="Services Submenu"
                                                 className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[460px] p-2 rounded-2xl bg-[#0b1120]/98 backdrop-blur-2xl border-2 border-red-500/50 shadow-[0_25px_60px_rgba(0,0,0,0.9),0_0_35px_rgba(239,68,68,0.25)] z-50 text-left before:absolute before:-top-4 before:left-0 before:right-0 before:h-4"
                                             >
 
@@ -480,6 +485,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                                         <Link
                                                             key={service.id}
                                                             href={`/services/${service.id}`}
+                                                            role="menuitem"
                                                             onClick={(e) => handleServiceSelect(e, service.id)}
                                                             className="group flex flex-col p-2 rounded-xl hover:bg-slate-800/80 border border-transparent hover:border-red-500/40 transition-all duration-150 cursor-pointer"
                                                         >
@@ -506,67 +512,21 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
 
                     {/* 3D Vertical Metallic Beveled Divider */}
                     {/* <div className="h-5 w-[2px] bg-gradient-to-b from-neutral-300 via-neutral-400 to-neutral-200 shadow-[1px_0_0_rgba(255,255,255,0.9)] mx-1" /> */}
-
-                    {/* Social / Direct Action Icons */}
-                    {/* <div className="flex items-center gap-1.5 pr-1">
-                        <a
-                            href="https://facebook.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="Facebook"
-                            className="p-1 rounded-full hover:bg-white/80 transition-all duration-200 hover:-translate-y-0.5 flex items-center justify-center"
-                        >
-                            <Image
-                                src="/logo/facebook.png"
-                                alt="Facebook"
-                                width={20}
-                                height={20}
-                                className="w-5 h-5 object-contain"
-                            />
-                        </a>
-                        <a
-                            href="https://instagram.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="Instagram"
-                            className="p-1 rounded-full hover:bg-white/80 transition-all duration-200 hover:-translate-y-0.5 flex items-center justify-center"
-                        >
-                            <Image
-                                src="/logo/instagram.png"
-                                alt="Instagram"
-                                width={20}
-                                height={20}
-                                className="w-5 h-5 object-contain"
-                            />
-                        </a>
-                        <a
-                            href="https://youtube.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="YouTube"
-                            className="p-1 rounded-full hover:bg-white/80 transition-all duration-200 hover:-translate-y-0.5 flex items-center justify-center"
-                        >
-                            <Image
-                                src="/logo/youtube.png"
-                                alt="YouTube"
-                                width={20}
-                                height={20}
-                                className="w-5 h-5 object-contain"
-                            />
-                        </a>
-                    </div> */}
                 </nav>
             </div>
 
 
             {/* Mobile Toggle Button */}
             <button
+                type="button"
                 onClick={() => setMobileMenuOpen(true)}
                 aria-label="Open Navigation Menu"
-                className="md:hidden flex items-center justify-center w-11 h-11 rounded-full bg-[#fdfbf7]/95 backdrop-blur-md border border-black/10 shadow-[0_8px_16px_rgba(0,0,0,0.3)] text-neutral-900"
+                aria-expanded={mobileMenuOpen}
+                aria-controls="mobile-nav-drawer"
+                className="md:hidden flex items-center justify-center w-11 h-11 rounded-full bg-[#fdfbf7]/95 backdrop-blur-md border border-black/10 shadow-[0_8px_16px_rgba(0,0,0,0.3)] text-neutral-900 cursor-pointer"
             >
 
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
             </button>
@@ -584,11 +544,16 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                     exit={{ opacity: 0 }}
                                     transition={{ duration: 0.25 }}
                                     onClick={() => setMobileMenuOpen(false)}
+                                    aria-hidden="true"
                                     className="fixed inset-0 bg-black/75 backdrop-blur-sm z-[99998] md:hidden"
                                 />
 
                                 {/* Side Drawer Panel (Reduced height from bottom, compact & sleek) */}
                                 <motion.div
+                                    id="mobile-nav-drawer"
+                                    role="dialog"
+                                    aria-modal="true"
+                                    aria-label="Mobile Navigation Menu"
                                     initial={{ x: '100%' }}
                                     animate={{ x: 0 }}
                                     exit={{ x: '100%' }}
@@ -636,11 +601,12 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                             </div>
                                         </Link>
                                         <button
+                                            type="button"
                                             onClick={() => setMobileMenuOpen(false)}
                                             aria-label="Close Navigation Menu"
-                                            className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 active:scale-95 flex items-center justify-center text-white transition-all shrink-0 mt-0.5"
+                                            className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 active:scale-95 flex items-center justify-center text-white transition-all shrink-0 mt-0.5 cursor-pointer"
                                         >
-                                            <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </button>
@@ -654,8 +620,11 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                                 return (
                                                     <div key={link.name} className="flex flex-col">
                                                         <button
+                                                            type="button"
                                                             onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                                                            className={`w-full flex items-center justify-between py-2 px-3 rounded-xl text-sm font-semibold transition-all ${isActive
+                                                            aria-expanded={mobileServicesOpen}
+                                                            aria-controls="mobile-services-menu"
+                                                            className={`w-full flex items-center justify-between py-2 px-3 rounded-xl text-sm font-semibold transition-all cursor-pointer ${isActive
                                                                 ? 'bg-red-600/20 text-white border-l-2 border-red-500'
                                                                 : 'text-neutral-300 hover:text-white hover:bg-white/5'
                                                                 }`}
@@ -667,6 +636,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
                                                                 fill="none"
                                                                 stroke="currentColor"
                                                                 viewBox="0 0 24 24"
+                                                                aria-hidden="true"
                                                             >
                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                                             </svg>
@@ -674,7 +644,7 @@ export const Header = ({ layoutPrefix = 'main' }: { layoutPrefix?: string }) => 
 
                                                         {/* Mobile Services Sub-list */}
                                                         {mobileServicesOpen && (
-                                                            <div className="mt-1 ml-3 pl-3 border-l-2 border-red-500/40 flex flex-col gap-0.5 py-1 max-h-48 overflow-y-auto">
+                                                            <div id="mobile-services-menu" className="mt-1 ml-3 pl-3 border-l-2 border-red-500/40 flex flex-col gap-0.5 py-1 max-h-48 overflow-y-auto">
                                                                 {servicesData.services.map((service) => (
                                                                     <Link
                                                                         key={service.id}
