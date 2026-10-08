@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import { HeroSection } from '@/components/homepage/HeroSection';
 import { AeoDirectAnswerSnippet } from '@/components/homepage/AeoDirectAnswerSnippet';
-import rawAcceleratorData from '@/data/ai-accelerator.json';
 
 const AboutSection = dynamic(() => import('@/components/homepage/AboutSection').then((mod) => mod.AboutSection));
 const ServiceSection = dynamic(() => import('@/components/homepage/ServiceSection').then((mod) => mod.ServiceSection));
@@ -56,22 +55,21 @@ export const metadata: Metadata = {
   },
 };
 
-const dataList = Array.isArray(rawAcceleratorData)
-  ? (rawAcceleratorData as Record<string, { front_loaded_aeo_direct_answer_snippet?: string; seo_keywords?: string[] }>[])
-  : [rawAcceleratorData as Record<string, { front_loaded_aeo_direct_answer_snippet?: string; seo_keywords?: string[] }>];
-const homeData = dataList[0]?.home;
-const aeoSnippet = homeData?.front_loaded_aeo_direct_answer_snippet;
-
 const jsonLdSchema = {
   '@context': 'https://schema.org',
-  '@type': 'AutoRepair',
+  '@type': ['AutomotiveBusiness', 'AutoRepair'],
+  '@id': 'https://www.imperialtruckwashrepair.com/#localbusiness',
   name: 'Imperial Truck & Trailer Repair and Wash',
+  url: 'https://www.imperialtruckwashrepair.com/',
   description:
-    aeoSnippet ||
-    'Imperial Truck & Trailer Repair and Wash in Manteca, California provides 24/7 heavy-duty roadside rescue, master shop diesel diagnostics, and commercial fleet maintenance.',
-  disambiguatingDescription: aeoSnippet,
-  url: 'https://imperialtruckwashrepair.com',
-  telephone: '+1 (209) 239-8111',
+    'Imperial Truck & Trailer Repair and Wash in Manteca, California provides heavy-duty truck and trailer repair, diesel engine diagnostics, commercial fleet maintenance, commercial truck and RV washing, and 24/7 heavy-duty roadside assistance. Established in 2012, the facility offers a 10-bay repair capacity and commercial truck repair services.',
+  disambiguatingDescription:
+    'Heavy-duty truck and trailer repair, diesel diagnostics, commercial fleet maintenance, truck washing, and emergency roadside assistance in Manteca, California.',
+  logo: 'https://www.imperialtruckwashrepair.com/assets/logo.png',
+  image: 'https://www.imperialtruckwashrepair.com/assets/facility-exterior.jpg',
+  telephone: '+1-209-239-8111',
+  foundingDate: '2012',
+  priceRange: '$$',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '2142 W Yosemite Ave',
@@ -82,11 +80,9 @@ const jsonLdSchema = {
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: '37.7974',
-    longitude: '-121.2160',
+    latitude: 37.7974,
+    longitude: -121.216,
   },
-  foundingDate: '2012',
-  priceRange: '$$',
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
@@ -96,20 +92,152 @@ const jsonLdSchema = {
     },
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Saturday'],
+      dayOfWeek: 'Saturday',
       opens: '08:00',
       closes: '17:00',
     },
   ],
   areaServed: [
-    'Manteca',
-    'San Joaquin County',
-    'Northern California',
-    'Highway 99',
-    'I-5',
-    'I-205',
+    {
+      '@type': 'City',
+      name: 'Manteca',
+    },
+    {
+      '@type': 'AdministrativeArea',
+      name: 'San Joaquin County',
+    },
+    {
+      '@type': 'AdministrativeArea',
+      name: 'Northern California',
+    },
+    {
+      '@type': 'Place',
+      name: 'Highway 99',
+    },
+    {
+      '@type': 'Place',
+      name: 'Interstate 5',
+    },
+    {
+      '@type': 'Place',
+      name: 'Interstate 205',
+    },
   ],
-  knowsAbout: homeData?.seo_keywords || [],
+  knowsAbout: [
+    'Diesel Engine Repair',
+    'Diesel Engine Diagnostics',
+    'Commercial Truck Repair',
+    'Heavy-Duty Trailer Repair',
+    'Computer Diagnostics and ECM Scanning',
+    'Brakes and Pneumatic Air Systems',
+    'Commercial Tires and Wheel Mounting',
+    'Wheel Seals, Shocks and Hub Assemblies',
+    'Transmissions and Heavy-Duty Clutches',
+    'King Pins, Bushings and Steering',
+    'Electrical Systems and Alternators',
+    'Air Conditioning and Cabin Climate Control',
+    'Commercial Truck and RV Washing',
+    'Heavy-Duty Roadside Assistance',
+    'Commercial Fleet Maintenance',
+    'Semi-Truck Parts',
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Truck Repair, Roadside Assistance and Wash Services',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Diesel Engine Repair and Overhauls',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Computer Diagnostics and ECM Scanning',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Brakes and Pneumatic Air Systems',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Commercial Tires and Wheel Mounting',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Wheel Seals, Shocks and Hub Assemblies',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Transmissions and Heavy-Duty Clutch Repair',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'King Pins, Bushings and Steering Repair',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Electrical Systems and Alternators',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Air Conditioning and Cabin Climate Control',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Eco-Friendly Commercial Truck and RV Wash',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: '24/7 Mobile Emergency Roadside Assistance and Recovery',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Commercial Fleet Maintenance',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Heavy-Duty Trailer Repair',
+        },
+      },
+    ],
+  },
 };
 
 export default function HomePage() {
