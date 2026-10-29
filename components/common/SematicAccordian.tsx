@@ -276,21 +276,7 @@ export const SematicAccordian: React.FC<SematicAccordianProps> = ({ pageKey, dat
                     </div>
                   )}
 
-                  {/* SEO Keywords Section */}
-                  {seoKeywords.length > 0 && (
-                    <div className="space-y-3 pt-2">
-                      <h3 className="text-[#38bdf8] font-medium text-base sm:text-[15px] tracking-wide">
-                        SEO Keywords
-                      </h3>
-                      <ul className="list-disc pl-5 sm:pl-6 space-y-2.5 text-neutral-300 leading-relaxed marker:text-neutral-500">
-                        {seoKeywords.map((keyword, index) => (
-                          <li key={index}>
-                            <span className="text-neutral-300">{keyword}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+        
                 </div>
               </motion.div>
             )}

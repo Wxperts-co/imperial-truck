@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
         const transporter = createTransporter();
 
         const fromAddress = process.env.SMTP_FROM || process.env.SMTP_USER || 'no-reply@imperialtruckwashrepair.com';
-        const adminEmail = process.env.ADMIN_EMAIL || 'info@imperialtruckwashrepair.com';
+        const adminEmail = process.env.ADMIN_EMAIL || 'imperialtruckrepair13@gmail.com';
         const bccEmail = process.env.BCC_EMAIL || undefined;
 
         const logoPath = path.join(process.cwd(), 'public', 'logo', 'logo.png');

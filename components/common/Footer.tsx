@@ -13,6 +13,8 @@ export const Footer = () => {
     { name: 'Gallery', href: '/gallery' },
     { name: 'Get An Estimate', href: '/get-an-estimate' },
     { name: 'Contact & Location', href: '/contact-us' },
+    { name: 'Privacy Policy', href: '/privacy-policy' },
+    { name: 'Terms of Service', href: '/terms-of-service' },
   ];
 
   const coreServices = servicesData.services.map((service) => ({
@@ -91,43 +93,6 @@ export const Footer = () => {
               <span className="font-medium truncate">imperialtruckrepair13@gmail.com</span>
             </a>
 
-            {/* Social Icons with Original Images & No Background */}
-            {/* <div className="flex items-center gap-3 mt-0.5">
-              {[
-                {
-                  name: 'Facebook',
-                  href: 'https://facebook.com',
-                  iconSrc: '/logo/facebook.png',
-                },
-                {
-                  name: 'Instagram',
-                  href: 'https://instagram.com',
-                  iconSrc: '/logo/instagram.png',
-                },
-                {
-                  name: 'YouTube',
-                  href: 'https://youtube.com',
-                  iconSrc: '/logo/youtube.png',
-                },
-              ].map((soc) => (
-                <a
-                  key={soc.name}
-                  href={soc.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={soc.name}
-                  className="transition-transform duration-200 hover:scale-110 active:scale-95 inline-block"
-                >
-                  <Image
-                    src={soc.iconSrc}
-                    alt={soc.name}
-                    width={32}
-                    height={32}
-                    className="w-6 h-6 sm:w-7 sm:h-7 object-contain block"
-                  />
-                </a>
-              ))}
-            </div> */}
           </div>
 
           {/* ========================================== */}
@@ -234,10 +199,21 @@ export const Footer = () => {
         {/* ======================================================== */}
         <div className="pt-4 sm:pt-6 border-t border-white/15 flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4 text-xs sm:text-[15px] text-neutral-300 text-center md:text-left">
           
-          {/* Left: Copyright */}
-          <div className="flex items-center justify-center md:justify-start gap-2 font-medium">
-            <span className="w-2 h-2 rounded-full bg-red-500 shrink-0" />
-            <p>© {new Date().getFullYear()} Imperial Truck &amp; Trailer Repair &amp; Wash. All rights reserved.</p>
+          {/* Left: Copyright & Legal Policies */}
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-2 sm:gap-4 font-medium">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-red-500 shrink-0" />
+              <p>© {new Date().getFullYear()} Imperial Truck &amp; Trailer Repair &amp; Wash. All rights reserved.</p>
+            </div>
+            <div className="flex items-center gap-2.5 text-xs sm:text-[13px] text-neutral-400">
+              <Link href="/privacy-policy" className="hover:text-amber-400 hover:underline transition-colors">
+                Privacy Policy
+              </Link>
+              <span className="text-neutral-600">•</span>
+              <Link href="/terms-of-service" className="hover:text-amber-400 hover:underline transition-colors">
+                Terms of Service
+              </Link>
+            </div>
           </div>
 
           {/* Right: Agency Credit with Logo & Services */}
