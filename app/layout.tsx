@@ -4,6 +4,7 @@ import { Plus_Jakarta_Sans, Racing_Sans_One } from "next/font/google";
 import dynamic from "next/dynamic";
 import "./globals.css";
 import { Footer } from "@/components/common/Footer";
+import { PageStructuredData } from "@/components/common/PageStructuredData";
 
 const ScrollStickyNavbar = dynamic(
   () => import("@/components/common/ScrollStickyNavbar").then((mod) => mod.ScrollStickyNavbar)
@@ -97,6 +98,8 @@ export default function RootLayout({
           // @ts-expect-error Next.js HTML head supports fetchpriority
           fetchpriority="high"
         />
+        {/* Centralized Page-Specific JSON-LD Schema Markup */}
+        <PageStructuredData />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-[#070a12] text-white">
         {/* Google tag (gtag.js) */}
@@ -121,5 +124,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-

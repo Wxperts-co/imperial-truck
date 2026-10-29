@@ -19,49 +19,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const jsonLdSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'AboutPage',
-    name: 'About Imperial Truck & Trailer Repair and Wash',
-    description: aboutSnippet,
-    url: 'https://imperialtruckwashrepair.com/about-us',
-    mainEntity: {
-      '@type': 'AutoRepair',
-      name: 'Imperial Truck & Trailer Repair and Wash',
-      description: aboutSnippet,
-      telephone: '+1 (209) 239-8111',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: '2142 W Yosemite Ave',
-        addressLocality: 'Manteca',
-        addressRegion: 'CA',
-        postalCode: '95337',
-        addressCountry: 'US',
-      },
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: '37.7974',
-        longitude: '-121.2160',
-      },
-      foundingDate: '2012',
-      areaServed: [
-        'Manteca',
-        'San Joaquin County',
-        'Northern California',
-      ],
-      knowsAbout: aboutData?.seo_keywords || [],
-    },
-  };
-
-  return (
-    <>
-      {aboutSnippet && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-        />
-      )}
-      <AboutUsPage />
-    </>
-  );
+  return <AboutUsPage />;
 }

@@ -19,49 +19,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const jsonLdSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'WebPage',
-    name: 'Get An Estimate – Imperial Truck & Trailer Repair',
-    description: estimateSnippet,
-    url: 'https://imperialtruckwashrepair.com/get-an-estimate',
-    mainEntity: {
-      '@type': 'AutoRepair',
-      name: 'Imperial Truck & Trailer Repair',
-      description: estimateSnippet,
-      telephone: '+1 (209) 239-8111',
-      priceRange: '$$',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: '2142 W Yosemite Ave',
-        addressLocality: 'Manteca',
-        addressRegion: 'CA',
-        postalCode: '95337',
-        addressCountry: 'US',
-      },
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: '37.7974',
-        longitude: '-121.2160',
-      },
-      areaServed: [
-        'Manteca',
-        'San Joaquin County',
-        'Northern California',
-      ],
-      knowsAbout: estimateData?.seo_keywords || [],
-    },
-  };
-
-  return (
-    <>
-      {estimateSnippet && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-        />
-      )}
-      <GetAnEstimatePage />
-    </>
-  );
+  return <GetAnEstimatePage />;
 }

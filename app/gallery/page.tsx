@@ -19,37 +19,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const jsonLdSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ImageGallery',
-    name: 'Imperial Truck & Trailer Facility Gallery',
-    description: gallerySnippet,
-    url: 'https://imperialtruckwashrepair.com/gallery',
-    publisher: {
-      '@type': 'AutoRepair',
-      name: 'Imperial Truck & Trailer Repair and Wash',
-      description: gallerySnippet,
-      telephone: '+1 (209) 239-8111',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: '2142 W Yosemite Ave',
-        addressLocality: 'Manteca',
-        addressRegion: 'CA',
-        postalCode: '95337',
-        addressCountry: 'US',
-      },
-    },
-  };
-
-  return (
-    <>
-      {gallerySnippet && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
-        />
-      )}
-      <GalleryPage />
-    </>
-  );
+  return <GalleryPage />;
 }
