@@ -368,30 +368,6 @@ export const TermsOfServicePage = () => {
                 Terms of Service
               </h1>
             </div>
-       
-          </div>
-
-          {/* Intro Card */}
-          <div className="mb-6 p-6 sm:p-7 rounded-2xl bg-white border border-slate-200/90 shadow-sm text-slate-700 leading-relaxed text-[15px] sm:text-base">
-            <p>
-              Welcome to Imperial Truck Wash &amp; Repair. These Terms of
-              Service (&quot;Terms&quot;) govern your access to and use of the
-              website located at{" "}
-              <a
-                href="https://imperialtruckwashrepair.com/"
-                className="text-red-600 hover:text-red-700 font-semibold underline underline-offset-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://imperialtruckwashrepair.com/
-              </a>{" "}
-              (the &quot;Site&quot;) and the commercial truck washing,
-              maintenance, and repair services (collectively, the
-              &quot;Services&quot;) provided by Imperial Truck Wash &amp; Repair. By accessing
-              our Site or utilizing our Services, you agree to be bound by these
-              Terms. If you do not agree to these Terms, please do not use our
-              Site or Services.
-            </p>
           </div>
 
           {/* Policy Sections */}
